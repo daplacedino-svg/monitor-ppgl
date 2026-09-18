@@ -1,0 +1,798 @@
+{
+ "gerado_em": "2026-09-18T20:01:17-03:00",
+ "bercos": [
+  141,
+  142
+ ],
+ "ultima_coleta": {
+  "id": 3,
+  "quando": "2026-09-18T20:01:11-03:00",
+  "sucesso": 1,
+  "emissao_portal": "2026-09-18T20:02:00-03:00",
+  "navios_portal": 247,
+  "navios_monitorados": 16,
+  "erro": null
+ },
+ "ultima_coleta_ok": "2026-09-18T20:01:11-03:00",
+ "emissao_portal": "2026-09-18T20:02:00-03:00",
+ "navios": [
+  {
+   "berco": 141,
+   "calado_saida": 8.0,
+   "loa": 183.2,
+   "embarcacao": "CHARLINE",
+   "calado_chegada": 7.0,
+   "dwt": 50436.0,
+   "imo": "9476812",
+   "programacao": 80653,
+   "duv": "0437182026",
+   "categoria": "ao_largo",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Exp",
+     "agencia": "LACHMANN",
+     "operador": "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
+     "mercadoria": "FUEL-OIL (OLEO COMBUSTIVEL)",
+     "eta": "2026-09-17T15:00:00-03:00",
+     "chegada": "2026-09-17T14:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 22000.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": "2026-09-17T14:00:00-03:00",
+   "atracacao": null,
+   "eta": "2026-09-17T15:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "FUEL-OIL (OLEO COMBUSTIVEL)",
+   "operadores": [
+    "PETROBRAS TRANSPORTE S.A - TRANSPETRO"
+   ],
+   "agencia": "LACHMANN",
+   "sentido": "Exp",
+   "unidade": "t",
+   "previsto": 22000.0,
+   "realizado": null,
+   "marcos": {
+    "chegada": "2026-09-17T14:00:00-03:00",
+    "eta_inicial": "2026-09-17T15:00:00-03:00",
+    "eta": "2026-09-17T15:00:00-03:00",
+    "previsto": 22000.0,
+    "unidade": "t",
+    "visto_como": {
+     "ao_largo": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 141,
+   "calado_saida": 7.5,
+   "loa": 182.9,
+   "embarcacao": "AEGEAN C",
+   "calado_chegada": 8.5,
+   "dwt": 50158.6,
+   "imo": "1019773",
+   "programacao": 80678,
+   "duv": "0440262026",
+   "categoria": "esperado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Imp",
+     "agencia": "LACHMANN",
+     "operador": "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
+     "mercadoria": "GASOLINAS",
+     "eta": "2026-09-24T08:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 28000.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": null,
+   "atracacao": null,
+   "eta": "2026-09-24T08:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "GASOLINAS",
+   "operadores": [
+    "PETROBRAS TRANSPORTE S.A - TRANSPETRO"
+   ],
+   "agencia": "LACHMANN",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 28000.0,
+   "realizado": null,
+   "marcos": {
+    "eta_inicial": "2026-09-24T08:00:00-03:00",
+    "eta": "2026-09-24T08:00:00-03:00",
+    "previsto": 28000.0,
+    "unidade": "t",
+    "visto_como": {
+     "esperado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 141,
+   "calado_saida": 7.0,
+   "loa": 183.1,
+   "embarcacao": "WECO MEMPHIS BELLE",
+   "calado_chegada": 11.0,
+   "dwt": 49826.9,
+   "imo": "1041453",
+   "programacao": 80697,
+   "duv": "0443942026",
+   "categoria": "esperado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Imp",
+     "agencia": "ISS MARINE",
+     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
+     "mercadoria": "OLEO DIESEL",
+     "eta": "2026-09-29T15:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 28.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": null,
+   "atracacao": null,
+   "eta": "2026-09-29T15:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "OLEO DIESEL",
+   "operadores": [
+    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA"
+   ],
+   "agencia": "ISS MARINE",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 28.0,
+   "realizado": null,
+   "marcos": {
+    "eta_inicial": "2026-09-29T15:00:00-03:00",
+    "eta": "2026-09-29T15:00:00-03:00",
+    "previsto": 28.0,
+    "unidade": "t",
+    "visto_como": {
+     "esperado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 141,
+   "calado_saida": 8.0,
+   "loa": 183.06,
+   "embarcacao": "STAMATIA",
+   "calado_chegada": 11.6,
+   "dwt": 44999.0,
+   "imo": "9864332",
+   "programacao": 80703,
+   "duv": null,
+   "categoria": "esperado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Imp",
+     "agencia": "NORTH STAR",
+     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
+     "mercadoria": "OLEO DIESEL",
+     "eta": "2026-09-20T03:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 20000.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": null,
+   "atracacao": null,
+   "eta": "2026-09-20T03:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "OLEO DIESEL",
+   "operadores": [
+    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA"
+   ],
+   "agencia": "NORTH STAR",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 20000.0,
+   "realizado": null,
+   "marcos": {
+    "eta_inicial": "2026-09-20T03:00:00-03:00",
+    "eta": "2026-09-20T03:00:00-03:00",
+    "previsto": 20000.0,
+    "unidade": "t",
+    "visto_como": {
+     "esperado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 141,
+   "calado_saida": 7.5,
+   "loa": 183.0,
+   "embarcacao": "SPATHI",
+   "calado_chegada": 11.0,
+   "dwt": 51228.0,
+   "imo": "9321940",
+   "programacao": 80706,
+   "duv": "0449712026",
+   "categoria": "esperado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Imp",
+     "agencia": "NORTH STAR",
+     "operador": "TERIN",
+     "mercadoria": "OLEOS BRUTOS DE PETROLEO",
+     "eta": "2026-09-23T03:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 32424.0,
+     "unidade": "t"
+    },
+    {
+     "sentido": "Imp",
+     "agencia": "NORTH STAR",
+     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
+     "mercadoria": "OLEOS BRUTOS DE PETROLEO",
+     "eta": "2026-09-23T03:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 4282.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": null,
+   "atracacao": null,
+   "eta": "2026-09-23T03:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "OLEOS BRUTOS DE PETROLEO",
+   "operadores": [
+    "TERIN",
+    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA"
+   ],
+   "agencia": "NORTH STAR",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 36706.0,
+   "realizado": null,
+   "marcos": {
+    "eta_inicial": "2026-09-23T03:00:00-03:00",
+    "eta": "2026-09-23T03:00:00-03:00",
+    "previsto": 36706.0,
+    "unidade": "t",
+    "visto_como": {
+     "esperado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 141,
+   "calado_saida": 6.8,
+   "loa": 170.1,
+   "embarcacao": "BOMAR OSPREY",
+   "calado_chegada": 8.0,
+   "dwt": 25432.0,
+   "imo": "9396024",
+   "programacao": 80744,
+   "duv": null,
+   "categoria": "esperado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Imp",
+     "agencia": "WILSON SONS",
+     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
+     "mercadoria": "ÓLEOS BRUTOS DE PETRÓLEO OU DE",
+     "eta": "2026-09-26T13:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 18000.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": null,
+   "atracacao": null,
+   "eta": "2026-09-26T13:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "ÓLEOS BRUTOS DE PETRÓLEO OU DE",
+   "operadores": [
+    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA"
+   ],
+   "agencia": "WILSON SONS",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 18000.0,
+   "realizado": null,
+   "marcos": {
+    "eta_inicial": "2026-09-26T13:00:00-03:00",
+    "eta": "2026-09-26T13:00:00-03:00",
+    "previsto": 18000.0,
+    "unidade": "t",
+    "visto_como": {
+     "esperado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 142,
+   "loa": 155.0,
+   "saldo_total": 9500.0,
+   "embarcacao": "GAZ SYNERGY",
+   "dwt": 17740.0,
+   "imo": "9458157",
+   "programacao": 80569,
+   "duv": "0420382026",
+   "categoria": "atracado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "bordo": "BE",
+     "sentido": "Imp",
+     "agencia": "LACHMANN",
+     "operador": "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
+     "mercadoria": "GLP",
+     "atracacao": "2026-09-18T08:05:00-03:00",
+     "chegada": "2026-09-13T15:30:00-03:00",
+     "janela_inicio": "2026-09-18T08:05:00-03:00",
+     "janela_fim": "2026-09-21T23:54:00-03:00",
+     "prancha": 2800.0,
+     "tons_dia": 0.0,
+     "unidade": "t",
+     "previsto": 10000.0,
+     "realizado": 500.0,
+     "saldo_operador": 9500.0
+    }
+   ],
+   "chegada": "2026-09-13T15:30:00-03:00",
+   "atracacao": "2026-09-18T08:05:00-03:00",
+   "eta": null,
+   "etb": null,
+   "janela_inicio": "2026-09-18T08:05:00-03:00",
+   "desatracacao": null,
+   "janela_fim": "2026-09-21T23:54:00-03:00",
+   "mercadoria": "GLP",
+   "operadores": [
+    "PETROBRAS TRANSPORTE S.A - TRANSPETRO"
+   ],
+   "agencia": "LACHMANN",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 10000.0,
+   "realizado": 500.0,
+   "marcos": {
+    "chegada": "2026-09-13T15:30:00-03:00",
+    "atracacao": "2026-09-18T08:05:00-03:00",
+    "ultima_atracacao": "2026-09-18T08:05:00-03:00",
+    "previsto": 10000.0,
+    "realizado": 500.0,
+    "unidade": "t",
+    "visto_como": {
+     "atracado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 142,
+   "calado_saida": 10.5,
+   "loa": 183.34,
+   "embarcacao": "STI JARDINS",
+   "calado_chegada": 9.5,
+   "dwt": 49990.0,
+   "imo": "9794446",
+   "programacao": 80654,
+   "duv": "0434952026",
+   "categoria": "esperado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Imp",
+     "agencia": "LACHMANN",
+     "operador": "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
+     "mercadoria": "OLEO DIESEL",
+     "eta": "2026-09-20T08:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 50000.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": null,
+   "atracacao": null,
+   "eta": "2026-09-20T08:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "OLEO DIESEL",
+   "operadores": [
+    "PETROBRAS TRANSPORTE S.A - TRANSPETRO"
+   ],
+   "agencia": "LACHMANN",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 50000.0,
+   "realizado": null,
+   "marcos": {
+    "eta_inicial": "2026-09-20T08:00:00-03:00",
+    "eta": "2026-09-20T08:00:00-03:00",
+    "previsto": 50000.0,
+    "unidade": "t",
+    "visto_como": {
+     "esperado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 142,
+   "calado_saida": 9.0,
+   "loa": 182.85,
+   "embarcacao": "ROMULO ALMEIDA",
+   "calado_chegada": 10.0,
+   "dwt": 48449.0,
+   "imo": "9489912",
+   "programacao": 80670,
+   "duv": "0442952026",
+   "categoria": "esperado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Imp",
+     "agencia": "LACHMANN",
+     "operador": "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
+     "mercadoria": "GASOLINAS",
+     "eta": "2026-09-19T07:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 20000.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": null,
+   "atracacao": null,
+   "eta": "2026-09-19T07:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "GASOLINAS",
+   "operadores": [
+    "PETROBRAS TRANSPORTE S.A - TRANSPETRO"
+   ],
+   "agencia": "LACHMANN",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 20000.0,
+   "realizado": null,
+   "marcos": {
+    "eta_inicial": "2026-09-19T07:00:00-03:00",
+    "eta": "2026-09-19T07:00:00-03:00",
+    "previsto": 20000.0,
+    "unidade": "t",
+    "visto_como": {
+     "esperado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 142,
+   "calado_saida": 8.0,
+   "loa": 182.88,
+   "embarcacao": "BOW EXPLORER",
+   "calado_chegada": 9.0,
+   "dwt": 38235.0,
+   "imo": "9828211",
+   "programacao": 80671,
+   "duv": "0440342026",
+   "categoria": "esperado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Imp",
+     "agencia": "TRANSATLANTICA",
+     "operador": "CATTALINI",
+     "mercadoria": "SODA CÁUSTICA",
+     "eta": "2026-09-20T01:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 3000.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": null,
+   "atracacao": null,
+   "eta": "2026-09-20T01:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "SODA CÁUSTICA",
+   "operadores": [
+    "CATTALINI"
+   ],
+   "agencia": "TRANSATLANTICA",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 3000.0,
+   "realizado": null,
+   "marcos": {
+    "eta_inicial": "2026-09-20T01:00:00-03:00",
+    "eta": "2026-09-20T01:00:00-03:00",
+    "previsto": 3000.0,
+    "unidade": "t",
+    "visto_como": {
+     "esperado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 142,
+   "calado_saida": 8.0,
+   "loa": 182.99,
+   "embarcacao": "ASP RAINBOW",
+   "calado_chegada": 6.5,
+   "dwt": 49999.0,
+   "imo": "1071408",
+   "programacao": 80692,
+   "duv": null,
+   "categoria": "esperado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Exp",
+     "agencia": "WILSON SONS",
+     "operador": "CATTALINI",
+     "mercadoria": "BIODIESEL E SUAS MISTURAS,C/ M",
+     "eta": "2026-09-23T12:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 6000.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": null,
+   "atracacao": null,
+   "eta": "2026-09-23T12:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "BIODIESEL E SUAS MISTURAS,C/ M",
+   "operadores": [
+    "CATTALINI"
+   ],
+   "agencia": "WILSON SONS",
+   "sentido": "Exp",
+   "unidade": "t",
+   "previsto": 6000.0,
+   "realizado": null,
+   "marcos": {
+    "eta_inicial": "2026-09-23T12:00:00-03:00",
+    "eta": "2026-09-23T12:00:00-03:00",
+    "previsto": 6000.0,
+    "unidade": "t",
+    "visto_como": {
+     "esperado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 142,
+   "calado_saida": 9.0,
+   "loa": 183.1,
+   "embarcacao": "ATLANTIC PRIDE",
+   "calado_chegada": 10.0,
+   "dwt": 50614.0,
+   "imo": "9797266",
+   "programacao": 80696,
+   "duv": "0443802026",
+   "categoria": "ao_largo",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Imp",
+     "agencia": "LACHMANN",
+     "operador": "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
+     "mercadoria": "GASOLINAS",
+     "eta": "2026-09-17T07:00:00-03:00",
+     "chegada": "2026-09-17T04:06:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 20000.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": "2026-09-17T04:06:00-03:00",
+   "atracacao": null,
+   "eta": "2026-09-17T07:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "GASOLINAS",
+   "operadores": [
+    "PETROBRAS TRANSPORTE S.A - TRANSPETRO"
+   ],
+   "agencia": "LACHMANN",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 20000.0,
+   "realizado": null,
+   "marcos": {
+    "chegada": "2026-09-17T04:06:00-03:00",
+    "eta_inicial": "2026-09-17T07:00:00-03:00",
+    "eta": "2026-09-17T07:00:00-03:00",
+    "previsto": 20000.0,
+    "unidade": "t",
+    "visto_como": {
+     "ao_largo": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  },
+  {
+   "berco": 142,
+   "calado_saida": 6.4,
+   "loa": 146.5,
+   "embarcacao": "DAMSGAARD",
+   "calado_chegada": 9.9,
+   "dwt": 19996.0,
+   "imo": "9724453",
+   "programacao": 80734,
+   "duv": "0431502026",
+   "categoria": "esperado",
+   "reatracacao": false,
+   "cargas": [
+    {
+     "sentido": "Imp",
+     "agencia": "ROCHAMAR",
+     "operador": "CATTALINI",
+     "mercadoria": "METANOL",
+     "eta": "2026-09-20T12:00:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
+     "previsto": 17005.0,
+     "unidade": "t"
+    }
+   ],
+   "chegada": null,
+   "atracacao": null,
+   "eta": "2026-09-20T12:00:00-03:00",
+   "etb": null,
+   "janela_inicio": null,
+   "desatracacao": null,
+   "janela_fim": null,
+   "mercadoria": "METANOL",
+   "operadores": [
+    "CATTALINI"
+   ],
+   "agencia": "ROCHAMAR",
+   "sentido": "Imp",
+   "unidade": "t",
+   "previsto": 17005.0,
+   "realizado": null,
+   "marcos": {
+    "eta_inicial": "2026-09-20T12:00:00-03:00",
+    "eta": "2026-09-20T12:00:00-03:00",
+    "previsto": 17005.0,
+    "unidade": "t",
+    "visto_como": {
+     "esperado": "2026-09-18T19:20:04-03:00"
+    }
+   },
+   "primeira_vez": "2026-09-18T19:20:04-03:00"
+  }
+ ],
+ "historico": [
+  {
+   "programacao": 80553,
+   "embarcacao": "PINEGA",
+   "imo": "9314894",
+   "berco": 141,
+   "situacao": "despachado",
+   "mercadoria": "OLEO DIESEL",
+   "sentido": "Imp",
+   "operadores": [
+    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA"
+   ],
+   "agencia": "NORTH STAR",
+   "previsto": 33493.0,
+   "unidade": "t",
+   "chegada": "2026-09-03T01:00:00-03:00",
+   "atracacao": null,
+   "desatracacao": "2026-09-17T19:10:00-03:00",
+   "espera_h": null,
+   "estadia_berco_h": null,
+   "ultima_vez": "2026-09-18T20:01:11-03:00"
+  },
+  {
+   "programacao": 80623,
+   "embarcacao": "SUNNY LAKES",
+   "imo": "9298363",
+   "berco": 142,
+   "situacao": "despachado",
+   "mercadoria": "METANOL",
+   "sentido": "Imp",
+   "operadores": [
+    "CATTALINI"
+   ],
+   "agencia": "ROCHAMAR",
+   "previsto": 17781.0,
+   "unidade": "t",
+   "chegada": "2026-09-10T07:54:00-03:00",
+   "atracacao": null,
+   "desatracacao": "2026-09-16T15:35:00-03:00",
+   "espera_h": null,
+   "estadia_berco_h": null,
+   "ultima_vez": "2026-09-18T20:01:11-03:00"
+  },
+  {
+   "programacao": 80651,
+   "embarcacao": "BOW CHEETAH",
+   "imo": "9952141",
+   "berco": 142,
+   "situacao": "despachado",
+   "mercadoria": "OLEO DE MILHO",
+   "sentido": "Exp",
+   "operadores": [
+    "CATTALINI"
+   ],
+   "agencia": "ROCHAMAR",
+   "previsto": 4300.0,
+   "unidade": "t",
+   "chegada": "2026-09-13T17:00:00-03:00",
+   "atracacao": null,
+   "desatracacao": "2026-09-18T05:35:00-03:00",
+   "espera_h": null,
+   "estadia_berco_h": null,
+   "ultima_vez": "2026-09-18T20:01:11-03:00"
+  }
+ ],
+ "eventos": []
+}

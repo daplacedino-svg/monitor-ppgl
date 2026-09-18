@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monitor PPGL · Berços 141 e 142</title>
+  <meta name="description" content="Line-up dos navios nos berços 141 e 142 do Píer Público de Granéis Líquidos (PPGL) do Porto de Paranaguá, com dados do portal da APPA.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b3a5c'/><path d='M6 19h20l-3 6H9z' fill='%23fff'/><path d='M11 18V10h7l3 8' fill='none' stroke='%23fff' stroke-width='2'/></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="topo-in">
+      <div>
+        <h1>PPGL <span class="sep">·</span> Berços 141 e 142</h1>
+        <p class="sub">Píer Público de Granéis Líquidos — Porto de Paranaguá</p>
+      </div>
+      <div id="status" class="status" aria-live="polite">Carregando…</div>
+    </div>
+  </header>
+
+  <main>
+    <div id="alerta" class="alerta" hidden></div>
+
+    <section class="resumo" id="resumo" aria-label="Resumo"></section>
+
+    <section aria-labelledby="t-bercos">
+      <h2 id="t-bercos" class="titulo">Situação por berço</h2>
+      <div class="bercos" id="bercos"></div>
+    </section>
+
+    <div class="duas-col">
+      <section aria-labelledby="t-mov">
+        <h2 id="t-mov" class="titulo">Movimentações recentes</h2>
+        <ol class="eventos" id="eventos"></ol>
+      </section>
+      <section aria-labelledby="t-hist">
+        <h2 id="t-hist" class="titulo">Histórico de atracações</h2>
+        <div id="hist-resumo" class="hist-resumo"></div>
+        <div class="tabela-wrap"><table class="tabela" id="historico"></table></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    Fonte: <a href="https://www.appaweb.appa.pr.gov.br/appaweb/pesquisa.aspx?WCI=relLineUpRetroativo" target="_blank" rel="noopener">Line-Up APPA</a>.
+    O portal atualiza a cada ~6 h; este monitor consulta a cada hora. Horários de Brasília.
+  </footer>
+
+  <dialog id="detalhe" class="detalhe">
+    <form method="dialog"><button class="fechar" aria-label="Fechar">×</button></form>
+    <div id="detalhe-corpo"></div>
+  </dialog>
+
+  <script src="operadores.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

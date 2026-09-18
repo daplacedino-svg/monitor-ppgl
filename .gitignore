@@ -1,0 +1,9 @@
+# Dados locais (histórico completo fica só no seu PC)
+/dados/
+/logs/
+__pycache__/
+*.pyc
+docs/dados/*.tmp
+
+# Script antigo com credenciais do SQL Server - não publicar
+bd_LineUP4.1.py
