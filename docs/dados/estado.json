@@ -1,30 +1,30 @@
 {
- "gerado_em": "2026-09-20T10:04:28-03:00",
+ "gerado_em": "2026-09-20T11:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 42,
-  "quando": "2026-09-20T10:04:27-03:00",
+  "id": 43,
+  "quando": "2026-09-20T11:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-09-20T10:05:00-03:00",
+  "emissao_portal": "2026-09-20T11:05:00-03:00",
   "navios_portal": 237,
   "navios_monitorados": 14,
   "erro": null
  },
- "ultima_coleta_ok": "2026-09-20T10:04:27-03:00",
- "emissao_portal": "2026-09-20T10:05:00-03:00",
+ "ultima_coleta_ok": "2026-09-20T11:04:27-03:00",
+ "emissao_portal": "2026-09-20T11:05:00-03:00",
  "navios": [
   {
-   "duv": "0437182026",
-   "embarcacao": "CHARLINE",
    "saldo_total": 2191.78,
-   "imo": "9476812",
+   "loa": 183.2,
    "berco": 141,
    "dwt": 50436.0,
-   "loa": 183.2,
+   "imo": "9476812",
+   "embarcacao": "CHARLINE",
    "programacao": 80653,
+   "duv": "0437182026",
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -80,15 +80,15 @@
    "primeira_vez": "2026-09-18T19:20:04-03:00"
   },
   {
-   "duv": "0440262026",
-   "embarcacao": "AEGEAN C",
-   "imo": "1019773",
-   "calado_chegada": 8.5,
+   "calado_saida": 7.5,
+   "loa": 182.9,
    "berco": 141,
    "dwt": 50158.6,
-   "loa": 182.9,
+   "imo": "1019773",
+   "embarcacao": "AEGEAN C",
+   "calado_chegada": 8.5,
    "programacao": 80678,
-   "calado_saida": 7.5,
+   "duv": "0440262026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -133,15 +133,15 @@
    "primeira_vez": "2026-09-18T19:20:04-03:00"
   },
   {
-   "duv": null,
-   "embarcacao": "STAMATIA",
-   "imo": "9864332",
-   "calado_chegada": 11.6,
+   "calado_saida": 8.0,
+   "loa": 183.06,
    "berco": 141,
    "dwt": 44999.0,
-   "loa": 183.06,
+   "imo": "9864332",
+   "embarcacao": "STAMATIA",
+   "calado_chegada": 11.6,
    "programacao": 80703,
-   "calado_saida": 8.0,
+   "duv": null,
    "categoria": "ao_largo",
    "reatracacao": false,
    "cargas": [
@@ -189,15 +189,15 @@
    "primeira_vez": "2026-09-18T19:20:04-03:00"
   },
   {
-   "duv": "0449712026",
-   "embarcacao": "SPATHI",
-   "imo": "9321940",
-   "calado_chegada": 11.0,
+   "calado_saida": 7.5,
+   "loa": 183.0,
    "berco": 141,
    "dwt": 51228.0,
-   "loa": 183.0,
+   "imo": "9321940",
+   "embarcacao": "SPATHI",
+   "calado_chegada": 11.0,
    "programacao": 80706,
-   "calado_saida": 7.5,
+   "duv": "0449712026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -255,15 +255,15 @@
    "primeira_vez": "2026-09-18T19:20:04-03:00"
   },
   {
-   "duv": null,
-   "embarcacao": "BOMAR OSPREY",
-   "imo": "9396024",
-   "calado_chegada": 8.0,
+   "calado_saida": 6.8,
+   "loa": 170.1,
    "berco": 141,
    "dwt": 25432.0,
-   "loa": 170.1,
+   "imo": "9396024",
+   "embarcacao": "BOMAR OSPREY",
+   "calado_chegada": 8.0,
    "programacao": 80744,
-   "calado_saida": 6.8,
+   "duv": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -308,15 +308,15 @@
    "primeira_vez": "2026-09-18T19:20:04-03:00"
   },
   {
-   "duv": "0434952026",
-   "embarcacao": "STI JARDINS",
-   "imo": "9794446",
-   "calado_chegada": 9.5,
+   "calado_saida": 10.5,
+   "loa": 183.34,
    "berco": 142,
    "dwt": 49990.0,
-   "loa": 183.34,
+   "imo": "9794446",
+   "embarcacao": "STI JARDINS",
+   "calado_chegada": 9.5,
    "programacao": 80654,
-   "calado_saida": 10.5,
+   "duv": "0434952026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -361,15 +361,15 @@
    "primeira_vez": "2026-09-18T19:20:04-03:00"
   },
   {
-   "duv": "0442952026",
-   "embarcacao": "ROMULO ALMEIDA",
-   "imo": "9489912",
-   "calado_chegada": 10.0,
+   "calado_saida": 9.0,
+   "loa": 182.85,
    "berco": 142,
    "dwt": 48449.0,
-   "loa": 182.85,
+   "imo": "9489912",
+   "embarcacao": "ROMULO ALMEIDA",
+   "calado_chegada": 10.0,
    "programacao": 80670,
-   "calado_saida": 9.0,
+   "duv": "0442952026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -414,15 +414,15 @@
    "primeira_vez": "2026-09-18T19:20:04-03:00"
   },
   {
-   "duv": "0440342026",
-   "embarcacao": "BOW EXPLORER",
-   "imo": "9828211",
-   "calado_chegada": 9.0,
+   "calado_saida": 8.0,
+   "loa": 182.88,
    "berco": 142,
    "dwt": 38235.0,
-   "loa": 182.88,
+   "imo": "9828211",
+   "embarcacao": "BOW EXPLORER",
+   "calado_chegada": 9.0,
    "programacao": 80671,
-   "calado_saida": 8.0,
+   "duv": "0440342026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -467,15 +467,15 @@
    "primeira_vez": "2026-09-18T19:20:04-03:00"
   },
   {
-   "duv": null,
-   "embarcacao": "ASP RAINBOW",
-   "imo": "1071408",
-   "calado_chegada": 6.5,
+   "calado_saida": 8.0,
+   "loa": 182.99,
    "berco": 142,
    "dwt": 49999.0,
-   "loa": 182.99,
+   "imo": "1071408",
+   "embarcacao": "ASP RAINBOW",
+   "calado_chegada": 6.5,
    "programacao": 80692,
-   "calado_saida": 8.0,
+   "duv": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -520,15 +520,15 @@
    "primeira_vez": "2026-09-18T19:20:04-03:00"
   },
   {
-   "duv": "0431502026",
-   "embarcacao": "DAMSGAARD",
-   "imo": "9724453",
-   "calado_chegada": 9.9,
+   "calado_saida": 6.4,
+   "loa": 146.5,
    "berco": 142,
    "dwt": 19996.0,
-   "loa": 146.5,
+   "imo": "9724453",
+   "embarcacao": "DAMSGAARD",
+   "calado_chegada": 9.9,
    "programacao": 80734,
-   "calado_saida": 6.4,
+   "duv": "0431502026",
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -596,7 +596,7 @@
    "desatracacao": "2026-09-17T19:10:00-03:00",
    "espera_h": null,
    "estadia_berco_h": null,
-   "ultima_vez": "2026-09-20T10:04:27-03:00"
+   "ultima_vez": "2026-09-20T11:04:27-03:00"
   },
   {
    "programacao": 80569,
@@ -617,7 +617,7 @@
    "desatracacao": "2026-09-19T10:15:00-03:00",
    "espera_h": 112.6,
    "estadia_berco_h": 26.2,
-   "ultima_vez": "2026-09-20T10:04:27-03:00"
+   "ultima_vez": "2026-09-20T11:04:27-03:00"
   },
   {
    "programacao": 80651,
@@ -638,7 +638,7 @@
    "desatracacao": "2026-09-18T05:35:00-03:00",
    "espera_h": null,
    "estadia_berco_h": null,
-   "ultima_vez": "2026-09-20T10:04:27-03:00"
+   "ultima_vez": "2026-09-20T11:04:27-03:00"
   },
   {
    "programacao": 80696,
@@ -659,7 +659,7 @@
    "desatracacao": "2026-09-18T17:35:00-03:00",
    "espera_h": null,
    "estadia_berco_h": null,
-   "ultima_vez": "2026-09-20T10:04:27-03:00"
+   "ultima_vez": "2026-09-20T11:04:27-03:00"
   },
   {
    "programacao": 80623,
