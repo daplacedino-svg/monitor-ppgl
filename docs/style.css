@@ -108,6 +108,21 @@ main { max-width: 1280px; margin: 0 auto; padding: 16px; }
 .navio-nome { font-weight: 650; font-size: 1.05rem; }
 .navio-linha { color: var(--muted); font-size: .86rem; }
 .atual .navio-nome { font-size: 1.25rem; }
+/* manobras da praticagem */
+.manobra {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px;
+  margin-top: 8px; padding: 5px 9px; border-radius: 7px; font-size: .84rem;
+  background: var(--m-bg); border-left: 3px solid var(--m);
+}
+.manobra + .manobra { margin-top: 5px; }
+.manobra-t { font-weight: 600; color: var(--m); }
+.manobra-sit { font-size: .68rem; font-weight: 650; letter-spacing: .04em; color: var(--m); border: 1px solid var(--m); border-radius: 99px; padding: 0 6px; }
+.manobra small { color: var(--muted); }
+.s-andamento { --m: var(--atracado); --m-bg: var(--atracado-bg); }
+.s-confirmada { --m: var(--atracado); --m-bg: var(--atracado-bg); }
+.s-aconfirmar { --m: var(--ao_largo); --m-bg: var(--ao_largo-bg); }
+.s-prevista { --m: var(--programado); --m-bg: var(--programado-bg); }
+
 .operador { font-size: .82rem; margin-top: 3px; }
 .operador span { font-size: .68rem; font-weight: 650; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-right: 3px; }
 
@@ -132,6 +147,7 @@ main { max-width: 1280px; margin: 0 auto; padding: 16px; }
 .c-programado { --c: var(--programado); --cb: var(--programado-bg); --cor: var(--programado); }
 .c-ao_largo { --c: var(--ao_largo); --cb: var(--ao_largo-bg); --cor: var(--ao_largo); }
 .c-esperado { --c: var(--esperado); --cb: var(--esperado-bg); --cor: var(--esperado); }
+.c-manobra { --c: var(--programado); --cb: var(--programado-bg); }
 .c-despachado, .c-removido { --c: var(--despachado); --cb: var(--despachado-bg); --cor: var(--despachado); }
 .sentido { font-size: .7rem; font-weight: 650; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; margin-left: 4px; vertical-align: 2px; }
 .espera { color: var(--ao_largo); font-weight: 600; }

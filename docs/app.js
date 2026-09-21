@@ -36,8 +36,13 @@ function fmtDur(horas) {
   let h = Math.abs(horas);
   let txt;
   if (h < 1) txt = `${Math.round(h * 60)} min`;
-  else if (h < 24) txt = `${Math.floor(h)}h ${String(Math.round((h % 1) * 60)).padStart(2, "0")}`;
-  else txt = `${Math.floor(h / 24)}d ${Math.round(h % 24)}h`;
+  else if (h < 24) {
+    const min = Math.round(h * 60);
+    txt = `${Math.floor(min / 60)}h ${String(min % 60).padStart(2, "0")}`;
+  } else {
+    const hi = Math.round(h); // arredonda antes de separar, senão 7d 24h em vez de 8d
+    txt = `${Math.floor(hi / 24)}d ${hi % 24}h`;
+  }
   return neg ? `-${txt}` : txt;
 }
 const horasEntre = (a, b) => (a && b ? (dt(b) - dt(a)) / 3.6e6 : null);
@@ -60,13 +65,16 @@ function renderStatus() {
   const idade = horasDesde(ok);
   const falhou = estado.ultima_coleta && !estado.ultima_coleta.sucesso;
   const classe = falhou ? "erro" : idade > 3 ? "velho" : "";
+  const prat = estado.praticagem || {};
   el.innerHTML = `<span class="ponto ${classe}"></span>Atualizado <b>${ok ? relativo(ok) : "—"}</b> · ${fmtData(ok)}<br>
-    <span style="opacity:.75">Emissão APPA: ${fmtData(estado.emissao_portal)}</span>`;
+    <span style="opacity:.75">Emissão APPA: ${fmtData(estado.emissao_portal)}${
+      prat.atualizacao ? ` · Praticagem: ${fmtData(prat.atualizacao)}` : ""}</span>`;
 
   const alerta = $("#alerta");
   const msgs = [];
   if (falhou) msgs.push(`A última tentativa de coleta (${fmtData(estado.ultima_coleta.quando)}) falhou: ${esc(estado.ultima_coleta.erro)}`);
   if (idade > 3) msgs.push(`Os dados têm mais de ${Math.floor(idade)} horas. O computador que faz a coleta pode estar desligado.`);
+  if (prat.erro) msgs.push(`Praticagem indisponível na última coleta (as manobras podem estar desatualizadas): ${esc(prat.erro)}`);
   alerta.hidden = !msgs.length;
   alerta.innerHTML = msgs.join("<br>");
 }
@@ -103,6 +111,7 @@ function cardAtracado(n) {
       <div><dt>Fim previsto (janela)</dt><dd>${fmtData(n.janela_fim)}<br><small>${relativo(n.janela_fim)}</small></dd></div>
       <div><dt>Espera antes de atracar</dt><dd>${fmtDur(horasEntre(chegada, atrac))}</dd></div>
     </dl>
+    ${manobraHTML(n)}
   </div>`;
 }
 
@@ -111,6 +120,34 @@ const opsCurtos = (ops) =>
   ops && ops.length
     ? `<span title="${esc(ops.join(" / "))}">${esc([...new Set(ops.map(nomeCurtoOperador))].join(" / "))}</span>`
     : "";
+// --------------------------------------------------- praticagem (manobras)
+const SITUACAO = {
+  "EM ANDAMENTO": "andamento",
+  "CONFIRMADA": "confirmada",
+  "A CONFIRMAR": "aconfirmar",
+  "PREVISTA": "prevista",
+};
+
+/** Manobra mais relevante: a próxima no futuro; se não houver, a mais recente. */
+function proximaManobra(ms) {
+  if (!ms || !ms.length) return null;
+  const agora = new Date().toISOString();
+  return ms.find((m) => m.quando && m.quando >= agora) || ms[ms.length - 1];
+}
+
+function manobraHTML(n, compacto = false) {
+  const m = proximaManobra(n.manobras);
+  if (!m) return "";
+  const cls = SITUACAO[m.situacao] || "prevista";
+  const passou = m.quando && m.quando < new Date().toISOString();
+  return `<div class="manobra s-${cls}">
+    <span class="manobra-t">⚓ ${esc(m.rotulo)}${m.bordo ? ` ${esc(m.bordo)}` : ""}</span>
+    <b>${fmtData(m.quando, !compacto)}</b>
+    <span class="manobra-sit">${esc(m.situacao)}</span>
+    ${passou ? "" : `<small>${relativo(m.quando)}</small>`}
+  </div>`;
+}
+
 const operadores = (ops) =>
   ops && ops.length ? `<div class="operador"><span>Operador</span> ${opsCurtos(ops)}</div>` : "";
 
@@ -136,6 +173,7 @@ function itemFila(n, i) {
       <div><b>${esc(n.embarcacao)}</b> ${sentido(n.sentido)}</div>
       <div class="navio-linha">${chip(n.categoria, n.reatracacao)} ${esc(n.mercadoria)} · ${fmtQtd(n.previsto, n.unidade)}</div>
       ${operadores(n.operadores)}
+      ${manobraHTML(n, true)}
     </div>
     <div class="quando">${quando}<small>${sub}</small></div>
   </li>`;
@@ -174,7 +212,11 @@ function renderBercos() {
 function renderEventos() {
   const ev = estado.eventos;
   $("#eventos").innerHTML = ev.length
-    ? ev.map((e) => `<li class="navio" tabindex="0" data-prog="${e.programacao}"><time datetime="${e.quando}">${fmtData(e.quando)}</time><span>${e.para ? chip(e.tipo === "berco" ? "programado" : e.para) + " " : ""}${esc(e.descricao)}</span></li>`).join("")
+    ? ev.map((e) => {
+        const marca = e.tipo === "manobra" ? `<span class="chip c-manobra">⚓ praticagem</span> `
+          : e.para && CATS[e.para] ? chip(e.para) + " " : "";
+        return `<li class="navio" tabindex="0" data-prog="${e.programacao}"><time datetime="${e.quando}">${fmtData(e.quando)}</time><span>${marca}${esc(e.descricao)}</span></li>`;
+      }).join("")
     : `<li class="sem-eventos"><span class="vazio">As mudanças de situação (chegada, atracação, desatracação…) aparecem aqui a partir das próximas coletas.</span></li>`;
 }
 
@@ -225,6 +267,11 @@ function abrirDetalhe(prog) {
         ${campo("Saldo", n.saldo_total != null && fmtQtd(n.saldo_total, n.unidade))}
         ${campo("No monitor desde", fmtData(n.primeira_vez))}
       </dl>
+      ${(n.manobras || []).length ? `<h4>Manobras (praticagem)</h4>
+        ${n.manobras.map((m) => `<div class="manobra s-${SITUACAO[m.situacao] || "prevista"}">
+          <span class="manobra-t">⚓ ${esc(m.rotulo)}${m.local ? ` · ${esc(m.local)}` : ""}</span>
+          <b>${fmtData(m.quando)}</b><span class="manobra-sit">${esc(m.situacao)}</span>
+        </div>`).join("")}` : ""}
       <h4>Cargas / operadores</h4>
       <div class="tabela-wrap"><table class="tabela"><thead><tr><th>Operador</th><th>Mercadoria</th><th>Sentido</th><th class="n">Prancha t/dia</th><th class="n">Previsto</th><th class="n">Realizado</th></tr></thead><tbody>
       ${(n.cargas || []).map((c) => `<tr><td>${esc(c.operador)}</td><td>${esc(c.mercadoria)}</td><td>${esc(c.sentido)}</td><td class="n">${fmtNum(c.prancha)}</td><td class="n">${fmtQtd(c.previsto, c.unidade)}</td><td class="n">${c.realizado != null ? fmtQtd(c.realizado, c.unidade) : "—"}</td></tr>`).join("")}

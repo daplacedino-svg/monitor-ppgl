@@ -14,6 +14,13 @@ ESPERA_ENTRE_TENTATIVAS_S = 30
 # Berços monitorados (PPGL)
 BERCOS = {141, 142}
 
+# Praticagem de Paranaguá (SINPRAPAR): horário e situação das manobras
+URL_PRATICAGEM = "https://www.sinprapar.com.br/PREV.HTM"
+BERCOS_PRATICAGEM = {"P2EXT": 141, "P2INT": 142}
+# Só atracação (EA/AT) e desatracação (DS/DF) entram no monitor. As manobras de
+# fundeio (EF) e saída (SL) trazem horário genérico e não agregam ao line-up.
+TIPOS_MANOBRA = {"atracacao", "desatracacao"}
+
 # Arquivos locais
 ARQ_BANCO = RAIZ / "dados" / "monitor.db"
 ARQ_ULTIMA_PAGINA = RAIZ / "dados" / "ultima_pagina.html"

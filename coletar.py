@@ -14,7 +14,7 @@ import time
 from datetime import datetime, timedelta
 
 import config
-from coletor import appa, banco, exportar, publicar
+from coletor import appa, banco, exportar, praticagem, publicar
 from coletor.appa import FUSO_BR
 
 log = logging.getLogger("monitor")
@@ -59,7 +59,20 @@ def executar(arquivo=None, publicar_git=True):
         monitorados, n_eventos = banco.registrar_coleta(con, quando, emissao, navios)
         log.info("Portal: %d navios | berços %s: %d | novos eventos: %d",
                  len(navios), "/".join(map(str, sorted(config.BERCOS))), monitorados, n_eventos)
-        exportar.gerar(con)
+
+        # A praticagem é complementar: se falhar, a coleta da APPA continua valendo
+        praticagem_erro = None
+        try:
+            atualizacao, manobras = praticagem.coletar()
+            relevantes = praticagem.relevantes(manobras, banco.navios_para_cruzamento(con))
+            n_man, n_ev_man = banco.registrar_manobras(con, quando, relevantes)
+            log.info("Praticagem: %d manobras (%d relevantes) | novos eventos: %d",
+                     len(manobras), n_man, n_ev_man)
+        except Exception as e:
+            praticagem_erro, atualizacao = str(e), None
+            log.warning("Praticagem indisponível: %s", e)
+
+        exportar.gerar(con, atualizacao, praticagem_erro)
     finally:
         con.close()
 

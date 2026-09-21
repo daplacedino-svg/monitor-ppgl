@@ -2,6 +2,7 @@
 """Histórico em SQLite: estado de cada navio, eventos (mudanças) e fotos de cada coleta."""
 import json
 import sqlite3
+from datetime import datetime
 
 import config
 
@@ -45,6 +46,19 @@ CREATE TABLE IF NOT EXISTS fotos (
     berco INTEGER,
     dados TEXT,
     PRIMARY KEY (coleta_id, programacao)
+);
+CREATE TABLE IF NOT EXISTS manobras (
+    chave TEXT PRIMARY KEY,   -- navio + código da manobra
+    quando TEXT,
+    navio TEXT,
+    imo TEXT,
+    codigo TEXT,
+    tipo TEXT,
+    berco INTEGER,
+    situacao TEXT,
+    programacao INTEGER,
+    visto_em TEXT,
+    dados TEXT
 );
 CREATE INDEX IF NOT EXISTS ix_eventos_quando ON eventos(quando);
 """
@@ -113,6 +127,65 @@ def _atualizar_marcos(marcos, navio, quando):
     vistos = marcos.setdefault("visto_como", {})
     vistos.setdefault(navio["categoria"], quando)
     return marcos
+
+
+def navios_para_cruzamento(con):
+    """Navios ativos nos berços monitorados, para cruzar com a praticagem."""
+    return [dict(r) for r in con.execute(
+        "SELECT programacao, imo, embarcacao FROM navios WHERE ativo=1")]
+
+
+def _quando_curto(iso):
+    if not iso:
+        return "sem horário"
+    d = datetime.fromisoformat(iso)
+    return d.strftime("%d/%m às %H:%M")
+
+
+def registrar_manobras(con, quando, manobras):
+    """Guarda a última previsão da praticagem e gera eventos quando ela muda."""
+    antigas = {r["chave"]: r for r in con.execute("SELECT * FROM manobras")}
+    eventos, vistas = [], set()
+
+    for man in manobras:
+        chave = f"{man['imo'] or man['navio']}|{man['codigo']}"
+        vistas.add(chave)
+        antiga = antigas.get(chave)
+        rotulo = man["rotulo"].lower()
+        berco = f" no berço {man['berco']}" if man["berco"] else ""
+
+        def evento(descricao, de=None, para=None):
+            if man["programacao"] or man["berco"]:
+                eventos.append((quando, man["programacao"], man["navio"], man["berco"],
+                                "manobra", de, para, descricao))
+
+        if antiga is None:
+            evento(f"Praticagem: {rotulo}{berco} prevista para {_quando_curto(man['quando'])}"
+                   f" ({man['situacao'].lower()})", None, man["situacao"])
+        else:
+            if antiga["quando"] != man["quando"]:
+                evento(f"Praticagem: {rotulo}{berco} remarcada de {_quando_curto(antiga['quando'])}"
+                       f" para {_quando_curto(man['quando'])}", antiga["quando"], man["quando"])
+            if antiga["situacao"] != man["situacao"]:
+                evento(f"Praticagem: {rotulo}{berco} de {_quando_curto(man['quando'])}"
+                       f" agora está {man['situacao'].lower()}", antiga["situacao"], man["situacao"])
+
+        con.execute(
+            "INSERT INTO manobras VALUES (?,?,?,?,?,?,?,?,?,?,?) ON CONFLICT(chave) DO UPDATE SET "
+            "quando=excluded.quando, navio=excluded.navio, imo=excluded.imo, codigo=excluded.codigo, "
+            "tipo=excluded.tipo, berco=excluded.berco, situacao=excluded.situacao, "
+            "programacao=excluded.programacao, visto_em=excluded.visto_em, dados=excluded.dados",
+            (chave, man["quando"], man["navio"], man["imo"], man["codigo"], man["tipo"], man["berco"],
+             man["situacao"], man["programacao"], quando, json.dumps(man, ensure_ascii=False)),
+        )
+
+    sumidas = [c for c in antigas if c not in vistas]
+    if sumidas:
+        con.executemany("DELETE FROM manobras WHERE chave=?", [(c,) for c in sumidas])
+    con.executemany("INSERT INTO eventos (quando, programacao, embarcacao, berco, tipo, de, para, descricao) "
+                    "VALUES (?,?,?,?,?,?,?,?)", eventos)
+    con.commit()
+    return len(manobras), len(eventos)
 
 
 def registrar_coleta(con, quando, emissao, todos):
