@@ -54,6 +54,10 @@ const relativo = (iso) => {
   return h >= 0 ? `em ${fmtDur(h)}` : `há ${fmtDur(-h)}`;
 };
 
+// Marca que a APPA põe na programação, ex.: "80569 - REP" (reprogramação/reatracação)
+const marcaProg = (n) =>
+  n.marca_programacao ? `<span class="chip c-ao_largo" title="Programação marcada como ${esc(n.marca_programacao)} pela APPA (reprogramação)">${esc(n.marca_programacao)}</span> ` : "";
+
 const chip = (cat, reatrac) =>
   `<span class="chip c-${cat}">${CATS[cat] || cat}${reatrac ? " · reatracação" : ""}</span>`;
 const sentido = (s) => (s ? `<span class="sentido" title="${s.includes("Imp") && s.includes("Exp") ? "Importação/Exportação" : s.startsWith("Imp") ? "Importação (descarga)" : "Exportação (carga)"}">${esc(s)}</span>` : "");
@@ -131,15 +135,15 @@ const SITUACAO = {
 /** Manobra mais relevante: a próxima no futuro; se não houver, a mais recente. */
 function proximaManobra(ms) {
   if (!ms || !ms.length) return null;
-  const agora = new Date().toISOString();
-  return ms.find((m) => m.quando && m.quando >= agora) || ms[ms.length - 1];
+  const agora = Date.now();
+  return ms.find((m) => m.quando && dt(m.quando).getTime() >= agora) || ms[ms.length - 1];
 }
 
 function manobraHTML(n, compacto = false) {
   const m = proximaManobra(n.manobras);
   if (!m) return "";
   const cls = SITUACAO[m.situacao] || "prevista";
-  const passou = m.quando && m.quando < new Date().toISOString();
+  const passou = m.quando && dt(m.quando).getTime() < Date.now();
   return `<div class="manobra s-${cls}">
     <span class="manobra-t">⚓ ${esc(m.rotulo)}${m.bordo ? ` ${esc(m.bordo)}` : ""}</span>
     <b>${fmtData(m.quando, !compacto)}</b>
@@ -171,7 +175,7 @@ function itemFila(n, i) {
     <span class="pos num">${i + 1}</span>
     <div>
       <div><b>${esc(n.embarcacao)}</b> ${sentido(n.sentido)}</div>
-      <div class="navio-linha">${chip(n.categoria, n.reatracacao)} ${esc(n.mercadoria)} · ${fmtQtd(n.previsto, n.unidade)}</div>
+      <div class="navio-linha">${marcaProg(n)}${chip(n.categoria, n.reatracacao)} ${esc(n.mercadoria)} · ${fmtQtd(n.previsto, n.unidade)}</div>
       ${operadores(n.operadores)}
       ${manobraHTML(n, true)}
     </div>

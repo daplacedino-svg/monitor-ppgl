@@ -6,6 +6,7 @@ Navios com mais de um operador/mercadoria ocupam várias linhas: as colunas
 do navio (Programação, Berço, Embarcação...) vêm com rowspan e as colunas da
 carga (Operador, Mercadoria, Previsto...) repetem-se em cada linha.
 """
+import logging
 import re
 import time
 import unicodedata
@@ -17,6 +18,7 @@ import requests
 import config
 
 FUSO_BR = timezone(timedelta(hours=-3))  # Brasília, sem horário de verão desde 2019
+log = logging.getLogger("monitor")
 
 
 class ErroColeta(Exception):
@@ -138,7 +140,7 @@ COLUNAS = {
 }
 
 # Colunas que pertencem ao navio (as demais pertencem a cada carga/operador)
-CAMPOS_NAVIO = {"programacao", "duv", "berco", "embarcacao", "imo", "loa", "dwt",
+CAMPOS_NAVIO = {"programacao", "marca_programacao", "duv", "berco", "embarcacao", "imo", "loa", "dwt",
                 "calado_chegada", "calado_saida", "saldo_total"}
 CAMPOS_DATA = {"atracacao", "chegada", "desatracacao", "eta", "etb"}
 CAMPOS_NUM = {"loa", "dwt", "prancha", "calado_chegada", "calado_saida"}
@@ -201,7 +203,12 @@ def _converter_linha(bruta):
             partes = [p.strip() for p in re.split(r"\s+-\s+", txt or "") if p.strip()]
             reg["janela_inicio"] = data_br(partes[0]) if partes else None
             reg["janela_fim"] = data_br(partes[1]) if len(partes) > 1 else None
-        elif campo in ("programacao", "berco"):
+        elif campo == "programacao":
+            # Pode vir com sufixo, ex.: "80569 - REP" (reprogramação, caso de reatracação)
+            m = re.match(r"\s*(\d+)\s*(?:-\s*(.+))?$", txt or "")
+            reg["programacao"] = int(m.group(1)) if m else None
+            reg["marca_programacao"] = (m.group(2).strip().upper() if m and m.group(2) else None)
+        elif campo == "berco":
             reg[campo] = _int(txt)
         else:
             reg[campo] = txt or None
@@ -229,12 +236,17 @@ def interpretar(html):
         categoria, reatracacao = secao
         cabecalho = [COLUNAS.get(_chave(h), _chave(h).replace(" ", "_")) for h in grade[1]]
 
-        linhas = []
+        linhas, descartadas = [], 0
         for valores in grade[2:]:
             bruta = {c: v for c, v in zip(cabecalho, valores) if c}
             reg = _converter_linha(bruta)
             if reg.get("programacao"):
                 linhas.append(reg)
+            elif any(v for v in bruta.values()):
+                descartadas += 1
+        if descartadas:
+            log.warning("Seção %s: %d linha(s) sem número de programação foram ignoradas",
+                        categoria, descartadas)
         navios.extend(_agrupar(linhas, categoria, reatracacao))
     return emissao, navios
 
