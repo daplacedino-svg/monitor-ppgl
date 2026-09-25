@@ -1,36 +1,36 @@
 {
- "gerado_em": "2026-09-25T19:04:28-03:00",
+ "gerado_em": "2026-09-25T20:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 166,
-  "quando": "2026-09-25T19:04:27-03:00",
+  "id": 167,
+  "quando": "2026-09-25T20:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-09-25T19:05:00-03:00",
-  "navios_portal": 255,
+  "emissao_portal": "2026-09-25T20:05:00-03:00",
+  "navios_portal": 254,
   "navios_monitorados": 16,
   "erro": null
  },
- "ultima_coleta_ok": "2026-09-25T19:04:27-03:00",
- "emissao_portal": "2026-09-25T19:05:00-03:00",
+ "ultima_coleta_ok": "2026-09-25T20:04:27-03:00",
+ "emissao_portal": "2026-09-25T20:05:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-09-25T19:00:00-03:00",
+  "atualizacao": "2026-09-25T20:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "duv": "0440262026",
-   "berco": 141,
-   "programacao": 80678,
-   "calado_chegada": 8.5,
-   "embarcacao": "AEGEAN C",
-   "loa": 182.9,
-   "marca_programacao": null,
    "dwt": 50158.6,
    "imo": "1019773",
+   "loa": 182.9,
+   "calado_chegada": 8.5,
+   "duv": "0440262026",
+   "embarcacao": "AEGEAN C",
    "calado_saida": 7.5,
+   "programacao": 80678,
+   "berco": 141,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -89,16 +89,16 @@
    "manobras": []
   },
   {
-   "duv": "0434262026",
-   "berco": 141,
-   "programacao": 80703,
-   "calado_chegada": 11.6,
-   "embarcacao": "STAMATIA",
-   "loa": 183.06,
-   "marca_programacao": null,
    "dwt": 49999.0,
    "imo": "9864332",
+   "loa": 183.06,
+   "calado_chegada": 11.6,
+   "duv": "0434262026",
+   "embarcacao": "STAMATIA",
    "calado_saida": 8.0,
+   "programacao": 80703,
+   "berco": 141,
+   "marca_programacao": null,
    "categoria": "ao_largo",
    "reatracacao": false,
    "cargas": [
@@ -147,15 +147,15 @@
    "manobras": []
   },
   {
-   "duv": "0449712026",
-   "berco": 141,
-   "programacao": 80706,
-   "embarcacao": "SPATHI",
-   "saldo_total": 20437.42,
-   "loa": 183.0,
-   "marca_programacao": null,
    "dwt": 51228.0,
    "imo": "9321940",
+   "loa": 183.0,
+   "duv": "0449712026",
+   "embarcacao": "SPATHI",
+   "programacao": 80706,
+   "saldo_total": 17893.7,
+   "berco": 141,
+   "marca_programacao": null,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -173,8 +173,8 @@
      "tons_dia": 10111.0,
      "unidade": "t",
      "previsto": 32424.0,
-     "realizado": 16269.0,
-     "saldo_operador": 16155.42
+     "realizado": 18812.0,
+     "saldo_operador": 13611.7
     },
     {
      "bordo": "BB",
@@ -185,7 +185,7 @@
      "atracacao": "2026-09-23T13:55:00-03:00",
      "chegada": "2026-09-23T04:48:00-03:00",
      "janela_inicio": "2026-09-23T13:55:00-03:00",
-     "janela_fim": "2026-09-27T23:43:00-03:00",
+     "janela_fim": "2026-09-28T11:43:00-03:00",
      "prancha": 1749.945,
      "tons_dia": 0.0,
      "unidade": "t",
@@ -200,7 +200,7 @@
    "etb": null,
    "janela_inicio": "2026-09-23T13:55:00-03:00",
    "desatracacao": null,
-   "janela_fim": "2026-09-27T23:43:00-03:00",
+   "janela_fim": "2026-09-28T11:43:00-03:00",
    "mercadoria": "OLEOS BRUTOS DE PETROLEO",
    "operadores": [
     "TERIN",
@@ -210,7 +210,7 @@
    "sentido": "Imp",
    "unidade": "t",
    "previsto": 36706.0,
-   "realizado": 16268.58,
+   "realizado": 18812.3,
    "marcos": {
     "eta_inicial": "2026-09-23T03:00:00-03:00",
     "eta": "2026-09-23T05:00:00-03:00",
@@ -224,7 +224,7 @@
     "chegada": "2026-09-23T04:48:00-03:00",
     "atracacao": "2026-09-23T13:55:00-03:00",
     "ultima_atracacao": "2026-09-23T13:55:00-03:00",
-    "realizado": 16268.58
+    "realizado": 18812.3
    },
    "primeira_vez": "2026-09-18T19:20:04-03:00",
    "manobras": [
@@ -242,16 +242,16 @@
    ]
   },
   {
-   "duv": "0455692026",
-   "berco": 141,
-   "programacao": 80744,
-   "calado_chegada": 10.0,
-   "embarcacao": "BOMAR OSPREY",
-   "loa": 170.1,
-   "marca_programacao": null,
    "dwt": 25432.0,
    "imo": "9396024",
+   "loa": 170.1,
+   "calado_chegada": 10.0,
+   "duv": "0455692026",
+   "embarcacao": "BOMAR OSPREY",
    "calado_saida": 7.7,
+   "programacao": 80744,
+   "berco": 141,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -297,16 +297,16 @@
    "manobras": []
   },
   {
-   "duv": null,
-   "berco": 141,
-   "programacao": 80776,
-   "calado_chegada": 10.0,
-   "embarcacao": "PACIFIC ZIRCON",
-   "loa": 182.5,
-   "marca_programacao": null,
    "dwt": 49995.0,
    "imo": "9539573",
+   "loa": 182.5,
+   "calado_chegada": 10.0,
+   "duv": null,
+   "embarcacao": "PACIFIC ZIRCON",
    "calado_saida": 8.0,
+   "programacao": 80776,
+   "berco": 141,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -352,16 +352,16 @@
    "manobras": []
   },
   {
-   "duv": "0455002026",
-   "berco": 141,
-   "programacao": 80781,
-   "calado_chegada": 9.5,
-   "embarcacao": "MAERSK MALAGA",
-   "loa": 183.31,
-   "marca_programacao": null,
    "dwt": 51544.0,
    "imo": "9447768",
+   "loa": 183.31,
+   "calado_chegada": 9.5,
+   "duv": "0455002026",
+   "embarcacao": "MAERSK MALAGA",
    "calado_saida": 11.0,
+   "programacao": 80781,
+   "berco": 141,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -407,16 +407,16 @@
    "manobras": []
   },
   {
-   "duv": "0456012026",
-   "berco": 141,
-   "programacao": 80794,
-   "calado_chegada": 10.0,
-   "embarcacao": "BOW TRIUMPH",
-   "loa": 182.66,
-   "marca_programacao": null,
    "dwt": 49622.0,
    "imo": "9669902",
+   "loa": 182.66,
+   "calado_chegada": 10.0,
+   "duv": "0456012026",
+   "embarcacao": "BOW TRIUMPH",
    "calado_saida": 9.0,
+   "programacao": 80794,
+   "berco": 141,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -462,16 +462,16 @@
    "manobras": []
   },
   {
-   "duv": "0456012026",
-   "berco": 141,
-   "programacao": 80795,
-   "calado_chegada": 10.0,
-   "embarcacao": "BOW TRIUMPH",
-   "loa": 182.66,
-   "marca_programacao": null,
    "dwt": 49622.0,
    "imo": "9669902",
+   "loa": 182.66,
+   "calado_chegada": 10.0,
+   "duv": "0456012026",
+   "embarcacao": "BOW TRIUMPH",
    "calado_saida": 9.0,
+   "programacao": 80795,
+   "berco": 141,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -517,16 +517,16 @@
    "manobras": []
   },
   {
-   "duv": null,
-   "berco": 141,
-   "programacao": 80800,
-   "calado_chegada": 10.0,
-   "embarcacao": "ELANDRA MAPLE",
-   "loa": 183.06,
-   "marca_programacao": null,
    "dwt": 49999.0,
    "imo": "9831191",
+   "loa": 183.06,
+   "calado_chegada": 10.0,
+   "duv": null,
+   "embarcacao": "ELANDRA MAPLE",
    "calado_saida": 9.0,
+   "programacao": 80800,
+   "berco": 141,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -572,16 +572,16 @@
    "manobras": []
   },
   {
-   "duv": "0459832026",
-   "berco": 141,
-   "programacao": 80807,
-   "calado_chegada": 10.3,
-   "embarcacao": "XT SEAL",
-   "loa": 158.98,
-   "marca_programacao": null,
    "dwt": 26484.0,
    "imo": "1042380",
+   "loa": 158.98,
+   "calado_chegada": 10.3,
+   "duv": "0459832026",
+   "embarcacao": "XT SEAL",
    "calado_saida": 8.5,
+   "programacao": 80807,
+   "berco": 141,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -627,41 +627,43 @@
    "manobras": []
   },
   {
-   "duv": "0420382026",
-   "berco": 142,
-   "programacao": 80569,
-   "calado_chegada": 8.0,
-   "embarcacao": "GAZ SYNERGY",
-   "loa": 155.0,
-   "marca_programacao": "REP",
    "dwt": 17740.0,
    "imo": "9458157",
-   "calado_saida": 7.0,
-   "categoria": "programado",
+   "loa": 155.0,
+   "duv": "0420382026",
+   "embarcacao": "GAZ SYNERGY",
+   "programacao": 80569,
+   "saldo_total": 6281.22,
+   "berco": 142,
+   "marca_programacao": "REA",
+   "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
     {
-     "bordo": "QB",
+     "bordo": "BE",
      "sentido": "Imp",
      "agencia": "LACHMANN",
      "operador": "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
      "mercadoria": "GLP",
+     "atracacao": "2026-09-25T18:40:00-03:00",
      "chegada": "2026-09-13T15:30:00-03:00",
-     "etb": null,
-     "janela_inicio": null,
-     "janela_fim": null,
+     "janela_inicio": "2026-09-25T18:40:00-03:00",
+     "janela_fim": "2026-09-28T14:35:00-03:00",
      "prancha": 2800.0,
+     "tons_dia": 0.0,
+     "unidade": "t",
      "previsto": 10000.0,
-     "unidade": "t"
+     "realizado": 3719.0,
+     "saldo_operador": 6281.22
     }
    ],
    "chegada": "2026-09-13T15:30:00-03:00",
-   "atracacao": null,
+   "atracacao": "2026-09-25T18:40:00-03:00",
    "eta": null,
    "etb": null,
-   "janela_inicio": null,
+   "janela_inicio": "2026-09-25T18:40:00-03:00",
    "desatracacao": null,
-   "janela_fim": null,
+   "janela_fim": "2026-09-28T14:35:00-03:00",
    "mercadoria": "GLP",
    "operadores": [
     "PETROBRAS TRANSPORTE S.A - TRANSPETRO"
@@ -670,13 +672,13 @@
    "sentido": "Imp",
    "unidade": "t",
    "previsto": 10000.0,
-   "realizado": null,
+   "realizado": 3718.78,
    "marcos": {
     "chegada": "2026-09-13T15:30:00-03:00",
     "atracacao": "2026-09-18T08:05:00-03:00",
-    "ultima_atracacao": "2026-09-18T08:05:00-03:00",
+    "ultima_atracacao": "2026-09-25T18:40:00-03:00",
     "previsto": 10000.0,
-    "realizado": 3719.0,
+    "realizado": 3718.78,
     "unidade": "t",
     "visto_como": {
      "atracado": "2026-09-18T19:20:04-03:00",
@@ -702,16 +704,16 @@
    ]
   },
   {
-   "duv": "0442952026",
-   "berco": 142,
-   "programacao": 80670,
-   "calado_chegada": 10.0,
-   "embarcacao": "ROMULO ALMEIDA",
-   "loa": 182.85,
-   "marca_programacao": null,
    "dwt": 48449.0,
    "imo": "9489912",
+   "loa": 182.85,
+   "calado_chegada": 10.0,
+   "duv": "0442952026",
+   "embarcacao": "ROMULO ALMEIDA",
    "calado_saida": 9.0,
+   "programacao": 80670,
+   "berco": 142,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -757,16 +759,16 @@
    "manobras": []
   },
   {
-   "duv": "0452512026",
-   "berco": 142,
-   "programacao": 80782,
-   "calado_chegada": 7.0,
-   "embarcacao": "KAMILLA KOSAN",
-   "loa": 126.7,
-   "marca_programacao": null,
    "dwt": 9320.0,
    "imo": "9368194",
+   "loa": 126.7,
+   "calado_chegada": 7.0,
+   "duv": "0452512026",
+   "embarcacao": "KAMILLA KOSAN",
    "calado_saida": 6.0,
+   "programacao": 80782,
+   "berco": 142,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -812,16 +814,16 @@
    "manobras": []
   },
   {
-   "duv": null,
-   "berco": 142,
-   "programacao": 80806,
-   "calado_chegada": 11.0,
-   "embarcacao": "HORIZON THEANO",
-   "loa": 183.0,
-   "marca_programacao": null,
    "dwt": 50268.41,
    "imo": "9407392",
+   "loa": 183.0,
+   "calado_chegada": 11.0,
+   "duv": null,
+   "embarcacao": "HORIZON THEANO",
    "calado_saida": 9.0,
+   "programacao": 80806,
+   "berco": 142,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -888,7 +890,7 @@
    "desatracacao": "2026-09-25T15:20:00-03:00",
    "espera_h": 52.6,
    "estadia_berco_h": 70.5,
-   "ultima_vez": "2026-09-25T19:04:27-03:00"
+   "ultima_vez": "2026-09-25T20:04:27-03:00"
   },
   {
    "programacao": 80671,
@@ -909,7 +911,7 @@
    "desatracacao": "2026-09-23T10:15:00-03:00",
    "espera_h": 25.3,
    "estadia_berco_h": 20.2,
-   "ultima_vez": "2026-09-25T19:04:27-03:00"
+   "ultima_vez": "2026-09-25T20:04:27-03:00"
   },
   {
    "programacao": 80734,
@@ -1081,6 +1083,16 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-09-25T20:04:27-03:00",
+   "programacao": 80569,
+   "embarcacao": "GAZ SYNERGY",
+   "berco": 142,
+   "tipo": "status",
+   "de": "programado",
+   "para": "atracado",
+   "descricao": "GAZ SYNERGY atracou"
+  },
   {
    "quando": "2026-09-25T18:04:27-03:00",
    "programacao": 80569,
