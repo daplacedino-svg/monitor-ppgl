@@ -1,36 +1,36 @@
 {
- "gerado_em": "2026-09-30T14:04:28-03:00",
+ "gerado_em": "2026-09-30T15:04:29-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 258,
-  "quando": "2026-09-30T14:04:27-03:00",
+  "id": 259,
+  "quando": "2026-09-30T15:04:28-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-09-30T14:05:00-03:00",
-  "navios_portal": 233,
+  "emissao_portal": "2026-09-30T15:05:00-03:00",
+  "navios_portal": 234,
   "navios_monitorados": 12,
   "erro": null
  },
- "ultima_coleta_ok": "2026-09-30T14:04:27-03:00",
- "emissao_portal": "2026-09-30T14:05:00-03:00",
+ "ultima_coleta_ok": "2026-09-30T15:04:28-03:00",
+ "emissao_portal": "2026-09-30T15:05:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-09-30T14:00:00-03:00",
+  "atualizacao": "2026-09-30T15:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "marca_programacao": null,
-   "embarcacao": "BOMAR OSPREY",
-   "imo": "9396024",
-   "berco": 141,
    "programacao": 80744,
-   "calado_chegada": 10.0,
+   "embarcacao": "BOMAR OSPREY",
    "calado_saida": 7.7,
+   "berco": 141,
+   "duv": "0455692026",
+   "marca_programacao": null,
+   "imo": "9396024",
+   "calado_chegada": 10.0,
    "dwt": 25432.0,
    "loa": 170.1,
-   "duv": "0455692026",
    "categoria": "ao_largo",
    "reatracacao": false,
    "cargas": [
@@ -93,15 +93,15 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "embarcacao": "MAERSK MALAGA",
-   "imo": "9447768",
-   "berco": 141,
+   "saldo_total": 10688.0,
    "programacao": 80781,
+   "embarcacao": "MAERSK MALAGA",
+   "berco": 141,
+   "duv": "0455002026",
+   "marca_programacao": null,
+   "imo": "9447768",
    "dwt": 51544.0,
    "loa": 183.31,
-   "duv": "0455002026",
-   "saldo_total": 10688.0,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -157,29 +157,29 @@
    "primeira_vez": "2026-09-22T10:04:27-03:00",
    "manobras": [
     {
-     "quando": "2026-09-30T23:30:00-03:00",
+     "quando": "2026-10-01T01:30:00-03:00",
      "tipo": "desatracacao",
      "rotulo": "Desatracação",
      "codigo": "DS",
      "berco": 141,
      "bordo": "BB",
      "local": "P2EXT BB",
-     "situacao": "PREVISTA",
+     "situacao": "A CONFIRMAR",
      "casou_por": "imo"
     }
    ]
   },
   {
-   "marca_programacao": null,
-   "embarcacao": "BOW TRIUMPH",
-   "imo": "9669902",
-   "berco": 141,
    "programacao": 80794,
-   "calado_chegada": 10.0,
+   "embarcacao": "BOW TRIUMPH",
    "calado_saida": 9.0,
+   "berco": 141,
+   "duv": "0456012026",
+   "marca_programacao": null,
+   "imo": "9669902",
+   "calado_chegada": 10.0,
    "dwt": 49622.0,
    "loa": 182.66,
-   "duv": "0456012026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -225,16 +225,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "embarcacao": "ELANDRA MAPLE",
-   "imo": "9831191",
-   "berco": 141,
    "programacao": 80800,
-   "calado_chegada": 10.0,
+   "embarcacao": "ELANDRA MAPLE",
    "calado_saida": 9.0,
+   "berco": 141,
+   "duv": "0463842026",
+   "marca_programacao": null,
+   "imo": "9831191",
+   "calado_chegada": 10.0,
    "dwt": 49999.0,
    "loa": 183.06,
-   "duv": "0463842026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -280,16 +280,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "embarcacao": "XT SEAL",
-   "imo": "1042380",
-   "berco": 141,
    "programacao": 80807,
-   "calado_chegada": 10.3,
+   "embarcacao": "XT SEAL",
    "calado_saida": 8.5,
+   "berco": 141,
+   "duv": "0459832026",
+   "marca_programacao": null,
+   "imo": "1042380",
+   "calado_chegada": 10.3,
    "dwt": 26484.0,
    "loa": 158.98,
-   "duv": "0459832026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -335,16 +335,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "embarcacao": "BALTIC CHAMPION",
-   "imo": "1063918",
-   "berco": 141,
    "programacao": 80827,
-   "calado_chegada": 8.0,
+   "embarcacao": "BALTIC CHAMPION",
    "calado_saida": 9.0,
+   "berco": 141,
+   "duv": null,
+   "marca_programacao": null,
+   "imo": "1063918",
+   "calado_chegada": 8.0,
    "dwt": 49990.0,
    "loa": 178.8,
-   "duv": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -390,16 +390,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "embarcacao": "AEGEAN C",
-   "imo": "1019773",
-   "berco": 141,
    "programacao": 80830,
-   "calado_chegada": 10.0,
+   "embarcacao": "AEGEAN C",
    "calado_saida": 9.0,
+   "berco": 141,
+   "duv": "0467762026",
+   "marca_programacao": null,
+   "imo": "1019773",
+   "calado_chegada": 10.0,
    "dwt": 50158.6,
    "loa": 182.9,
-   "duv": "0467762026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -445,15 +445,15 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "embarcacao": "STAMATIA",
-   "imo": "9864332",
-   "berco": 142,
+   "saldo_total": 3992.89,
    "programacao": 80703,
+   "embarcacao": "STAMATIA",
+   "berco": 142,
+   "duv": "0434262026",
+   "marca_programacao": null,
+   "imo": "9864332",
    "dwt": 49999.0,
    "loa": 183.06,
-   "duv": "0434262026",
-   "saldo_total": 3992.89,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -523,16 +523,16 @@
    ]
   },
   {
-   "marca_programacao": null,
-   "embarcacao": "KAMILLA KOSAN",
-   "imo": "9368194",
-   "berco": 142,
    "programacao": 80782,
-   "calado_chegada": 7.0,
+   "embarcacao": "KAMILLA KOSAN",
    "calado_saida": 6.0,
+   "berco": 142,
+   "duv": "0452512026",
+   "marca_programacao": null,
+   "imo": "9368194",
+   "calado_chegada": 7.0,
    "dwt": 11738.0,
    "loa": 126.7,
-   "duv": "0452512026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -578,16 +578,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "embarcacao": "HORIZON THEANO",
-   "imo": "9407392",
-   "berco": 142,
    "programacao": 80806,
-   "calado_chegada": 11.0,
+   "embarcacao": "HORIZON THEANO",
    "calado_saida": 9.0,
+   "berco": 142,
+   "duv": null,
+   "marca_programacao": null,
+   "imo": "9407392",
+   "calado_chegada": 11.0,
    "dwt": 50268.41,
    "loa": 183.0,
-   "duv": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -633,16 +633,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "embarcacao": "DART",
-   "imo": "9697222",
-   "berco": 142,
    "programacao": 80820,
-   "calado_chegada": 8.0,
+   "embarcacao": "DART",
    "calado_saida": 9.0,
+   "berco": 142,
+   "duv": null,
+   "marca_programacao": null,
+   "imo": "9697222",
+   "calado_chegada": 8.0,
    "dwt": 44999.0,
    "loa": 183.2,
-   "duv": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -709,7 +709,7 @@
    "desatracacao": "2026-09-29T00:10:00-03:00",
    "espera_h": 35.2,
    "estadia_berco_h": 32.9,
-   "ultima_vez": "2026-09-30T14:04:27-03:00"
+   "ultima_vez": "2026-09-30T15:04:28-03:00"
   },
   {
    "programacao": 80706,
@@ -1030,6 +1030,26 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-09-30T15:04:28-03:00",
+   "programacao": 80781,
+   "embarcacao": "MAERSK MALAGA",
+   "berco": 141,
+   "tipo": "manobra",
+   "de": "PREVISTA",
+   "para": "A CONFIRMAR",
+   "descricao": "Praticagem: desatracação no berço 141 de 01/10 às 01:30 agora está a confirmar"
+  },
+  {
+   "quando": "2026-09-30T15:04:28-03:00",
+   "programacao": 80781,
+   "embarcacao": "MAERSK MALAGA",
+   "berco": 141,
+   "tipo": "manobra",
+   "de": "2026-09-30T23:30:00-03:00",
+   "para": "2026-10-01T01:30:00-03:00",
+   "descricao": "Praticagem: desatracação no berço 141 remarcada de 30/09 às 23:30 para 01/10 às 01:30"
+  },
   {
    "quando": "2026-09-30T10:04:28-03:00",
    "programacao": 80781,
