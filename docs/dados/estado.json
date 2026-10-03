@@ -1,55 +1,38 @@
 {
- "gerado_em": "2026-10-03T13:04:28-03:00",
+ "gerado_em": "2026-10-03T14:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 329,
-  "quando": "2026-10-03T13:04:28-03:00",
+  "id": 330,
+  "quando": "2026-10-03T14:04:28-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-10-03T13:06:00-03:00",
-  "navios_portal": 233,
+  "emissao_portal": "2026-10-03T14:06:00-03:00",
+  "navios_portal": 232,
   "navios_monitorados": 11,
   "erro": null
  },
- "ultima_coleta_ok": "2026-10-03T13:04:28-03:00",
- "emissao_portal": "2026-10-03T13:06:00-03:00",
+ "ultima_coleta_ok": "2026-10-03T14:04:28-03:00",
+ "emissao_portal": "2026-10-03T14:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-10-03T13:00:00-03:00",
+  "atualizacao": "2026-10-03T14:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "imo": "9396024",
-   "programacao": 80744,
-   "berco": 141,
-   "embarcacao": "BOMAR OSPREY",
-   "loa": 170.1,
    "duv": "0455692026",
+   "berco": 141,
+   "loa": 170.1,
+   "programacao": 80744,
+   "marca_programacao": null,
+   "imo": "9396024",
    "saldo_total": 10986.52,
    "dwt": 25432.0,
-   "marca_programacao": null,
+   "embarcacao": "BOMAR OSPREY",
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
-    {
-     "bordo": "BB",
-     "sentido": "Imp",
-     "agencia": "WILSON SONS",
-     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
-     "mercadoria": "OLEO DIESEL",
-     "atracacao": "2026-10-01T22:40:00-03:00",
-     "chegada": "2026-09-28T14:30:00-03:00",
-     "janela_inicio": "2026-10-01T22:40:00-03:00",
-     "janela_fim": "2026-10-04T01:44:00-03:00",
-     "prancha": 5477.475,
-     "tons_dia": 8633.0,
-     "unidade": "t",
-     "previsto": 8633.0,
-     "realizado": 8633.0,
-     "saldo_operador": 0.22
-    },
     {
      "bordo": "BB",
      "sentido": "Imp",
@@ -66,6 +49,23 @@
      "previsto": 15008.0,
      "realizado": 4022.0,
      "saldo_operador": 10986.3
+    },
+    {
+     "bordo": "BB",
+     "sentido": "Imp",
+     "agencia": "WILSON SONS",
+     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
+     "mercadoria": "OLEO DIESEL",
+     "atracacao": "2026-10-01T22:40:00-03:00",
+     "chegada": "2026-09-28T14:30:00-03:00",
+     "janela_inicio": "2026-10-01T22:40:00-03:00",
+     "janela_fim": "2026-10-04T01:44:00-03:00",
+     "prancha": 5477.475,
+     "tons_dia": 8633.0,
+     "unidade": "t",
+     "previsto": 8633.0,
+     "realizado": 8633.0,
+     "saldo_operador": 0.22
     }
    ],
    "chegada": "2026-09-28T14:30:00-03:00",
@@ -77,8 +77,8 @@
    "janela_fim": "2026-10-04T13:20:00-03:00",
    "mercadoria": "OLEO DIESEL",
    "operadores": [
-    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
-    "CATTALINI"
+    "CATTALINI",
+    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA"
    ],
    "agencia": "WILSON SONS",
    "sentido": "Imp",
@@ -104,7 +104,7 @@
    "primeira_vez": "2026-09-18T19:20:04-03:00",
    "manobras": [
     {
-     "quando": "2026-10-04T03:00:00-03:00",
+     "quando": "2026-10-04T07:00:00-03:00",
      "tipo": "desatracacao",
      "rotulo": "Desatracação",
      "codigo": "DS",
@@ -117,16 +117,16 @@
    ]
   },
   {
-   "imo": "1042380",
-   "programacao": 80807,
-   "berco": 141,
-   "calado_saida": 8.5,
-   "embarcacao": "XT SEAL",
-   "loa": 158.98,
    "duv": "0459832026",
-   "dwt": 26484.0,
    "calado_chegada": 10.3,
+   "berco": 141,
+   "loa": 158.98,
+   "programacao": 80807,
+   "calado_saida": 8.5,
    "marca_programacao": null,
+   "imo": "1042380",
+   "dwt": 26484.0,
+   "embarcacao": "XT SEAL",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -172,16 +172,16 @@
    "manobras": []
   },
   {
-   "imo": "1063918",
-   "programacao": 80827,
-   "berco": 141,
-   "calado_saida": 9.0,
-   "embarcacao": "BALTIC CHAMPION",
-   "loa": 178.8,
    "duv": null,
-   "dwt": 49990.0,
    "calado_chegada": 8.0,
+   "berco": 141,
+   "loa": 178.8,
+   "programacao": 80827,
+   "calado_saida": 9.0,
    "marca_programacao": null,
+   "imo": "1063918",
+   "dwt": 49990.0,
+   "embarcacao": "BALTIC CHAMPION",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -227,16 +227,16 @@
    "manobras": []
   },
   {
-   "imo": "1019773",
-   "programacao": 80830,
-   "berco": 141,
-   "calado_saida": 9.0,
-   "embarcacao": "AEGEAN C",
-   "loa": 182.9,
    "duv": "0467762026",
-   "dwt": 50158.6,
    "calado_chegada": 10.0,
+   "berco": 141,
+   "loa": 182.9,
+   "programacao": 80830,
+   "calado_saida": 9.0,
    "marca_programacao": null,
+   "imo": "1019773",
+   "dwt": 50158.6,
+   "embarcacao": "AEGEAN C",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -282,16 +282,16 @@
    "manobras": []
   },
   {
-   "imo": "9458157",
-   "programacao": 80844,
-   "berco": 141,
-   "calado_saida": 6.5,
-   "embarcacao": "GAZ SYNERGY",
-   "loa": 155.0,
    "duv": "0470792026",
-   "dwt": 17739.0,
    "calado_chegada": 8.0,
+   "berco": 141,
+   "loa": 155.0,
+   "programacao": 80844,
+   "calado_saida": 6.5,
    "marca_programacao": null,
+   "imo": "9458157",
+   "dwt": 17739.0,
+   "embarcacao": "GAZ SYNERGY",
    "categoria": "ao_largo",
    "reatracacao": false,
    "cargas": [
@@ -340,16 +340,16 @@
    "manobras": []
   },
   {
-   "imo": "9368194",
-   "programacao": 80782,
-   "berco": 142,
-   "calado_saida": 6.0,
-   "embarcacao": "KAMILLA KOSAN",
-   "loa": 126.7,
    "duv": "0452512026",
-   "dwt": 11738.0,
    "calado_chegada": 7.0,
+   "berco": 142,
+   "loa": 126.7,
+   "programacao": 80782,
+   "calado_saida": 6.0,
    "marca_programacao": null,
+   "imo": "9368194",
+   "dwt": 11738.0,
+   "embarcacao": "KAMILLA KOSAN",
    "categoria": "ao_largo",
    "reatracacao": false,
    "cargas": [
@@ -398,16 +398,16 @@
    "manobras": []
   },
   {
-   "imo": "9831191",
-   "programacao": 80800,
-   "berco": 142,
-   "calado_saida": 9.0,
-   "embarcacao": "ELANDRA MAPLE",
-   "loa": 183.06,
    "duv": "0463842026",
-   "dwt": 49999.0,
    "calado_chegada": 10.0,
+   "berco": 142,
+   "loa": 183.06,
+   "programacao": 80800,
+   "calado_saida": 9.0,
    "marca_programacao": null,
+   "imo": "9831191",
+   "dwt": 49999.0,
+   "embarcacao": "ELANDRA MAPLE",
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -486,29 +486,29 @@
    "primeira_vez": "2026-09-24T12:04:27-03:00",
    "manobras": [
     {
-     "quando": "2026-10-03T13:30:00-03:00",
+     "quando": "2026-10-03T13:39:00-03:00",
      "tipo": "atracacao",
      "rotulo": "Atracação",
      "codigo": "EA",
      "berco": 142,
      "bordo": "BE",
      "local": "P2INT BE",
-     "situacao": "PRÁTICO NA LANCHA",
+     "situacao": "EM ANDAMENTO",
      "casou_por": "imo"
     }
    ]
   },
   {
-   "imo": "9407392",
-   "programacao": 80806,
-   "berco": 142,
-   "calado_saida": 9.0,
-   "embarcacao": "HORIZON THEANO",
-   "loa": 183.0,
    "duv": null,
-   "dwt": 50268.41,
    "calado_chegada": 11.0,
+   "berco": 142,
+   "loa": 183.0,
+   "programacao": 80806,
+   "calado_saida": 9.0,
    "marca_programacao": null,
+   "imo": "9407392",
+   "dwt": 50268.41,
+   "embarcacao": "HORIZON THEANO",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -554,16 +554,16 @@
    "manobras": []
   },
   {
-   "imo": "9697222",
-   "programacao": 80820,
-   "berco": 142,
-   "calado_saida": 9.0,
-   "embarcacao": "DART",
-   "loa": 183.2,
    "duv": "0466402026",
-   "dwt": 44999.0,
    "calado_chegada": 8.0,
+   "berco": 142,
+   "loa": 183.2,
+   "programacao": 80820,
+   "calado_saida": 9.0,
    "marca_programacao": null,
+   "imo": "9697222",
+   "dwt": 44999.0,
+   "embarcacao": "DART",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -629,7 +629,7 @@
    "desatracacao": "2026-10-01T03:20:00-03:00",
    "espera_h": 178.8,
    "estadia_berco_h": 82.6,
-   "ultima_vez": "2026-10-03T13:04:28-03:00"
+   "ultima_vez": "2026-10-03T14:04:28-03:00"
   },
   {
    "programacao": 80781,
@@ -650,7 +650,7 @@
    "desatracacao": "2026-10-01T04:20:00-03:00",
    "espera_h": 55.0,
    "estadia_berco_h": 33.3,
-   "ultima_vez": "2026-10-03T13:04:28-03:00"
+   "ultima_vez": "2026-10-03T14:04:28-03:00"
   },
   {
    "programacao": 80678,
@@ -1014,6 +1014,36 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-10-03T14:04:28-03:00",
+   "programacao": 80744,
+   "embarcacao": "BOMAR OSPREY",
+   "berco": 141,
+   "tipo": "manobra",
+   "de": "2026-10-04T03:00:00-03:00",
+   "para": "2026-10-04T07:00:00-03:00",
+   "descricao": "Praticagem: desatracação no berço 141 remarcada de 04/10 às 03:00 para 04/10 às 07:00"
+  },
+  {
+   "quando": "2026-10-03T14:04:28-03:00",
+   "programacao": 80800,
+   "embarcacao": "ELANDRA MAPLE",
+   "berco": 142,
+   "tipo": "manobra",
+   "de": "PRÁTICO NA LANCHA",
+   "para": "EM ANDAMENTO",
+   "descricao": "Praticagem: atracação no berço 142 de 03/10 às 13:39 agora está em andamento"
+  },
+  {
+   "quando": "2026-10-03T14:04:28-03:00",
+   "programacao": 80800,
+   "embarcacao": "ELANDRA MAPLE",
+   "berco": 142,
+   "tipo": "manobra",
+   "de": "2026-10-03T13:30:00-03:00",
+   "para": "2026-10-03T13:39:00-03:00",
+   "descricao": "Praticagem: atracação no berço 142 remarcada de 03/10 às 13:30 para 03/10 às 13:39"
+  },
   {
    "quando": "2026-10-03T13:04:28-03:00",
    "programacao": 80800,
