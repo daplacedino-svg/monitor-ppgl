@@ -1,34 +1,34 @@
 {
- "gerado_em": "2026-10-06T11:04:28-03:00",
+ "gerado_em": "2026-10-06T12:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 362,
-  "quando": "2026-10-06T11:04:27-03:00",
+  "id": 363,
+  "quando": "2026-10-06T12:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-10-06T11:06:00-03:00",
+  "emissao_portal": "2026-10-06T12:06:00-03:00",
   "navios_portal": 220,
   "navios_monitorados": 9,
   "erro": null
  },
- "ultima_coleta_ok": "2026-10-06T11:04:27-03:00",
- "emissao_portal": "2026-10-06T11:06:00-03:00",
+ "ultima_coleta_ok": "2026-10-06T12:04:27-03:00",
+ "emissao_portal": "2026-10-06T12:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-10-06T11:00:00-03:00",
+  "atualizacao": "2026-10-06T12:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
    "marca_programacao": null,
-   "duv": "0452512026",
-   "saldo_total": 3750.0,
-   "dwt": 11738.0,
-   "loa": 126.7,
-   "embarcacao": "KAMILLA KOSAN",
    "berco": 141,
+   "loa": 126.7,
+   "saldo_total": 3750.0,
+   "duv": "0452512026",
+   "dwt": 11738.0,
    "programacao": 80782,
+   "embarcacao": "KAMILLA KOSAN",
    "imo": "9368194",
    "categoria": "atracado",
    "reatracacao": false,
@@ -100,14 +100,14 @@
   },
   {
    "marca_programacao": null,
-   "duv": "0459832026",
-   "calado_saida": 8.5,
-   "dwt": 26484.0,
-   "calado_chegada": 10.3,
-   "loa": 158.98,
-   "embarcacao": "XT SEAL",
    "berco": 141,
+   "loa": 158.98,
+   "calado_saida": 8.5,
+   "duv": "0459832026",
+   "calado_chegada": 10.3,
+   "dwt": 26484.0,
    "programacao": 80807,
+   "embarcacao": "XT SEAL",
    "imo": "1042380",
    "categoria": "esperado",
    "reatracacao": false,
@@ -155,14 +155,14 @@
   },
   {
    "marca_programacao": null,
-   "duv": "0473882026",
-   "calado_saida": 9.0,
-   "dwt": 49990.0,
-   "calado_chegada": 8.0,
-   "loa": 182.75,
-   "embarcacao": "BALTIC CHAMPION",
    "berco": 141,
+   "loa": 182.75,
+   "calado_saida": 9.0,
+   "duv": "0473882026",
+   "calado_chegada": 8.0,
+   "dwt": 49990.0,
    "programacao": 80827,
+   "embarcacao": "BALTIC CHAMPION",
    "imo": "1063918",
    "categoria": "esperado",
    "reatracacao": false,
@@ -210,14 +210,14 @@
   },
   {
    "marca_programacao": null,
-   "duv": "0467762026",
-   "calado_saida": 9.0,
-   "dwt": 50158.6,
-   "calado_chegada": 10.0,
-   "loa": 182.9,
-   "embarcacao": "AEGEAN C",
    "berco": 141,
+   "loa": 182.9,
+   "calado_saida": 9.0,
+   "duv": "0467762026",
+   "calado_chegada": 10.0,
+   "dwt": 50158.6,
    "programacao": 80830,
+   "embarcacao": "AEGEAN C",
    "imo": "1019773",
    "categoria": "ao_largo",
    "reatracacao": false,
@@ -245,7 +245,7 @@
      "janela_inicio": null,
      "janela_fim": null,
      "prancha": null,
-     "previsto": 4000.0,
+     "previsto": 4352.0,
      "unidade": "t"
     },
     {
@@ -258,7 +258,7 @@
      "janela_inicio": null,
      "janela_fim": null,
      "prancha": null,
-     "previsto": 2841.0,
+     "previsto": 2489.0,
      "unidade": "t"
     }
    ],
@@ -294,7 +294,7 @@
    "primeira_vez": "2026-09-29T15:04:27-03:00",
    "manobras": [
     {
-     "quando": "2026-10-07T15:00:00-03:00",
+     "quando": "2026-10-07T05:30:00-03:00",
      "tipo": "atracacao",
      "rotulo": "Atracação",
      "codigo": "EA",
@@ -308,14 +308,14 @@
   },
   {
    "marca_programacao": null,
-   "duv": "0470792026",
-   "calado_saida": 6.5,
-   "dwt": 17739.0,
-   "calado_chegada": 8.0,
-   "loa": 155.0,
-   "embarcacao": "GAZ SYNERGY",
    "berco": 141,
+   "loa": 155.0,
+   "calado_saida": 6.5,
+   "duv": "0470792026",
+   "calado_chegada": 8.0,
+   "dwt": 17739.0,
    "programacao": 80844,
+   "embarcacao": "GAZ SYNERGY",
    "imo": "9458157",
    "categoria": "ao_largo",
    "reatracacao": false,
@@ -366,13 +366,13 @@
   },
   {
    "marca_programacao": null,
-   "duv": "0463842026",
-   "saldo_total": 14681.73,
-   "dwt": 49999.0,
-   "loa": 183.06,
-   "embarcacao": "ELANDRA MAPLE",
    "berco": 142,
+   "loa": 183.06,
+   "saldo_total": 14681.73,
+   "duv": "0463842026",
+   "dwt": 49999.0,
    "programacao": 80800,
+   "embarcacao": "ELANDRA MAPLE",
    "imo": "9831191",
    "categoria": "atracado",
    "reatracacao": false,
@@ -479,14 +479,14 @@
   },
   {
    "marca_programacao": null,
-   "duv": null,
-   "calado_saida": 9.0,
-   "dwt": 50268.41,
-   "calado_chegada": 11.0,
-   "loa": 183.0,
-   "embarcacao": "HORIZON THEANO",
    "berco": 142,
+   "loa": 183.0,
+   "calado_saida": 9.0,
+   "duv": null,
+   "calado_chegada": 11.0,
+   "dwt": 50268.41,
    "programacao": 80806,
+   "embarcacao": "HORIZON THEANO",
    "imo": "9407392",
    "categoria": "esperado",
    "reatracacao": false,
@@ -534,14 +534,14 @@
   },
   {
    "marca_programacao": null,
-   "duv": "0466402026",
-   "calado_saida": 9.0,
-   "dwt": 44999.0,
-   "calado_chegada": 8.0,
-   "loa": 183.2,
-   "embarcacao": "DART",
    "berco": 142,
+   "loa": 183.2,
+   "calado_saida": 9.0,
+   "duv": "0466402026",
+   "calado_chegada": 8.0,
+   "dwt": 44999.0,
    "programacao": 80820,
+   "embarcacao": "DART",
    "imo": "9697222",
    "categoria": "esperado",
    "reatracacao": false,
@@ -585,7 +585,19 @@
     }
    },
    "primeira_vez": "2026-09-28T10:04:29-03:00",
-   "manobras": []
+   "manobras": [
+    {
+     "quando": "2026-10-06T17:30:00-03:00",
+     "tipo": "atracacao",
+     "rotulo": "Atracação",
+     "codigo": "EA",
+     "berco": 142,
+     "bordo": null,
+     "local": "P2INT",
+     "situacao": "A CONFIRMAR",
+     "casou_por": "imo"
+    }
+   ]
   }
  ],
  "historico": [
@@ -609,7 +621,7 @@
    "desatracacao": "2026-10-04T10:55:00-03:00",
    "espera_h": 80.2,
    "estadia_berco_h": 60.2,
-   "ultima_vez": "2026-10-06T11:04:27-03:00"
+   "ultima_vez": "2026-10-06T12:04:27-03:00"
   },
   {
    "programacao": 80703,
@@ -1015,6 +1027,26 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-10-06T12:04:27-03:00",
+   "programacao": 80830,
+   "embarcacao": "AEGEAN C",
+   "berco": 141,
+   "tipo": "manobra",
+   "de": "2026-10-07T15:00:00-03:00",
+   "para": "2026-10-07T05:30:00-03:00",
+   "descricao": "Praticagem: atracação no berço 141 remarcada de 07/10 às 15:00 para 07/10 às 05:30"
+  },
+  {
+   "quando": "2026-10-06T12:04:27-03:00",
+   "programacao": 80820,
+   "embarcacao": "DART",
+   "berco": 142,
+   "tipo": "manobra",
+   "de": null,
+   "para": "A CONFIRMAR",
+   "descricao": "Praticagem: atracação no berço 142 prevista para 06/10 às 17:30 (a confirmar)"
+  },
   {
    "quando": "2026-10-06T10:04:27-03:00",
    "programacao": 80782,
@@ -2994,26 +3026,6 @@
    "de": "programado",
    "para": "atracado",
    "descricao": "DAMSGAARD atracou"
-  },
-  {
-   "quando": "2026-09-20T12:04:28-03:00",
-   "programacao": 80653,
-   "embarcacao": "CHARLINE",
-   "berco": 141,
-   "tipo": "status",
-   "de": "atracado",
-   "para": "despachado",
-   "descricao": "CHARLINE desatracou / despachado"
-  },
-  {
-   "quando": "2026-09-20T09:04:27-03:00",
-   "programacao": 80703,
-   "embarcacao": "STAMATIA",
-   "berco": 141,
-   "tipo": "status",
-   "de": "esperado",
-   "para": "ao_largo",
-   "descricao": "STAMATIA chegou e está fundeado ao largo"
   }
  ]
 }
