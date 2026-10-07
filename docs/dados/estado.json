@@ -1,36 +1,36 @@
 {
- "gerado_em": "2026-10-07T06:04:28-03:00",
+ "gerado_em": "2026-10-07T07:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 381,
-  "quando": "2026-10-07T06:04:27-03:00",
+  "id": 382,
+  "quando": "2026-10-07T07:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-10-07T06:05:00-03:00",
-  "navios_portal": 224,
+  "emissao_portal": "2026-10-07T07:05:00-03:00",
+  "navios_portal": 223,
   "navios_monitorados": 10,
   "erro": null
  },
- "ultima_coleta_ok": "2026-10-07T06:04:27-03:00",
- "emissao_portal": "2026-10-07T06:05:00-03:00",
+ "ultima_coleta_ok": "2026-10-07T07:04:27-03:00",
+ "emissao_portal": "2026-10-07T07:05:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-10-07T06:00:00-03:00",
+  "atualizacao": "2026-10-07T07:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "marca_programacao": null,
+   "imo": "1042380",
+   "berco": 141,
+   "dwt": 26484.0,
+   "calado_saida": 8.5,
    "loa": 158.98,
+   "marca_programacao": null,
    "duv": "0459832026",
    "embarcacao": "XT SEAL",
-   "berco": 141,
-   "imo": "1042380",
-   "programacao": 80807,
-   "dwt": 26484.0,
    "calado_chegada": 10.3,
-   "calado_saida": 8.5,
+   "programacao": 80807,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -76,16 +76,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
+   "imo": "1063918",
+   "berco": 141,
+   "dwt": 49990.0,
+   "calado_saida": 9.0,
    "loa": 182.75,
+   "marca_programacao": null,
    "duv": "0473882026",
    "embarcacao": "BALTIC CHAMPION",
-   "berco": 141,
-   "imo": "1063918",
-   "programacao": 80827,
-   "dwt": 49990.0,
    "calado_chegada": 8.0,
-   "calado_saida": 9.0,
+   "programacao": 80827,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -131,16 +131,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
+   "imo": "1019773",
+   "berco": 141,
+   "dwt": 50158.6,
+   "calado_saida": 9.0,
    "loa": 182.9,
+   "marca_programacao": null,
    "duv": "0467762026",
    "embarcacao": "AEGEAN C",
-   "berco": 141,
-   "imo": "1019773",
-   "programacao": 80830,
-   "dwt": 50158.6,
    "calado_chegada": 10.0,
-   "calado_saida": 9.0,
+   "programacao": 80830,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -220,17 +220,6 @@
    "primeira_vez": "2026-09-29T15:04:27-03:00",
    "manobras": [
     {
-     "quando": "2026-10-07T04:00:00-03:00",
-     "tipo": "atracacao",
-     "rotulo": "Atracação",
-     "codigo": "EA",
-     "berco": 141,
-     "bordo": "BB",
-     "local": "P2EXT BB",
-     "situacao": "EM ANDAMENTO",
-     "casou_por": "imo"
-    },
-    {
      "quando": "2026-10-08T10:00:00-03:00",
      "tipo": "desatracacao",
      "rotulo": "Desatracação",
@@ -244,16 +233,16 @@
    ]
   },
   {
-   "marca_programacao": null,
+   "imo": "9458157",
+   "berco": 141,
+   "dwt": 17739.0,
+   "calado_saida": 6.5,
    "loa": 155.0,
+   "marca_programacao": null,
    "duv": "0470792026",
    "embarcacao": "GAZ SYNERGY",
-   "berco": 141,
-   "imo": "9458157",
-   "programacao": 80844,
-   "dwt": 17739.0,
    "calado_chegada": 8.0,
-   "calado_saida": 6.5,
+   "programacao": 80844,
    "categoria": "ao_largo",
    "reatracacao": false,
    "cargas": [
@@ -302,16 +291,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
+   "imo": "9865752",
+   "berco": 141,
+   "dwt": 49999.0,
+   "calado_saida": 9.0,
    "loa": 183.06,
+   "marca_programacao": null,
    "duv": null,
    "embarcacao": "MERSEY",
-   "berco": 141,
-   "imo": "9865752",
-   "programacao": 80883,
-   "dwt": 49999.0,
    "calado_chegada": 10.0,
-   "calado_saida": 9.0,
+   "programacao": 80883,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -357,16 +346,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
+   "imo": "9407392",
+   "berco": 142,
+   "dwt": 50268.41,
+   "calado_saida": 9.0,
    "loa": 183.0,
+   "marca_programacao": null,
    "duv": null,
    "embarcacao": "HORIZON THEANO",
-   "berco": 142,
-   "imo": "9407392",
-   "programacao": 80806,
-   "dwt": 50268.41,
    "calado_chegada": 11.0,
-   "calado_saida": 9.0,
+   "programacao": 80806,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -412,15 +401,15 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
+   "imo": "9697222",
+   "berco": 142,
+   "dwt": 44999.0,
+   "saldo_total": 37400.0,
    "loa": 183.2,
+   "marca_programacao": null,
    "duv": "0466402026",
    "embarcacao": "DART",
-   "berco": 142,
-   "imo": "9697222",
    "programacao": 80820,
-   "dwt": 44999.0,
-   "saldo_total": 40000.0,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -435,11 +424,11 @@
      "janela_inicio": "2026-10-07T01:40:00-03:00",
      "janela_fim": "2026-10-09T19:48:00-03:00",
      "prancha": 15000.0,
-     "tons_dia": 0.0,
+     "tons_dia": 2600.0,
      "unidade": "t",
      "previsto": 40000.0,
-     "realizado": 0.0,
-     "saldo_operador": 40000.0
+     "realizado": 2600.0,
+     "saldo_operador": 37400.0
     }
    ],
    "chegada": null,
@@ -457,7 +446,7 @@
    "sentido": "Exp",
    "unidade": "t",
    "previsto": 40000.0,
-   "realizado": 0.0,
+   "realizado": 2600.0,
    "marcos": {
     "eta_inicial": "2026-10-05T07:00:00-03:00",
     "eta": "2026-10-06T17:00:00-03:00",
@@ -470,7 +459,7 @@
     },
     "atracacao": "2026-10-07T01:40:00-03:00",
     "ultima_atracacao": "2026-10-07T01:40:00-03:00",
-    "realizado": 0.0
+    "realizado": 2600.0
    },
    "primeira_vez": "2026-09-28T10:04:29-03:00",
    "manobras": [
@@ -509,7 +498,7 @@
    "desatracacao": "2026-10-04T10:55:00-03:00",
    "espera_h": 80.2,
    "estadia_berco_h": 60.2,
-   "ultima_vez": "2026-10-07T06:04:27-03:00"
+   "ultima_vez": "2026-10-07T07:04:27-03:00"
   },
   {
    "programacao": 80782,
@@ -530,7 +519,7 @@
    "desatracacao": "2026-10-07T02:20:00-03:00",
    "espera_h": 112.8,
    "estadia_berco_h": 34.3,
-   "ultima_vez": "2026-10-07T06:04:27-03:00"
+   "ultima_vez": "2026-10-07T07:04:27-03:00"
   },
   {
    "programacao": 80800,
@@ -553,7 +542,7 @@
    "desatracacao": "2026-10-06T18:50:00-03:00",
    "espera_h": 7.4,
    "estadia_berco_h": 74.2,
-   "ultima_vez": "2026-10-07T06:04:27-03:00"
+   "ultima_vez": "2026-10-07T07:04:27-03:00"
   },
   {
    "programacao": 80703,
