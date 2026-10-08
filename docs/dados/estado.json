@@ -1,35 +1,35 @@
 {
- "gerado_em": "2026-10-08T16:04:28-03:00",
+ "gerado_em": "2026-10-08T17:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 409,
-  "quando": "2026-10-08T16:04:27-03:00",
+  "id": 410,
+  "quando": "2026-10-08T17:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-10-08T16:05:00-03:00",
-  "navios_portal": 224,
+  "emissao_portal": "2026-10-08T17:05:00-03:00",
+  "navios_portal": 226,
   "navios_monitorados": 11,
   "erro": null
  },
- "ultima_coleta_ok": "2026-10-08T16:04:27-03:00",
- "emissao_portal": "2026-10-08T16:05:00-03:00",
+ "ultima_coleta_ok": "2026-10-08T17:04:27-03:00",
+ "emissao_portal": "2026-10-08T17:05:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-10-08T16:00:00-03:00",
+  "atualizacao": "2026-10-08T17:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "marca_programacao": null,
-   "calado_saida": 8.5,
+   "duv": "0459832026",
    "dwt": 26484.0,
-   "calado_chegada": 10.3,
    "berco": 141,
+   "calado_saida": 8.5,
+   "embarcacao": "XT SEAL",
+   "calado_chegada": 10.3,
    "imo": "1042380",
    "programacao": 80807,
-   "duv": "0459832026",
-   "embarcacao": "XT SEAL",
+   "marca_programacao": null,
    "loa": 158.98,
    "categoria": "programado",
    "reatracacao": false,
@@ -81,17 +81,17 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "calado_saida": 9.0,
+   "duv": "0473882026",
    "dwt": 49990.0,
-   "calado_chegada": 8.0,
    "berco": 141,
+   "calado_saida": 9.0,
+   "embarcacao": "BALTIC CHAMPION",
+   "calado_chegada": 8.0,
    "imo": "1063918",
    "programacao": 80827,
-   "duv": "0473882026",
-   "embarcacao": "BALTIC CHAMPION",
+   "marca_programacao": null,
    "loa": 182.75,
-   "categoria": "esperado",
+   "categoria": "ao_largo",
    "reatracacao": false,
    "cargas": [
     {
@@ -100,6 +100,7 @@
      "operador": "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
      "mercadoria": "OLEO DIESEL",
      "eta": "2026-10-08T13:00:00-03:00",
+     "chegada": "2026-10-08T12:12:00-03:00",
      "janela_inicio": null,
      "janela_fim": null,
      "prancha": null,
@@ -112,6 +113,7 @@
      "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
      "mercadoria": "OLEO DIESEL",
      "eta": "2026-10-08T13:00:00-03:00",
+     "chegada": "2026-10-08T12:12:00-03:00",
      "janela_inicio": null,
      "janela_fim": null,
      "prancha": null,
@@ -119,7 +121,7 @@
      "unidade": "t"
     }
    ],
-   "chegada": null,
+   "chegada": "2026-10-08T12:12:00-03:00",
    "atracacao": null,
    "eta": "2026-10-08T13:00:00-03:00",
    "etb": null,
@@ -142,8 +144,10 @@
     "previsto": 47000.0,
     "unidade": "t",
     "visto_como": {
-     "esperado": "2026-09-28T16:04:28-03:00"
-    }
+     "esperado": "2026-09-28T16:04:28-03:00",
+     "ao_largo": "2026-10-08T17:04:27-03:00"
+    },
+    "chegada": "2026-10-08T12:12:00-03:00"
    },
    "primeira_vez": "2026-09-28T16:04:28-03:00",
    "manobras": [
@@ -161,14 +165,14 @@
    ]
   },
   {
-   "marca_programacao": null,
+   "duv": "0467762026",
    "dwt": 50158.6,
-   "saldo_total": 12855.0,
    "berco": 141,
+   "embarcacao": "AEGEAN C",
+   "saldo_total": 12855.0,
    "imo": "1019773",
    "programacao": 80830,
-   "duv": "0467762026",
-   "embarcacao": "AEGEAN C",
+   "marca_programacao": null,
    "loa": 182.9,
    "categoria": "atracado",
    "reatracacao": false,
@@ -194,23 +198,6 @@
      "bordo": "BB",
      "sentido": "Imp",
      "agencia": "LACHMANN",
-     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
-     "mercadoria": "GASOLINAS",
-     "atracacao": "2026-10-07T06:40:00-03:00",
-     "chegada": "2026-10-04T22:36:00-03:00",
-     "janela_inicio": "2026-10-07T06:40:00-03:00",
-     "janela_fim": "2026-10-10T05:09:00-03:00",
-     "prancha": 2331.42,
-     "tons_dia": 0.0,
-     "unidade": "t",
-     "previsto": 4352.0,
-     "realizado": 1545.0,
-     "saldo_operador": 2807.0
-    },
-    {
-     "bordo": "BB",
-     "sentido": "Imp",
-     "agencia": "LACHMANN",
      "operador": "CATTALINI",
      "mercadoria": "GASOLINAS",
      "atracacao": "2026-10-07T06:40:00-03:00",
@@ -223,6 +210,23 @@
      "previsto": 2489.0,
      "realizado": 0.0,
      "saldo_operador": 2489.0
+    },
+    {
+     "bordo": "BB",
+     "sentido": "Imp",
+     "agencia": "LACHMANN",
+     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
+     "mercadoria": "GASOLINAS",
+     "atracacao": "2026-10-07T06:40:00-03:00",
+     "chegada": "2026-10-04T22:36:00-03:00",
+     "janela_inicio": "2026-10-07T06:40:00-03:00",
+     "janela_fim": "2026-10-10T05:09:00-03:00",
+     "prancha": 2331.42,
+     "tons_dia": 0.0,
+     "unidade": "t",
+     "previsto": 4352.0,
+     "realizado": 1545.0,
+     "saldo_operador": 2807.0
     }
    ],
    "chegada": "2026-10-04T22:36:00-03:00",
@@ -235,8 +239,8 @@
    "mercadoria": "GASOLINAS",
    "operadores": [
     "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
-    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
-    "CATTALINI"
+    "CATTALINI",
+    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA"
    ],
    "agencia": "LACHMANN",
    "sentido": "Imp",
@@ -275,15 +279,15 @@
    ]
   },
   {
-   "marca_programacao": null,
-   "calado_saida": 6.5,
+   "duv": "0470792026",
    "dwt": 17739.0,
-   "calado_chegada": 8.0,
    "berco": 141,
+   "calado_saida": 6.5,
+   "embarcacao": "GAZ SYNERGY",
+   "calado_chegada": 8.0,
    "imo": "9458157",
    "programacao": 80844,
-   "duv": "0470792026",
-   "embarcacao": "GAZ SYNERGY",
+   "marca_programacao": null,
    "loa": 155.0,
    "categoria": "ao_largo",
    "reatracacao": false,
@@ -333,15 +337,15 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "calado_saida": 9.0,
+   "duv": null,
    "dwt": 49999.0,
-   "calado_chegada": 10.0,
    "berco": 141,
+   "calado_saida": 9.0,
+   "embarcacao": "MERSEY",
+   "calado_chegada": 10.0,
    "imo": "9865752",
    "programacao": 80883,
-   "duv": null,
-   "embarcacao": "MERSEY",
+   "marca_programacao": null,
    "loa": 183.06,
    "categoria": "esperado",
    "reatracacao": false,
@@ -388,15 +392,15 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "calado_saida": 9.0,
+   "duv": "0479852026",
    "dwt": 49919.0,
-   "calado_chegada": 10.5,
    "berco": 141,
+   "calado_saida": 9.0,
+   "embarcacao": "NT MAERSK CURAÇAO",
+   "calado_chegada": 10.5,
    "imo": "9786205",
    "programacao": 80893,
-   "duv": "0479852026",
-   "embarcacao": "NT MAERSK CURAÇAO",
+   "marca_programacao": null,
    "loa": 183.16,
    "categoria": "ao_largo",
    "reatracacao": false,
@@ -446,15 +450,15 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "calado_saida": 9.5,
+   "duv": null,
    "dwt": 49127.0,
-   "calado_chegada": 11.6,
    "berco": 141,
+   "calado_saida": 9.5,
+   "embarcacao": "NAVIG8 EXCEL",
+   "calado_chegada": 11.6,
    "imo": "9973901",
    "programacao": 80903,
-   "duv": null,
-   "embarcacao": "NAVIG8 EXCEL",
+   "marca_programacao": null,
    "loa": 183.2,
    "categoria": "esperado",
    "reatracacao": false,
@@ -514,15 +518,15 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "calado_saida": 9.0,
+   "duv": "0472202026",
    "dwt": 50268.41,
-   "calado_chegada": 11.0,
    "berco": 142,
+   "calado_saida": 9.0,
+   "embarcacao": "HORIZON THEANO",
+   "calado_chegada": 11.0,
    "imo": "9407392",
    "programacao": 80806,
-   "duv": "0472202026",
-   "embarcacao": "HORIZON THEANO",
+   "marca_programacao": null,
    "loa": 183.0,
    "categoria": "esperado",
    "reatracacao": false,
@@ -569,17 +573,16 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
+   "duv": "0466402026",
    "dwt": 44999.0,
-   "saldo_total": 17105.75,
    "berco": 142,
+   "embarcacao": "DART",
    "imo": "9697222",
    "programacao": 80820,
-   "duv": "0466402026",
-   "embarcacao": "DART",
+   "marca_programacao": null,
    "loa": 183.2,
-   "categoria": "atracado",
-   "reatracacao": false,
+   "categoria": "ao_largo",
+   "reatracacao": true,
    "cargas": [
     {
      "bordo": "BE",
@@ -589,23 +592,23 @@
      "mercadoria": "FUEL-OIL (OLEO COMBUSTIVEL)",
      "atracacao": "2026-10-07T01:40:00-03:00",
      "chegada": "2026-10-06T15:00:00-03:00",
-     "janela_inicio": "2026-10-07T01:40:00-03:00",
-     "janela_fim": "2026-10-09T19:48:00-03:00",
-     "prancha": 15000.0,
-     "tons_dia": 16800.0,
-     "unidade": "t",
+     "desatracacao": "2026-10-08T15:20:00-03:00",
+     "janela_inicio": null,
+     "janela_fim": null,
+     "prancha": null,
      "previsto": 40000.0,
+     "unidade": "t",
      "realizado": 22894.0,
-     "saldo_operador": 17105.75
+     "saldo_operador": 17106.0
     }
    ],
    "chegada": "2026-10-06T15:00:00-03:00",
    "atracacao": "2026-10-07T01:40:00-03:00",
    "eta": null,
    "etb": null,
-   "janela_inicio": "2026-10-07T01:40:00-03:00",
-   "desatracacao": null,
-   "janela_fim": "2026-10-09T19:48:00-03:00",
+   "janela_inicio": null,
+   "desatracacao": "2026-10-08T15:20:00-03:00",
+   "janela_fim": null,
    "mercadoria": "FUEL-OIL (OLEO COMBUSTIVEL)",
    "operadores": [
     "PETROBRAS TRANSPORTE S.A - TRANSPETRO"
@@ -614,7 +617,7 @@
    "sentido": "Exp",
    "unidade": "t",
    "previsto": 40000.0,
-   "realizado": 22894.25,
+   "realizado": 22894.0,
    "marcos": {
     "eta_inicial": "2026-10-05T07:00:00-03:00",
     "eta": "2026-10-06T17:00:00-03:00",
@@ -623,27 +626,17 @@
     "visto_como": {
      "esperado": "2026-09-28T10:04:29-03:00",
      "programado": "2026-10-06T13:04:27-03:00",
-     "atracado": "2026-10-07T02:04:27-03:00"
+     "atracado": "2026-10-07T02:04:27-03:00",
+     "ao_largo": "2026-10-08T17:04:27-03:00"
     },
     "atracacao": "2026-10-07T01:40:00-03:00",
     "ultima_atracacao": "2026-10-07T01:40:00-03:00",
-    "realizado": 22894.25,
-    "chegada": "2026-10-06T15:00:00-03:00"
+    "realizado": 22894.0,
+    "chegada": "2026-10-06T15:00:00-03:00",
+    "desatracacao": "2026-10-08T15:20:00-03:00"
    },
    "primeira_vez": "2026-09-28T10:04:29-03:00",
-   "manobras": [
-    {
-     "quando": "2026-10-08T15:17:00-03:00",
-     "tipo": "desatracacao",
-     "rotulo": "Desatracação",
-     "codigo": "DF",
-     "berco": 142,
-     "bordo": "BE",
-     "local": "P2INT BE",
-     "situacao": "EM ANDAMENTO",
-     "casou_por": "imo"
-    }
-   ]
+   "manobras": []
   }
  ],
  "historico": [
@@ -666,7 +659,7 @@
    "desatracacao": "2026-10-07T02:20:00-03:00",
    "espera_h": 112.8,
    "estadia_berco_h": 34.3,
-   "ultima_vez": "2026-10-08T16:04:27-03:00"
+   "ultima_vez": "2026-10-08T17:04:27-03:00"
   },
   {
    "programacao": 80800,
@@ -689,7 +682,7 @@
    "desatracacao": "2026-10-06T18:50:00-03:00",
    "espera_h": 7.4,
    "estadia_berco_h": 74.2,
-   "ultima_vez": "2026-10-08T16:04:27-03:00"
+   "ultima_vez": "2026-10-08T17:04:27-03:00"
   },
   {
    "programacao": 80744,
@@ -1117,6 +1110,26 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-10-08T17:04:27-03:00",
+   "programacao": 80827,
+   "embarcacao": "BALTIC CHAMPION",
+   "berco": 141,
+   "tipo": "status",
+   "de": "esperado",
+   "para": "ao_largo",
+   "descricao": "BALTIC CHAMPION chegou e está fundeado ao largo"
+  },
+  {
+   "quando": "2026-10-08T17:04:27-03:00",
+   "programacao": 80820,
+   "embarcacao": "DART",
+   "berco": 142,
+   "tipo": "status",
+   "de": "atracado",
+   "para": "ao_largo",
+   "descricao": "DART desatracou e aguarda reatracação ao largo"
+  },
   {
    "quando": "2026-10-08T16:04:27-03:00",
    "programacao": 80820,
@@ -3096,26 +3109,6 @@
    "de": "CONFIRMADA",
    "para": "PRÁTICO NA LANCHA",
    "descricao": "Praticagem: desatracação no berço 141 de 23/09 às 10:00 agora está prático na lancha"
-  },
-  {
-   "quando": "2026-09-23T09:04:28-03:00",
-   "programacao": 80671,
-   "embarcacao": "BOW EXPLORER",
-   "berco": 141,
-   "tipo": "manobra",
-   "de": "A CONFIRMAR",
-   "para": "CONFIRMADA",
-   "descricao": "Praticagem: desatracação no berço 141 de 23/09 às 10:00 agora está confirmada"
-  },
-  {
-   "quando": "2026-09-23T09:04:28-03:00",
-   "programacao": 80671,
-   "embarcacao": "BOW EXPLORER",
-   "berco": 141,
-   "tipo": "manobra",
-   "de": "2026-09-23T09:30:00-03:00",
-   "para": "2026-09-23T10:00:00-03:00",
-   "descricao": "Praticagem: desatracação no berço 141 remarcada de 23/09 às 09:30 para 23/09 às 10:00"
   }
  ]
 }
