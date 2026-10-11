@@ -1,35 +1,35 @@
 {
- "gerado_em": "2026-10-11T00:04:28-03:00",
+ "gerado_em": "2026-10-11T01:04:29-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 452,
-  "quando": "2026-10-11T00:04:27-03:00",
+  "id": 453,
+  "quando": "2026-10-11T01:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-10-11T00:05:00-03:00",
-  "navios_portal": 231,
+  "emissao_portal": "2026-10-11T01:05:00-03:00",
+  "navios_portal": 228,
   "navios_monitorados": 12,
   "erro": null
  },
- "ultima_coleta_ok": "2026-10-11T00:04:27-03:00",
- "emissao_portal": "2026-10-11T00:05:00-03:00",
+ "ultima_coleta_ok": "2026-10-11T01:04:27-03:00",
+ "emissao_portal": "2026-10-11T01:05:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-10-11T00:00:00-03:00",
+  "atualizacao": "2026-10-11T01:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "programacao": 80807,
-   "loa": 158.98,
-   "berco": 141,
-   "marca_programacao": null,
-   "saldo_total": 7383.9,
    "duv": "0459832026",
+   "loa": 158.98,
    "dwt": 26484.0,
    "embarcacao": "XT SEAL",
+   "saldo_total": 7383.9,
+   "marca_programacao": null,
    "imo": "1042380",
+   "berco": 141,
+   "programacao": 80807,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -99,16 +99,16 @@
    ]
   },
   {
-   "programacao": 80883,
-   "loa": 183.06,
-   "berco": 141,
-   "marca_programacao": null,
-   "calado_chegada": 10.0,
    "calado_saida": 9.0,
    "duv": null,
+   "loa": 183.06,
    "dwt": 49999.0,
    "embarcacao": "MERSEY",
+   "marca_programacao": null,
+   "calado_chegada": 10.0,
    "imo": "9865752",
+   "berco": 141,
+   "programacao": 80883,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -154,16 +154,16 @@
    "manobras": []
   },
   {
-   "programacao": 80893,
-   "loa": 183.16,
-   "berco": 141,
-   "marca_programacao": null,
-   "calado_chegada": 10.5,
    "calado_saida": 9.0,
    "duv": "0479852026",
+   "loa": 183.16,
    "dwt": 49919.0,
    "embarcacao": "NT MAERSK CURAÇAO",
+   "marca_programacao": null,
+   "calado_chegada": 10.5,
    "imo": "9786205",
+   "berco": 141,
+   "programacao": 80893,
    "categoria": "ao_largo",
    "reatracacao": false,
    "cargas": [
@@ -212,16 +212,16 @@
    "manobras": []
   },
   {
-   "programacao": 80903,
-   "loa": 183.24,
-   "berco": 141,
-   "marca_programacao": null,
-   "calado_chegada": 11.6,
    "calado_saida": 9.5,
    "duv": "0483722026",
+   "loa": 183.24,
    "dwt": 49127.0,
    "embarcacao": "NAVIG8 EXCEL",
+   "marca_programacao": null,
+   "calado_chegada": 11.6,
    "imo": "9973901",
+   "berco": 141,
+   "programacao": 80903,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -280,16 +280,16 @@
    "manobras": []
   },
   {
-   "programacao": 80927,
-   "loa": 183.31,
-   "berco": 141,
-   "marca_programacao": null,
-   "calado_chegada": 11.6,
    "calado_saida": 8.5,
    "duv": null,
+   "loa": 183.31,
    "dwt": 46625.0,
    "embarcacao": "IONIAN NAVIGATOR",
+   "marca_programacao": null,
+   "calado_chegada": 11.6,
    "imo": "9422237",
+   "berco": 141,
+   "programacao": 80927,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -335,16 +335,16 @@
    "manobras": []
   },
   {
-   "programacao": 80928,
-   "loa": 183.0,
-   "berco": 141,
-   "marca_programacao": null,
-   "calado_chegada": 8.0,
    "calado_saida": 7.0,
    "duv": null,
+   "loa": 183.0,
    "dwt": 50215.03,
    "embarcacao": "ST. MARY",
+   "marca_programacao": null,
+   "calado_chegada": 8.0,
    "imo": "9439797",
+   "berco": 141,
+   "programacao": 80928,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -390,16 +390,16 @@
    "manobras": []
   },
   {
-   "programacao": 80806,
-   "loa": 183.0,
-   "berco": 142,
-   "marca_programacao": null,
-   "calado_chegada": 11.0,
    "calado_saida": 9.0,
    "duv": "0472202026",
+   "loa": 183.0,
    "dwt": 49999.0,
    "embarcacao": "HORIZON THEANO",
+   "marca_programacao": null,
+   "calado_chegada": 11.0,
    "imo": "9407392",
+   "berco": 142,
+   "programacao": 80806,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -445,14 +445,14 @@
    "manobras": []
   },
   {
-   "programacao": 80820,
-   "loa": 183.2,
-   "berco": 142,
-   "marca_programacao": null,
    "duv": "0466402026",
+   "loa": 183.2,
    "dwt": 44999.0,
    "embarcacao": "DART",
+   "marca_programacao": null,
    "imo": "9697222",
+   "berco": 142,
+   "programacao": 80820,
    "categoria": "ao_largo",
    "reatracacao": true,
    "cargas": [
@@ -523,15 +523,15 @@
    ]
   },
   {
-   "programacao": 80827,
-   "loa": 182.75,
-   "berco": 142,
-   "marca_programacao": null,
-   "saldo_total": 18500.0,
    "duv": "0473882026",
+   "loa": 182.75,
    "dwt": 49990.0,
    "embarcacao": "BALTIC CHAMPION",
+   "saldo_total": 18500.0,
+   "marca_programacao": null,
    "imo": "1063918",
+   "berco": 142,
+   "programacao": 80827,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -619,16 +619,16 @@
    ]
   },
   {
-   "programacao": 80844,
-   "loa": 155.0,
-   "berco": 142,
-   "marca_programacao": null,
-   "calado_chegada": 8.0,
    "calado_saida": 6.5,
    "duv": "0470792026",
+   "loa": 155.0,
    "dwt": 17739.0,
    "embarcacao": "GAZ SYNERGY",
+   "marca_programacao": null,
+   "calado_chegada": 8.0,
    "imo": "9458157",
+   "berco": 142,
+   "programacao": 80844,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -691,16 +691,16 @@
    ]
   },
   {
-   "programacao": 80929,
-   "loa": 182.9,
-   "berco": 142,
-   "marca_programacao": null,
-   "calado_chegada": 10.0,
    "calado_saida": 9.0,
    "duv": null,
+   "loa": 182.9,
    "dwt": 50158.6,
    "embarcacao": "AEGEAN C",
+   "marca_programacao": null,
+   "calado_chegada": 10.0,
    "imo": "1019773",
+   "berco": 142,
+   "programacao": 80929,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -768,7 +768,7 @@
    "desatracacao": "2026-10-09T03:40:00-03:00",
    "espera_h": 56.1,
    "estadia_berco_h": 45.0,
-   "ultima_vez": "2026-10-11T00:04:27-03:00"
+   "ultima_vez": "2026-10-11T01:04:27-03:00"
   },
   {
    "programacao": 80782,
