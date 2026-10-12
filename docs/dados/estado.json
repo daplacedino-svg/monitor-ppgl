@@ -1,36 +1,36 @@
 {
- "gerado_em": "2026-10-12T14:04:29-03:00",
+ "gerado_em": "2026-10-12T15:04:29-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 474,
-  "quando": "2026-10-12T14:04:28-03:00",
+  "id": 475,
+  "quando": "2026-10-12T15:04:28-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-10-12T14:05:00-03:00",
+  "emissao_portal": "2026-10-12T15:05:00-03:00",
   "navios_portal": 217,
   "navios_monitorados": 11,
   "erro": null
  },
- "ultima_coleta_ok": "2026-10-12T14:04:28-03:00",
- "emissao_portal": "2026-10-12T14:05:00-03:00",
+ "ultima_coleta_ok": "2026-10-12T15:04:28-03:00",
+ "emissao_portal": "2026-10-12T15:05:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-10-12T14:00:00-03:00",
+  "atualizacao": "2026-10-12T15:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "loa": 183.06,
-   "programacao": 80883,
-   "berco": 141,
+   "duv": null,
    "calado_saida": 9.0,
    "calado_chegada": 10.0,
+   "dwt": 49999.0,
+   "marca_programacao": null,
+   "programacao": 80883,
    "embarcacao": "MERSEY",
    "imo": "9865752",
-   "marca_programacao": null,
-   "duv": null,
-   "dwt": 49999.0,
+   "berco": 141,
+   "loa": 183.06,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -76,16 +76,16 @@
    "manobras": []
   },
   {
-   "loa": 183.16,
-   "programacao": 80893,
-   "berco": 141,
+   "duv": "0479852026",
    "calado_saida": 9.0,
    "calado_chegada": 10.5,
+   "dwt": 49919.0,
+   "marca_programacao": null,
+   "programacao": 80893,
    "embarcacao": "NT MAERSK CURAÇAO",
    "imo": "9786205",
-   "marca_programacao": null,
-   "duv": "0479852026",
-   "dwt": 49919.0,
+   "berco": 141,
+   "loa": 183.16,
    "categoria": "ao_largo",
    "reatracacao": false,
    "cargas": [
@@ -134,16 +134,16 @@
    "manobras": []
   },
   {
-   "loa": 183.24,
-   "programacao": 80903,
-   "berco": 141,
+   "duv": "0483722026",
    "calado_saida": 9.5,
    "calado_chegada": 11.6,
+   "dwt": 49127.0,
+   "marca_programacao": null,
+   "programacao": 80903,
    "embarcacao": "NAVIG8 EXCEL",
    "imo": "9973901",
-   "marca_programacao": null,
-   "duv": "0483722026",
-   "dwt": 49127.0,
+   "berco": 141,
+   "loa": 183.24,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -202,16 +202,16 @@
    "manobras": []
   },
   {
-   "loa": 183.31,
-   "programacao": 80927,
-   "berco": 141,
+   "duv": null,
    "calado_saida": 8.5,
    "calado_chegada": 11.6,
+   "dwt": 46625.0,
+   "marca_programacao": null,
+   "programacao": 80927,
    "embarcacao": "IONIAN NAVIGATOR",
    "imo": "9422237",
-   "marca_programacao": null,
-   "duv": null,
-   "dwt": 46625.0,
+   "berco": 141,
+   "loa": 183.31,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -257,16 +257,16 @@
    "manobras": []
   },
   {
-   "loa": 183.0,
-   "programacao": 80928,
-   "berco": 141,
+   "duv": null,
    "calado_saida": 7.0,
    "calado_chegada": 8.0,
+   "dwt": 50215.03,
+   "marca_programacao": null,
+   "programacao": 80928,
    "embarcacao": "ST. MARY",
    "imo": "9439797",
-   "marca_programacao": null,
-   "duv": null,
-   "dwt": 50215.03,
+   "berco": 141,
+   "loa": 183.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -312,16 +312,16 @@
    "manobras": []
   },
   {
-   "loa": 183.0,
-   "programacao": 80806,
-   "berco": 142,
+   "duv": "0472202026",
    "calado_saida": 9.0,
    "calado_chegada": 11.0,
+   "dwt": 49999.0,
+   "marca_programacao": null,
+   "programacao": 80806,
    "embarcacao": "HORIZON THEANO",
    "imo": "9407392",
-   "marca_programacao": null,
-   "duv": "0472202026",
-   "dwt": 49999.0,
+   "berco": 142,
+   "loa": 183.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -367,14 +367,14 @@
    "manobras": []
   },
   {
-   "loa": 183.2,
-   "programacao": 80820,
-   "berco": 142,
-   "embarcacao": "DART",
-   "imo": "9697222",
-   "marca_programacao": null,
    "duv": "0466402026",
    "dwt": 44999.0,
+   "marca_programacao": null,
+   "programacao": 80820,
+   "embarcacao": "DART",
+   "imo": "9697222",
+   "berco": 142,
+   "loa": 183.2,
    "categoria": "ao_largo",
    "reatracacao": true,
    "cargas": [
@@ -445,15 +445,15 @@
    ]
   },
   {
+   "duv": "0470792026",
    "saldo_total": 6200.0,
-   "loa": 155.0,
+   "dwt": 17739.0,
+   "marca_programacao": null,
    "programacao": 80844,
-   "berco": 142,
    "embarcacao": "GAZ SYNERGY",
    "imo": "9458157",
-   "marca_programacao": null,
-   "duv": "0470792026",
-   "dwt": 17739.0,
+   "berco": 142,
+   "loa": 155.0,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -523,16 +523,16 @@
    ]
   },
   {
-   "loa": 182.9,
-   "programacao": 80929,
-   "berco": 142,
+   "duv": null,
    "calado_saida": 9.0,
    "calado_chegada": 10.0,
+   "dwt": 50158.6,
+   "marca_programacao": null,
+   "programacao": 80929,
    "embarcacao": "AEGEAN C",
    "imo": "1019773",
-   "marca_programacao": null,
-   "duv": null,
-   "dwt": 50158.6,
+   "berco": 142,
+   "loa": 182.9,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -598,7 +598,7 @@
    "desatracacao": "2026-10-11T19:35:00-03:00",
    "espera_h": 26.4,
    "estadia_berco_h": 60.6,
-   "ultima_vez": "2026-10-12T14:04:28-03:00"
+   "ultima_vez": "2026-10-12T15:04:28-03:00"
   },
   {
    "programacao": 80827,
@@ -620,7 +620,7 @@
    "desatracacao": "2026-10-11T17:10:00-03:00",
    "espera_h": 15.8,
    "estadia_berco_h": 61.2,
-   "ultima_vez": "2026-10-12T14:04:28-03:00"
+   "ultima_vez": "2026-10-12T15:04:28-03:00"
   },
   {
    "programacao": 80830,
