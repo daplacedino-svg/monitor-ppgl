@@ -6,8 +6,11 @@ import config
 
 
 def _git(*args):
+    # CREATE_NO_WINDOW: sob pythonw.exe (Agendador de Tarefas) não há console, e o Windows
+    # abriria uma janela para cada chamada do git.
     return subprocess.run(["git", *args], cwd=config.RAIZ, capture_output=True, text=True,
-                          encoding="utf-8", errors="replace")
+                          encoding="utf-8", errors="replace",
+                          creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
 
 
 def publicar(mensagem):
