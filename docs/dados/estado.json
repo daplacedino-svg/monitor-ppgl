@@ -1,34 +1,34 @@
 {
- "gerado_em": "2026-10-13T08:04:29-03:00",
+ "gerado_em": "2026-10-13T09:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 492,
-  "quando": "2026-10-13T08:04:27-03:00",
+  "id": 493,
+  "quando": "2026-10-13T09:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-10-13T08:05:00-03:00",
-  "navios_portal": 216,
+  "emissao_portal": "2026-10-13T09:05:00-03:00",
+  "navios_portal": 215,
   "navios_monitorados": 11,
   "erro": null
  },
- "ultima_coleta_ok": "2026-10-13T08:04:27-03:00",
- "emissao_portal": "2026-10-13T08:05:00-03:00",
+ "ultima_coleta_ok": "2026-10-13T09:04:27-03:00",
+ "emissao_portal": "2026-10-13T09:05:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-10-13T08:00:00-03:00",
+  "atualizacao": "2026-10-13T09:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "loa": 183.06,
-   "embarcacao": "MERSEY",
-   "programacao": 80883,
    "marca_programacao": null,
+   "loa": 183.06,
    "imo": "9865752",
-   "calado_chegada": 10.0,
-   "calado_saida": 9.0,
+   "programacao": 80883,
+   "embarcacao": "MERSEY",
    "duv": null,
+   "calado_saida": 9.0,
+   "calado_chegada": 10.0,
    "dwt": 49999.0,
    "berco": 141,
    "categoria": "esperado",
@@ -39,7 +39,7 @@
      "agencia": "LACHMANN",
      "operador": "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
      "mercadoria": "OLEO DIESEL",
-     "eta": "2026-10-13T07:00:00-03:00",
+     "eta": "2026-10-15T07:00:00-03:00",
      "janela_inicio": null,
      "janela_fim": null,
      "prancha": null,
@@ -49,7 +49,7 @@
    ],
    "chegada": null,
    "atracacao": null,
-   "eta": "2026-10-13T07:00:00-03:00",
+   "eta": "2026-10-15T07:00:00-03:00",
    "etb": null,
    "janela_inicio": null,
    "desatracacao": null,
@@ -65,7 +65,7 @@
    "realizado": null,
    "marcos": {
     "eta_inicial": "2026-10-13T07:00:00-03:00",
-    "eta": "2026-10-13T07:00:00-03:00",
+    "eta": "2026-10-15T07:00:00-03:00",
     "previsto": 47000.0,
     "unidade": "t",
     "visto_como": {
@@ -76,14 +76,14 @@
    "manobras": []
   },
   {
-   "loa": 183.16,
-   "embarcacao": "NT MAERSK CURAÇAO",
-   "programacao": 80893,
    "marca_programacao": null,
+   "loa": 183.16,
    "imo": "9786205",
-   "calado_chegada": 10.5,
-   "calado_saida": 9.0,
+   "programacao": 80893,
+   "embarcacao": "NT MAERSK CURAÇAO",
    "duv": "0479852026",
+   "calado_saida": 9.0,
+   "calado_chegada": 10.5,
    "dwt": 49919.0,
    "berco": 141,
    "categoria": "ao_largo",
@@ -134,14 +134,14 @@
    "manobras": []
   },
   {
-   "loa": 183.24,
-   "embarcacao": "NAVIG8 EXCEL",
-   "programacao": 80903,
    "marca_programacao": null,
+   "loa": 183.24,
    "imo": "9973901",
-   "calado_chegada": 11.6,
-   "calado_saida": 9.5,
+   "programacao": 80903,
+   "embarcacao": "NAVIG8 EXCEL",
    "duv": "0483722026",
+   "calado_saida": 9.5,
+   "calado_chegada": 11.6,
    "dwt": 49127.0,
    "berco": 141,
    "categoria": "esperado",
@@ -202,14 +202,14 @@
    "manobras": []
   },
   {
-   "loa": 183.31,
-   "embarcacao": "IONIAN NAVIGATOR",
-   "programacao": 80927,
    "marca_programacao": null,
+   "loa": 183.31,
    "imo": "9422237",
-   "calado_chegada": 11.6,
-   "calado_saida": 8.5,
+   "programacao": 80927,
+   "embarcacao": "IONIAN NAVIGATOR",
    "duv": null,
+   "calado_saida": 8.5,
+   "calado_chegada": 11.6,
    "dwt": 46625.0,
    "berco": 141,
    "categoria": "esperado",
@@ -257,14 +257,14 @@
    "manobras": []
   },
   {
-   "loa": 183.0,
-   "embarcacao": "ST. MARY",
-   "programacao": 80928,
    "marca_programacao": null,
+   "loa": 183.0,
    "imo": "9439797",
-   "calado_chegada": 8.0,
-   "calado_saida": 7.0,
+   "programacao": 80928,
+   "embarcacao": "ST. MARY",
    "duv": null,
+   "calado_saida": 7.0,
+   "calado_chegada": 8.0,
    "dwt": 50215.03,
    "berco": 141,
    "categoria": "esperado",
@@ -312,14 +312,14 @@
    "manobras": []
   },
   {
-   "loa": 183.0,
-   "embarcacao": "HORIZON THEANO",
-   "programacao": 80806,
    "marca_programacao": null,
+   "loa": 183.0,
    "imo": "9407392",
-   "calado_chegada": 11.0,
-   "calado_saida": 9.0,
+   "programacao": 80806,
+   "embarcacao": "HORIZON THEANO",
    "duv": "0472202026",
+   "calado_saida": 9.0,
+   "calado_chegada": 11.0,
    "dwt": 49999.0,
    "berco": 142,
    "categoria": "esperado",
@@ -367,11 +367,11 @@
    "manobras": []
   },
   {
-   "loa": 183.2,
-   "embarcacao": "DART",
-   "programacao": 80820,
    "marca_programacao": null,
+   "loa": 183.2,
    "imo": "9697222",
+   "programacao": 80820,
+   "embarcacao": "DART",
    "duv": "0466402026",
    "dwt": 44999.0,
    "berco": 142,
@@ -445,14 +445,14 @@
    ]
   },
   {
-   "loa": 182.9,
-   "embarcacao": "AEGEAN C",
-   "programacao": 80929,
    "marca_programacao": null,
+   "loa": 182.9,
    "imo": "1019773",
-   "calado_chegada": 10.0,
-   "calado_saida": 9.0,
+   "programacao": 80929,
+   "embarcacao": "AEGEAN C",
    "duv": null,
+   "calado_saida": 9.0,
+   "calado_chegada": 10.0,
    "dwt": 50158.6,
    "berco": 142,
    "categoria": "esperado",
@@ -520,7 +520,7 @@
    "desatracacao": "2026-10-11T19:35:00-03:00",
    "espera_h": 26.4,
    "estadia_berco_h": 60.6,
-   "ultima_vez": "2026-10-13T08:04:27-03:00"
+   "ultima_vez": "2026-10-13T09:04:27-03:00"
   },
   {
    "programacao": 80827,
@@ -542,7 +542,7 @@
    "desatracacao": "2026-10-11T17:10:00-03:00",
    "espera_h": 15.8,
    "estadia_berco_h": 61.2,
-   "ultima_vez": "2026-10-13T08:04:27-03:00"
+   "ultima_vez": "2026-10-13T09:04:27-03:00"
   },
   {
    "programacao": 80844,
@@ -563,7 +563,7 @@
    "desatracacao": "2026-10-13T05:10:00-03:00",
    "espera_h": 219.5,
    "estadia_berco_h": 34.2,
-   "ultima_vez": "2026-10-13T08:04:27-03:00"
+   "ultima_vez": "2026-10-13T09:04:27-03:00"
   },
   {
    "programacao": 80830,
