@@ -1,35 +1,35 @@
 {
- "gerado_em": "2026-10-27T18:04:28-03:00",
+ "gerado_em": "2026-10-27T19:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 690,
-  "quando": "2026-10-27T18:04:27-03:00",
+  "id": 691,
+  "quando": "2026-10-27T19:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-10-27T18:06:00-03:00",
+  "emissao_portal": "2026-10-27T19:06:00-03:00",
   "navios_portal": 239,
   "navios_monitorados": 14,
   "erro": null
  },
- "ultima_coleta_ok": "2026-10-27T18:04:27-03:00",
- "emissao_portal": "2026-10-27T18:06:00-03:00",
+ "ultima_coleta_ok": "2026-10-27T19:04:27-03:00",
+ "emissao_portal": "2026-10-27T19:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-10-27T18:00:00-03:00",
+  "atualizacao": "2026-10-27T19:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "duv": "0492682026",
+   "dwt": 50215.03,
+   "programacao": 80928,
+   "embarcacao": "ST. MARY",
+   "saldo_total": 44000.0,
    "marca_programacao": null,
    "berco": 141,
-   "saldo_total": 44000.0,
-   "embarcacao": "ST. MARY",
    "imo": "9439797",
-   "programacao": 80928,
-   "dwt": 50215.03,
    "loa": 183.0,
+   "duv": "0492682026",
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -99,16 +99,16 @@
    ]
   },
   {
-   "duv": "0503692026",
+   "dwt": 49999.0,
+   "programacao": 80956,
+   "embarcacao": "HORIZON ARMONIA",
    "marca_programacao": null,
    "berco": 141,
-   "embarcacao": "HORIZON ARMONIA",
    "imo": "9407354",
    "calado_chegada": 10.0,
-   "programacao": 80956,
-   "calado_saida": 9.0,
-   "dwt": 49999.0,
    "loa": 183.0,
+   "duv": "0503692026",
+   "calado_saida": 9.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -180,16 +180,16 @@
    "manobras": []
   },
   {
-   "duv": null,
+   "dwt": 49995.0,
+   "programacao": 80984,
+   "embarcacao": "CLEAROCEAN MELODY",
    "marca_programacao": null,
    "berco": 141,
-   "embarcacao": "CLEAROCEAN MELODY",
    "imo": "9849265",
    "calado_chegada": 9.0,
-   "programacao": 80984,
-   "calado_saida": 8.0,
-   "dwt": 49995.0,
    "loa": 182.9,
+   "duv": null,
+   "calado_saida": 8.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -235,16 +235,16 @@
    "manobras": []
   },
   {
-   "duv": "0513852026",
+   "dwt": 49999.0,
+   "programacao": 81052,
+   "embarcacao": "HORIZON EKAVI",
    "marca_programacao": null,
    "berco": 141,
-   "embarcacao": "HORIZON EKAVI",
    "imo": "9404223",
    "calado_chegada": 11.6,
-   "programacao": 81052,
-   "calado_saida": 8.5,
-   "dwt": 49999.0,
    "loa": 183.0,
+   "duv": "0513852026",
+   "calado_saida": 8.5,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -290,16 +290,16 @@
    "manobras": []
   },
   {
-   "duv": null,
+   "dwt": 48449.0,
+   "programacao": 81056,
+   "embarcacao": "ROMULO ALMEIDA",
    "marca_programacao": null,
    "berco": 141,
-   "embarcacao": "ROMULO ALMEIDA",
    "imo": "9489912",
    "calado_chegada": 10.0,
-   "programacao": 81056,
-   "calado_saida": 8.0,
-   "dwt": 48449.0,
    "loa": 182.85,
+   "duv": null,
+   "calado_saida": 8.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -345,16 +345,16 @@
    "manobras": []
   },
   {
-   "duv": null,
+   "dwt": 49780.8,
+   "programacao": 81067,
+   "embarcacao": "FMPC34",
    "marca_programacao": null,
    "berco": 141,
-   "embarcacao": "FMPC34",
    "imo": "9845166",
    "calado_chegada": 11.6,
-   "programacao": 81067,
-   "calado_saida": 8.0,
-   "dwt": 49780.8,
    "loa": 183.0,
+   "duv": null,
+   "calado_saida": 8.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -400,16 +400,16 @@
    "manobras": []
   },
   {
-   "duv": "0494552026",
+   "dwt": 17739.0,
+   "programacao": 80955,
+   "embarcacao": "GAZ SYNERGY",
    "marca_programacao": "REP",
    "berco": 142,
-   "embarcacao": "GAZ SYNERGY",
    "imo": "9458157",
    "calado_chegada": 9.0,
-   "programacao": 80955,
-   "calado_saida": 8.0,
-   "dwt": 17739.0,
    "loa": 155.0,
+   "duv": "0494552026",
+   "calado_saida": 8.0,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -464,17 +464,6 @@
    "primeira_vez": "2026-10-16T08:04:29-03:00",
    "manobras": [
     {
-     "quando": "2026-10-27T17:26:00-03:00",
-     "tipo": "atracacao",
-     "rotulo": "Atracação",
-     "codigo": "AT",
-     "berco": 142,
-     "bordo": "BE",
-     "local": "F22/P2INT BE",
-     "situacao": "EM ANDAMENTO",
-     "casou_por": "imo"
-    },
-    {
      "quando": "2026-10-30T07:30:00-03:00",
      "tipo": "desatracacao",
      "rotulo": "Desatracação",
@@ -488,16 +477,16 @@
    ]
   },
   {
-   "duv": "0506582026",
+   "dwt": 49999.0,
+   "programacao": 80959,
+   "embarcacao": "HORIZON THEANO",
    "marca_programacao": null,
    "berco": 142,
-   "embarcacao": "HORIZON THEANO",
    "imo": "9407392",
    "calado_chegada": 10.5,
-   "programacao": 80959,
-   "calado_saida": 9.0,
-   "dwt": 49999.0,
    "loa": 183.0,
+   "duv": "0506582026",
+   "calado_saida": 9.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -543,16 +532,16 @@
    "manobras": []
   },
   {
-   "duv": "0500272026",
+   "dwt": 50436.0,
+   "programacao": 81005,
+   "embarcacao": "CHARLINE",
    "marca_programacao": null,
    "berco": 142,
-   "embarcacao": "CHARLINE",
    "imo": "9476812",
    "calado_chegada": 8.0,
-   "programacao": 81005,
-   "calado_saida": 9.0,
-   "dwt": 50436.0,
    "loa": 183.2,
+   "duv": "0500272026",
+   "calado_saida": 9.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -598,16 +587,16 @@
    "manobras": []
   },
   {
-   "duv": "0506602026",
+   "dwt": 8764.0,
+   "programacao": 81023,
+   "embarcacao": "BUENA CONFIANZA",
    "marca_programacao": null,
    "berco": 142,
-   "embarcacao": "BUENA CONFIANZA",
    "imo": "9759264",
    "calado_chegada": 7.8,
-   "programacao": 81023,
-   "calado_saida": 6.0,
-   "dwt": 8764.0,
    "loa": 119.95,
+   "duv": "0506602026",
+   "calado_saida": 6.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -653,16 +642,16 @@
    "manobras": []
   },
   {
-   "duv": "0506152026",
+   "dwt": 50158.0,
+   "programacao": 81026,
+   "embarcacao": "AEGEAN C",
    "marca_programacao": null,
    "berco": 142,
-   "embarcacao": "AEGEAN C",
    "imo": "1019773",
    "calado_chegada": 10.0,
-   "programacao": 81026,
-   "calado_saida": 9.0,
-   "dwt": 50158.0,
    "loa": 182.9,
+   "duv": "0506152026",
+   "calado_saida": 9.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -708,16 +697,16 @@
    "manobras": []
   },
   {
-   "duv": "0509132026",
+   "dwt": 49999.0,
+   "programacao": 81053,
+   "embarcacao": "MERSEY",
    "marca_programacao": null,
    "berco": 142,
-   "embarcacao": "MERSEY",
    "imo": "9865752",
    "calado_chegada": 10.0,
-   "programacao": 81053,
-   "calado_saida": 8.0,
-   "dwt": 49999.0,
    "loa": 183.06,
+   "duv": "0509132026",
+   "calado_saida": 8.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -783,7 +772,7 @@
    "desatracacao": "2026-10-26T20:35:00-03:00",
    "espera_h": 48.6,
    "estadia_berco_h": 104.0,
-   "ultima_vez": "2026-10-27T18:04:27-03:00"
+   "ultima_vez": "2026-10-27T19:04:27-03:00"
   },
   {
    "programacao": 80927,
@@ -805,7 +794,7 @@
    "desatracacao": "2026-10-27T17:10:00-03:00",
    "espera_h": 136.5,
    "estadia_berco_h": 48.0,
-   "ultima_vez": "2026-10-27T18:04:27-03:00"
+   "ultima_vez": "2026-10-27T19:04:27-03:00"
   },
   {
    "programacao": 80883,
