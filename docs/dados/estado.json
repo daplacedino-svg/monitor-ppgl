@@ -1,35 +1,35 @@
 {
- "gerado_em": "2026-11-16T08:04:30-03:00",
+ "gerado_em": "2026-11-16T09:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 889,
-  "quando": "2026-11-16T08:04:28-03:00",
+  "id": 890,
+  "quando": "2026-11-16T09:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-16T08:06:00-03:00",
+  "emissao_portal": "2026-11-16T09:06:00-03:00",
   "navios_portal": 213,
   "navios_monitorados": 10,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-16T08:04:28-03:00",
- "emissao_portal": "2026-11-16T08:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-16T09:04:27-03:00",
+ "emissao_portal": "2026-11-16T09:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-16T08:00:00-03:00",
+  "atualizacao": "2026-11-16T09:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
+   "embarcacao": "ROMULO ALMEIDA",
+   "dwt": 48449.0,
+   "duv": "0529442026",
+   "berco": 141,
+   "programacao": 81056,
    "saldo_total": 23788.17,
+   "marca_programacao": null,
    "loa": 182.85,
    "imo": "9489912",
-   "programacao": 81056,
-   "marca_programacao": null,
-   "dwt": 48449.0,
-   "berco": 141,
-   "duv": "0529442026",
-   "embarcacao": "ROMULO ALMEIDA",
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -59,7 +59,7 @@
      "atracacao": "2026-11-14T17:35:00-03:00",
      "chegada": "2026-11-08T14:30:00-03:00",
      "janela_inicio": "2026-11-14T17:35:00-03:00",
-     "janela_fim": "2026-11-18T08:52:00-03:00",
+     "janela_fim": "2026-11-18T14:52:00-03:00",
      "prancha": 2620.32,
      "tons_dia": 2691.0,
      "unidade": "t",
@@ -75,9 +75,9 @@
      "mercadoria": "OLEO DIESEL",
      "atracacao": "2026-11-14T17:35:00-03:00",
      "chegada": "2026-11-08T14:30:00-03:00",
-     "janela_inicio": null,
-     "janela_fim": null,
-     "prancha": null,
+     "janela_inicio": "2026-11-14T17:35:00-03:00",
+     "janela_fim": "2026-11-19T13:00:00-03:00",
+     "prancha": 5716.995,
      "tons_dia": 0.0,
      "unidade": "t",
      "previsto": 17151.0,
@@ -91,7 +91,7 @@
    "etb": null,
    "janela_inicio": "2026-11-14T17:35:00-03:00",
    "desatracacao": null,
-   "janela_fim": "2026-11-18T08:52:00-03:00",
+   "janela_fim": "2026-11-19T13:00:00-03:00",
    "mercadoria": "OLEO DIESEL",
    "operadores": [
     "CATTALINI",
@@ -135,16 +135,16 @@
    ]
   },
   {
-   "loa": 183.0,
-   "imo": "9635767",
-   "programacao": 81176,
-   "calado_chegada": 9.0,
-   "marca_programacao": null,
-   "dwt": 49999.0,
-   "calado_saida": 8.0,
-   "berco": 141,
-   "duv": "0537142026",
    "embarcacao": "ELANDRA STAR",
+   "dwt": 49999.0,
+   "duv": "0537142026",
+   "calado_chegada": 9.0,
+   "berco": 141,
+   "programacao": 81176,
+   "marca_programacao": null,
+   "loa": 183.0,
+   "calado_saida": 8.0,
+   "imo": "9635767",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -190,16 +190,16 @@
    "manobras": []
   },
   {
-   "loa": 182.9,
-   "imo": "1019773",
-   "programacao": 81209,
-   "calado_chegada": 8.5,
-   "marca_programacao": null,
-   "dwt": 50158.6,
-   "calado_saida": 8.5,
-   "berco": 141,
-   "duv": "0544252026",
    "embarcacao": "AEGEAN C",
+   "dwt": 50158.6,
+   "duv": "0544252026",
+   "calado_chegada": 8.5,
+   "berco": 141,
+   "programacao": 81209,
+   "marca_programacao": null,
+   "loa": 182.9,
+   "calado_saida": 8.5,
+   "imo": "1019773",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -245,16 +245,16 @@
    "manobras": []
   },
   {
-   "loa": 181.54,
-   "imo": "9473717",
-   "programacao": 81105,
-   "calado_chegada": 9.0,
-   "marca_programacao": null,
-   "dwt": 45998.0,
-   "calado_saida": 10.0,
-   "berco": 142,
-   "duv": "0524552026",
    "embarcacao": "CLEAN JUSTICE",
+   "dwt": 45998.0,
+   "duv": "0524552026",
+   "calado_chegada": 9.0,
+   "berco": 142,
+   "programacao": 81105,
+   "marca_programacao": null,
+   "loa": 181.54,
+   "calado_saida": 10.0,
+   "imo": "9473717",
    "categoria": "ao_largo",
    "reatracacao": false,
    "cargas": [
@@ -303,15 +303,15 @@
    "manobras": []
   },
   {
+   "embarcacao": "WINNIPEG",
+   "dwt": 28627.0,
+   "duv": "0535012026",
+   "berco": 142,
+   "programacao": 81171,
    "saldo_total": 4400.0,
+   "marca_programacao": null,
    "loa": 179.87,
    "imo": "9852133",
-   "programacao": 81171,
-   "marca_programacao": null,
-   "dwt": 28627.0,
-   "berco": 142,
-   "duv": "0535012026",
-   "embarcacao": "WINNIPEG",
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -368,7 +368,7 @@
    "primeira_vez": "2026-11-08T19:52:08-03:00",
    "manobras": [
     {
-     "quando": "2026-11-16T11:00:00-03:00",
+     "quando": "2026-11-16T22:00:00-03:00",
      "tipo": "desatracacao",
      "rotulo": "Desatracação",
      "codigo": "DS",
@@ -381,16 +381,16 @@
    ]
   },
   {
-   "loa": 119.95,
-   "imo": "9759264",
-   "programacao": 81174,
-   "calado_chegada": 7.0,
-   "marca_programacao": null,
-   "dwt": 8764.0,
-   "calado_saida": 6.0,
-   "berco": 142,
-   "duv": null,
    "embarcacao": "BUENA CONFIANZA",
+   "dwt": 8764.0,
+   "duv": null,
+   "calado_chegada": 7.0,
+   "berco": 142,
+   "programacao": 81174,
+   "marca_programacao": null,
+   "loa": 119.95,
+   "calado_saida": 6.0,
+   "imo": "9759264",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -436,16 +436,16 @@
    "manobras": []
   },
   {
-   "loa": 115.0,
-   "imo": "9342384",
-   "programacao": 81211,
-   "calado_chegada": 7.5,
-   "marca_programacao": null,
-   "dwt": 8586.0,
-   "calado_saida": 6.0,
-   "berco": 142,
-   "duv": null,
    "embarcacao": "ISABELLA KOSAN",
+   "dwt": 8586.0,
+   "duv": null,
+   "calado_chegada": 7.5,
+   "berco": 142,
+   "programacao": 81211,
+   "marca_programacao": null,
+   "loa": 115.0,
+   "calado_saida": 6.0,
+   "imo": "9342384",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -491,16 +491,16 @@
    "manobras": []
   },
   {
-   "loa": 155.0,
-   "imo": "9458157",
-   "programacao": 81214,
-   "calado_chegada": 8.0,
-   "marca_programacao": null,
-   "dwt": 17739.0,
-   "calado_saida": 7.0,
-   "berco": 142,
-   "duv": null,
    "embarcacao": "GAZ SYNERGY",
+   "dwt": 17739.0,
+   "duv": null,
+   "calado_chegada": 8.0,
+   "berco": 142,
+   "programacao": 81214,
+   "marca_programacao": null,
+   "loa": 155.0,
+   "calado_saida": 7.0,
+   "imo": "9458157",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -566,7 +566,7 @@
    "desatracacao": "2026-11-13T20:10:00-03:00",
    "espera_h": 289.3,
    "estadia_berco_h": 36.8,
-   "ultima_vez": "2026-11-16T08:04:28-03:00"
+   "ultima_vez": "2026-11-16T09:04:27-03:00"
   },
   {
    "programacao": 81089,
@@ -588,7 +588,7 @@
    "desatracacao": "2026-11-14T14:10:00-03:00",
    "espera_h": 134.7,
    "estadia_berco_h": 47.3,
-   "ultima_vez": "2026-11-16T08:04:28-03:00"
+   "ultima_vez": "2026-11-16T09:04:27-03:00"
   },
   {
    "programacao": 81094,
@@ -1581,6 +1581,16 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-11-16T09:04:27-03:00",
+   "programacao": 81171,
+   "embarcacao": "WINNIPEG",
+   "berco": 142,
+   "tipo": "manobra",
+   "de": "2026-11-16T11:00:00-03:00",
+   "para": "2026-11-16T22:00:00-03:00",
+   "descricao": "Praticagem: desatracação no berço 142 remarcada de 16/11 às 11:00 para 16/11 às 22:00"
+  },
   {
    "quando": "2026-11-15T20:04:29-03:00",
    "programacao": 81056,
@@ -3570,16 +3580,6 @@
    "de": null,
    "para": "PREVISTA",
    "descricao": "Praticagem: atracação prevista para 27/10 às 14:00 (prevista)"
-  },
-  {
-   "quando": "2026-10-26T20:44:53-03:00",
-   "programacao": 80928,
-   "embarcacao": "ST. MARY",
-   "berco": 141,
-   "tipo": "manobra",
-   "de": "PREVISTA",
-   "para": "A CONFIRMAR",
-   "descricao": "Praticagem: atracação no berço 141 de 27/10 às 03:00 agora está a confirmar"
   }
  ]
 }
