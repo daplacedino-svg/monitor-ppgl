@@ -184,8 +184,6 @@ main { max-width: 1280px; margin: 0 auto; padding: 16px; }
 .detalhe dd { margin: 0; font-weight: 550; }
 .detalhe h4 { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 18px 0 6px; }
 
-.rodape { max-width: 1280px; margin: 24px auto 0; padding: 16px; color: var(--muted); font-size: .8rem; border-top: 1px solid var(--line); }
-
 @media (max-width: 900px) {
   .duas-col { grid-template-columns: minmax(0, 1fr); }
   .resumo { grid-template-columns: repeat(2, 1fr); }
