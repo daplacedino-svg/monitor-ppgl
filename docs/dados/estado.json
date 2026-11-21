@@ -1,35 +1,35 @@
 {
- "gerado_em": "2026-11-21T15:04:28-03:00",
+ "gerado_em": "2026-11-21T16:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 993,
-  "quando": "2026-11-21T15:04:27-03:00",
+  "id": 994,
+  "quando": "2026-11-21T16:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-21T15:06:00-03:00",
+  "emissao_portal": "2026-11-21T16:06:00-03:00",
   "navios_portal": 225,
   "navios_monitorados": 7,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-21T15:04:27-03:00",
- "emissao_portal": "2026-11-21T15:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-21T16:04:27-03:00",
+ "emissao_portal": "2026-11-21T16:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-21T15:00:00-03:00",
+  "atualizacao": "2026-11-21T16:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
+   "marca_programacao": null,
+   "embarcacao": "ELANDRA STAR",
    "dwt": 49999.0,
    "programacao": 81176,
-   "berco": 141,
-   "marca_programacao": null,
-   "loa": 183.0,
-   "imo": "9635767",
    "duv": "0537142026",
-   "saldo_total": 10657.07,
-   "embarcacao": "ELANDRA STAR",
+   "imo": "9635767",
+   "saldo_total": 10667.03,
+   "loa": 183.0,
+   "berco": 141,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -61,11 +61,11 @@
      "janela_inicio": "2026-11-19T19:55:00-03:00",
      "janela_fim": "2026-11-23T00:03:00-03:00",
      "prancha": 2109.495,
-     "tons_dia": 865.0,
+     "tons_dia": 855.0,
      "unidade": "t",
      "previsto": 4219.0,
-     "realizado": 3140.0,
-     "saldo_operador": 1078.8
+     "realizado": 3130.0,
+     "saldo_operador": 1088.76
     },
     {
      "bordo": "BB",
@@ -102,7 +102,7 @@
    "sentido": "Imp",
    "unidade": "t",
    "previsto": 30000.0,
-   "realizado": 19342.93,
+   "realizado": 19332.97,
    "marcos": {
     "eta_inicial": "2026-11-17T07:00:00-03:00",
     "eta": "2026-11-17T19:00:00-03:00",
@@ -117,7 +117,7 @@
     "chegada": "2026-11-17T18:30:00-03:00",
     "atracacao": "2026-11-19T19:55:00-03:00",
     "ultima_atracacao": "2026-11-19T19:55:00-03:00",
-    "realizado": 19342.93
+    "realizado": 19332.97
    },
    "primeira_vez": "2026-11-09T11:04:27-03:00",
    "manobras": [
@@ -135,16 +135,16 @@
    ]
   },
   {
-   "dwt": 50158.6,
-   "calado_chegada": 8.5,
-   "programacao": 81209,
-   "berco": 141,
    "marca_programacao": null,
-   "loa": 182.9,
-   "imo": "1019773",
-   "duv": "0544252026",
-   "calado_saida": 8.5,
+   "calado_chegada": 8.5,
    "embarcacao": "AEGEAN C",
+   "calado_saida": 8.5,
+   "dwt": 50158.6,
+   "programacao": 81209,
+   "duv": "0544252026",
+   "imo": "1019773",
+   "loa": 182.9,
+   "berco": 141,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -205,16 +205,16 @@
    ]
   },
   {
-   "dwt": 49948.0,
-   "calado_chegada": 11.6,
-   "programacao": 81239,
-   "berco": 141,
    "marca_programacao": null,
-   "loa": 183.06,
-   "imo": "1013963",
-   "duv": "0551112026",
-   "calado_saida": 7.7,
+   "calado_chegada": 11.6,
    "embarcacao": "STENA CONQUEST",
+   "calado_saida": 7.7,
+   "dwt": 49948.0,
+   "programacao": 81239,
+   "duv": "0551112026",
+   "imo": "1013963",
+   "loa": 183.06,
+   "berco": 141,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -276,19 +276,31 @@
     "chegada": "2026-11-21T08:30:00-03:00"
    },
    "primeira_vez": "2026-11-16T17:04:27-03:00",
-   "manobras": []
+   "manobras": [
+    {
+     "quando": "2026-11-22T00:00:00-03:00",
+     "tipo": "atracacao",
+     "rotulo": "Atracação",
+     "codigo": "EA",
+     "berco": null,
+     "bordo": null,
+     "local": "PCAT EXT BB",
+     "situacao": "A CONFIRMAR",
+     "casou_por": "imo"
+    }
+   ]
   },
   {
-   "dwt": 8764.0,
-   "calado_chegada": 7.0,
-   "programacao": 81174,
-   "berco": 142,
    "marca_programacao": null,
-   "loa": 119.95,
-   "imo": "9759264",
-   "duv": null,
-   "calado_saida": 6.0,
+   "calado_chegada": 7.0,
    "embarcacao": "BUENA CONFIANZA",
+   "calado_saida": 6.0,
+   "dwt": 8764.0,
+   "programacao": 81174,
+   "duv": null,
+   "imo": "9759264",
+   "loa": 119.95,
+   "berco": 142,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -334,16 +346,16 @@
    "manobras": []
   },
   {
-   "dwt": 8586.0,
-   "calado_chegada": 7.0,
-   "programacao": 81211,
-   "berco": 142,
    "marca_programacao": null,
-   "loa": 115.0,
-   "imo": "9342384",
-   "duv": "0546542026",
-   "calado_saida": 7.0,
+   "calado_chegada": 7.0,
    "embarcacao": "ISABELLA KOSAN",
+   "calado_saida": 7.0,
+   "dwt": 8586.0,
+   "programacao": 81211,
+   "duv": "0546542026",
+   "imo": "9342384",
+   "loa": 115.0,
+   "berco": 142,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -389,16 +401,16 @@
    "manobras": []
   },
   {
-   "dwt": 17739.0,
-   "calado_chegada": 8.0,
-   "programacao": 81214,
-   "berco": 142,
    "marca_programacao": null,
-   "loa": 155.0,
-   "imo": "9458157",
-   "duv": "0548792026",
-   "calado_saida": 6.0,
+   "calado_chegada": 8.0,
    "embarcacao": "GAZ SYNERGY",
+   "calado_saida": 6.0,
+   "dwt": 17739.0,
+   "programacao": 81214,
+   "duv": "0548792026",
+   "imo": "9458157",
+   "loa": 155.0,
+   "berco": 142,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -448,7 +460,7 @@
    "primeira_vez": "2026-11-13T18:04:28-03:00",
    "manobras": [
     {
-     "quando": "2026-11-22T04:30:00-03:00",
+     "quando": "2026-11-22T12:00:00-03:00",
      "tipo": "atracacao",
      "rotulo": "Atracação",
      "codigo": "EA",
@@ -481,7 +493,7 @@
    "desatracacao": "2026-11-21T13:10:00-03:00",
    "espera_h": 322.8,
    "estadia_berco_h": 34.4,
-   "ultima_vez": "2026-11-21T15:04:27-03:00"
+   "ultima_vez": "2026-11-21T16:04:27-03:00"
   },
   {
    "programacao": 81089,
@@ -1561,6 +1573,36 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-11-21T16:04:27-03:00",
+   "programacao": 81214,
+   "embarcacao": "GAZ SYNERGY",
+   "berco": 142,
+   "tipo": "manobra",
+   "de": "2026-11-22T04:30:00-03:00",
+   "para": "2026-11-22T12:00:00-03:00",
+   "descricao": "Praticagem: atracação no berço 142 remarcada de 22/11 às 04:30 para 22/11 às 12:00"
+  },
+  {
+   "quando": "2026-11-21T16:04:27-03:00",
+   "programacao": 81239,
+   "embarcacao": "STENA CONQUEST",
+   "berco": null,
+   "tipo": "manobra",
+   "de": null,
+   "para": "A CONFIRMAR",
+   "descricao": "Praticagem: atracação prevista para 22/11 às 00:00 (a confirmar)"
+  },
+  {
+   "quando": "2026-11-21T16:04:27-03:00",
+   "programacao": null,
+   "embarcacao": "CLEAN JUSTICE",
+   "berco": 142,
+   "tipo": "manobra",
+   "de": "EM ANDAMENTO",
+   "para": "FINALIZADA",
+   "descricao": "Praticagem: desatracação no berço 142 de 21/11 às 13:01 agora está finalizada"
+  },
   {
    "quando": "2026-11-21T15:04:27-03:00",
    "programacao": 81105,
@@ -3530,36 +3572,6 @@
    "de": "2026-11-05T07:00:00-03:00",
    "para": "2026-11-05T19:00:00-03:00",
    "descricao": "Praticagem: desatracação no berço 141 remarcada de 05/11 às 07:00 para 05/11 às 19:00"
-  },
-  {
-   "quando": "2026-11-03T07:47:30-03:00",
-   "programacao": 81026,
-   "embarcacao": "AEGEAN C",
-   "berco": 141,
-   "tipo": "manobra",
-   "de": null,
-   "para": "PREVISTA",
-   "descricao": "Praticagem: atracação no berço 141 prevista para 05/11 às 07:00 (prevista)"
-  },
-  {
-   "quando": "2026-11-03T07:47:30-03:00",
-   "programacao": 81052,
-   "embarcacao": "HORIZON EKAVI",
-   "berco": 141,
-   "tipo": "manobra",
-   "de": null,
-   "para": "PREVISTA",
-   "descricao": "Praticagem: desatracação no berço 141 prevista para 05/11 às 07:00 (prevista)"
-  },
-  {
-   "quando": "2026-11-03T07:47:30-03:00",
-   "programacao": 80959,
-   "embarcacao": "HORIZON THEANO",
-   "berco": 142,
-   "tipo": "manobra",
-   "de": null,
-   "para": "PREVISTA",
-   "descricao": "Praticagem: desatracação no berço 142 prevista para 04/11 às 15:00 (prevista)"
   }
  ]
 }
