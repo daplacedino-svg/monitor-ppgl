@@ -1,35 +1,35 @@
 {
- "gerado_em": "2026-11-21T19:04:28-03:00",
+ "gerado_em": "2026-11-21T20:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 997,
-  "quando": "2026-11-21T19:04:27-03:00",
+  "id": 998,
+  "quando": "2026-11-21T20:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-21T19:06:00-03:00",
-  "navios_portal": 223,
+  "emissao_portal": "2026-11-21T20:06:00-03:00",
+  "navios_portal": 222,
   "navios_monitorados": 7,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-21T19:04:27-03:00",
- "emissao_portal": "2026-11-21T19:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-21T20:04:27-03:00",
+ "emissao_portal": "2026-11-21T20:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-21T19:00:00-03:00",
+  "atualizacao": "2026-11-21T20:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
    "berco": 141,
+   "duv": "0537142026",
+   "marca_programacao": null,
+   "loa": 183.0,
+   "imo": "9635767",
+   "programacao": 81176,
    "dwt": 49999.0,
    "saldo_total": 5710.39,
-   "imo": "9635767",
-   "loa": 183.0,
-   "programacao": 81176,
-   "marca_programacao": null,
    "embarcacao": "ELANDRA STAR",
-   "duv": "0537142026",
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -122,29 +122,29 @@
    "primeira_vez": "2026-11-09T11:04:27-03:00",
    "manobras": [
     {
-     "quando": "2026-11-21T22:00:00-03:00",
+     "quando": "2026-11-21T20:30:00-03:00",
      "tipo": "desatracacao",
      "rotulo": "Desatracação",
      "codigo": "DS",
      "berco": 141,
      "bordo": "BB",
      "local": "P2EXT BB",
-     "situacao": "A CONFIRMAR",
+     "situacao": "CONFIRMADA",
      "casou_por": "imo"
     }
    ]
   },
   {
-   "calado_chegada": 8.5,
    "calado_saida": 8.5,
    "berco": 141,
-   "dwt": 50158.6,
-   "imo": "1019773",
-   "loa": 182.9,
-   "programacao": 81209,
-   "marca_programacao": null,
-   "embarcacao": "AEGEAN C",
+   "calado_chegada": 8.5,
    "duv": "0544252026",
+   "marca_programacao": null,
+   "loa": 182.9,
+   "imo": "1019773",
+   "programacao": 81209,
+   "dwt": 50158.6,
+   "embarcacao": "AEGEAN C",
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -205,16 +205,16 @@
    ]
   },
   {
-   "calado_chegada": 11.6,
    "calado_saida": 7.7,
    "berco": 141,
-   "dwt": 49948.0,
-   "imo": "1013963",
-   "loa": 183.06,
-   "programacao": 81239,
-   "marca_programacao": null,
-   "embarcacao": "STENA CONQUEST",
+   "calado_chegada": 11.6,
    "duv": "0551112026",
+   "marca_programacao": null,
+   "loa": 183.06,
+   "imo": "1013963",
+   "programacao": 81239,
+   "dwt": 49948.0,
+   "embarcacao": "STENA CONQUEST",
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -291,16 +291,16 @@
    ]
   },
   {
-   "calado_chegada": 7.0,
    "calado_saida": 6.0,
    "berco": 142,
-   "dwt": 8764.0,
-   "imo": "9759264",
-   "loa": 119.95,
-   "programacao": 81174,
-   "marca_programacao": null,
-   "embarcacao": "BUENA CONFIANZA",
+   "calado_chegada": 7.0,
    "duv": null,
+   "marca_programacao": null,
+   "loa": 119.95,
+   "imo": "9759264",
+   "programacao": 81174,
+   "dwt": 8764.0,
+   "embarcacao": "BUENA CONFIANZA",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -346,16 +346,16 @@
    "manobras": []
   },
   {
-   "calado_chegada": 7.0,
    "calado_saida": 7.0,
    "berco": 142,
-   "dwt": 8586.0,
-   "imo": "9342384",
-   "loa": 115.0,
-   "programacao": 81211,
-   "marca_programacao": null,
-   "embarcacao": "ISABELLA KOSAN",
+   "calado_chegada": 7.0,
    "duv": "0546542026",
+   "marca_programacao": null,
+   "loa": 115.0,
+   "imo": "9342384",
+   "programacao": 81211,
+   "dwt": 8586.0,
+   "embarcacao": "ISABELLA KOSAN",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -401,16 +401,16 @@
    "manobras": []
   },
   {
-   "calado_chegada": 8.0,
    "calado_saida": 6.0,
    "berco": 142,
-   "dwt": 17739.0,
-   "imo": "9458157",
-   "loa": 155.0,
-   "programacao": 81214,
-   "marca_programacao": null,
-   "embarcacao": "GAZ SYNERGY",
+   "calado_chegada": 8.0,
    "duv": "0548792026",
+   "marca_programacao": null,
+   "loa": 155.0,
+   "imo": "9458157",
+   "programacao": 81214,
+   "dwt": 17739.0,
+   "embarcacao": "GAZ SYNERGY",
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -493,7 +493,7 @@
    "desatracacao": "2026-11-21T13:10:00-03:00",
    "espera_h": 322.8,
    "estadia_berco_h": 34.4,
-   "ultima_vez": "2026-11-21T19:04:27-03:00"
+   "ultima_vez": "2026-11-21T20:04:27-03:00"
   },
   {
    "programacao": 81089,
@@ -1573,6 +1573,26 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-11-21T20:04:27-03:00",
+   "programacao": 81176,
+   "embarcacao": "ELANDRA STAR",
+   "berco": 141,
+   "tipo": "manobra",
+   "de": "A CONFIRMAR",
+   "para": "CONFIRMADA",
+   "descricao": "Praticagem: desatracação no berço 141 de 21/11 às 20:30 agora está confirmada"
+  },
+  {
+   "quando": "2026-11-21T20:04:27-03:00",
+   "programacao": 81176,
+   "embarcacao": "ELANDRA STAR",
+   "berco": 141,
+   "tipo": "manobra",
+   "de": "2026-11-21T22:00:00-03:00",
+   "para": "2026-11-21T20:30:00-03:00",
+   "descricao": "Praticagem: desatracação no berço 141 remarcada de 21/11 às 22:00 para 21/11 às 20:30"
+  },
   {
    "quando": "2026-11-21T17:04:27-03:00",
    "programacao": 81176,
@@ -3552,26 +3572,6 @@
    "de": "2026-11-04T15:00:00-03:00",
    "para": "2026-11-04T00:30:00-03:00",
    "descricao": "Praticagem: desatracação no berço 142 remarcada de 04/11 às 15:00 para 04/11 às 00:30"
-  },
-  {
-   "quando": "2026-11-03T13:04:28-03:00",
-   "programacao": 81023,
-   "embarcacao": "BUENA CONFIANZA",
-   "berco": 142,
-   "tipo": "status",
-   "de": "ao_largo",
-   "para": "programado",
-   "descricao": "BUENA CONFIANZA foi programado para atracação"
-  },
-  {
-   "quando": "2026-11-03T10:04:28-03:00",
-   "programacao": 81026,
-   "embarcacao": "AEGEAN C",
-   "berco": 141,
-   "tipo": "manobra",
-   "de": "2026-11-05T07:00:00-03:00",
-   "para": "2026-11-05T19:00:00-03:00",
-   "descricao": "Praticagem: atracação no berço 141 remarcada de 05/11 às 07:00 para 05/11 às 19:00"
   }
  ]
 }
