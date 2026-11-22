@@ -1,36 +1,36 @@
 {
- "gerado_em": "2026-11-22T13:04:28-03:00",
+ "gerado_em": "2026-11-22T14:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 1015,
-  "quando": "2026-11-22T13:04:27-03:00",
+  "id": 1016,
+  "quando": "2026-11-22T14:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-22T13:06:00-03:00",
+  "emissao_portal": "2026-11-22T14:06:00-03:00",
   "navios_portal": 218,
   "navios_monitorados": 7,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-22T13:04:27-03:00",
- "emissao_portal": "2026-11-22T13:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-22T14:04:27-03:00",
+ "emissao_portal": "2026-11-22T14:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-22T13:00:00-03:00",
+  "atualizacao": "2026-11-22T14:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "berco": 141,
-   "loa": 182.9,
    "calado_chegada": 8.5,
-   "marca_programacao": null,
+   "imo": "1019773",
+   "loa": 182.9,
    "duv": "0544252026",
    "programacao": 81209,
-   "calado_saida": 8.5,
-   "imo": "1019773",
+   "marca_programacao": null,
    "dwt": 50158.6,
+   "berco": 141,
    "embarcacao": "AEGEAN C",
+   "calado_saida": 8.5,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -91,14 +91,14 @@
    ]
   },
   {
-   "berco": 141,
-   "loa": 183.06,
-   "marca_programacao": null,
-   "duv": "0551112026",
-   "saldo_total": 36945.0,
-   "programacao": 81239,
    "imo": "1013963",
+   "loa": 183.06,
+   "duv": "0551112026",
+   "programacao": 81239,
+   "marca_programacao": null,
    "dwt": 49948.0,
+   "saldo_total": 36245.0,
+   "berco": 141,
    "embarcacao": "STENA CONQUEST",
    "categoria": "atracado",
    "reatracacao": false,
@@ -117,8 +117,8 @@
      "tons_dia": 0.0,
      "unidade": "t",
      "previsto": 36945.0,
-     "realizado": 0.0,
-     "saldo_operador": 36945.0
+     "realizado": 700.0,
+     "saldo_operador": 36245.0
     }
    ],
    "chegada": "2026-11-21T08:30:00-03:00",
@@ -136,7 +136,7 @@
    "sentido": "Imp",
    "unidade": "t",
    "previsto": 36945.0,
-   "realizado": 0.0,
+   "realizado": 700.0,
    "marcos": {
     "eta_inicial": "2026-11-21T19:00:00-03:00",
     "eta": "2026-11-21T11:30:00-03:00",
@@ -151,7 +151,7 @@
     "chegada": "2026-11-21T08:30:00-03:00",
     "atracacao": "2026-11-22T03:38:00-03:00",
     "ultima_atracacao": "2026-11-22T03:38:00-03:00",
-    "realizado": 0.0
+    "realizado": 700.0
    },
    "primeira_vez": "2026-11-16T17:04:27-03:00",
    "manobras": [
@@ -169,16 +169,16 @@
    ]
   },
   {
-   "berco": 142,
-   "loa": 119.95,
    "calado_chegada": 7.0,
-   "marca_programacao": null,
+   "imo": "9759264",
+   "loa": 119.95,
    "duv": null,
    "programacao": 81174,
-   "calado_saida": 6.0,
-   "imo": "9759264",
+   "marca_programacao": null,
    "dwt": 8764.0,
+   "berco": 142,
    "embarcacao": "BUENA CONFIANZA",
+   "calado_saida": 6.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -224,16 +224,16 @@
    "manobras": []
   },
   {
-   "berco": 142,
-   "loa": 115.0,
    "calado_chegada": 7.0,
-   "marca_programacao": null,
+   "imo": "9342384",
+   "loa": 115.0,
    "duv": "0546542026",
    "programacao": 81211,
-   "calado_saida": 7.0,
-   "imo": "9342384",
+   "marca_programacao": null,
    "dwt": 8586.0,
+   "berco": 142,
    "embarcacao": "ISABELLA KOSAN",
+   "calado_saida": 7.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -279,16 +279,16 @@
    "manobras": []
   },
   {
-   "berco": 142,
-   "loa": 155.0,
    "calado_chegada": 8.0,
-   "marca_programacao": null,
+   "imo": "9458157",
+   "loa": 155.0,
    "duv": "0548792026",
    "programacao": 81214,
-   "calado_saida": 6.0,
-   "imo": "9458157",
+   "marca_programacao": null,
    "dwt": 17739.0,
+   "berco": 142,
    "embarcacao": "GAZ SYNERGY",
+   "calado_saida": 6.0,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -338,17 +338,6 @@
    "primeira_vez": "2026-11-13T18:04:28-03:00",
    "manobras": [
     {
-     "quando": "2026-11-22T11:25:00-03:00",
-     "tipo": "atracacao",
-     "rotulo": "Atracação",
-     "codigo": "EA",
-     "berco": 142,
-     "bordo": "BE",
-     "local": "P2INT BE",
-     "situacao": "EM ANDAMENTO",
-     "casou_por": "imo"
-    },
-    {
      "quando": "2026-11-23T17:00:00-03:00",
      "tipo": "desatracacao",
      "rotulo": "Desatracação",
@@ -382,7 +371,7 @@
    "desatracacao": "2026-11-21T13:10:00-03:00",
    "espera_h": 322.8,
    "estadia_berco_h": 34.4,
-   "ultima_vez": "2026-11-22T13:04:27-03:00"
+   "ultima_vez": "2026-11-22T14:04:27-03:00"
   },
   {
    "programacao": 81176,
@@ -405,7 +394,7 @@
    "desatracacao": "2026-11-21T20:45:00-03:00",
    "espera_h": 49.4,
    "estadia_berco_h": 48.8,
-   "ultima_vez": "2026-11-22T13:04:27-03:00"
+   "ultima_vez": "2026-11-22T14:04:27-03:00"
   },
   {
    "programacao": 81089,
