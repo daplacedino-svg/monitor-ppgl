@@ -1,150 +1,36 @@
 {
- "gerado_em": "2026-11-21T21:04:28-03:00",
+ "gerado_em": "2026-11-21T22:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 999,
-  "quando": "2026-11-21T21:04:27-03:00",
+  "id": 1000,
+  "quando": "2026-11-21T22:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-21T21:06:00-03:00",
+  "emissao_portal": "2026-11-21T22:06:00-03:00",
   "navios_portal": 222,
   "navios_monitorados": 7,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-21T21:04:27-03:00",
- "emissao_portal": "2026-11-21T21:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-21T22:04:27-03:00",
+ "emissao_portal": "2026-11-21T22:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-21T21:00:00-03:00",
+  "atualizacao": "2026-11-21T22:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "imo": "9635767",
-   "berco": 141,
-   "programacao": 81176,
-   "loa": 183.0,
-   "saldo_total": 5710.39,
-   "duv": "0537142026",
-   "embarcacao": "ELANDRA STAR",
    "marca_programacao": null,
-   "dwt": 49999.0,
-   "categoria": "atracado",
-   "reatracacao": false,
-   "cargas": [
-    {
-     "bordo": "BB",
-     "sentido": "Imp",
-     "agencia": "LACHMANN",
-     "operador": "CATTALINI",
-     "mercadoria": "GASOLINAS",
-     "atracacao": "2026-11-19T19:55:00-03:00",
-     "chegada": "2026-11-17T18:30:00-03:00",
-     "janela_inicio": "2026-11-19T19:55:00-03:00",
-     "janela_fim": "2026-11-23T00:00:00-03:00",
-     "prancha": 3967.995,
-     "tons_dia": 84.0,
-     "unidade": "t",
-     "previsto": 7936.0,
-     "realizado": 7936.0,
-     "saldo_operador": 0.0
-    },
-    {
-     "bordo": "BB",
-     "sentido": "Imp",
-     "agencia": "LACHMANN",
-     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
-     "mercadoria": "GASOLINAS",
-     "atracacao": "2026-11-19T19:55:00-03:00",
-     "chegada": "2026-11-17T18:30:00-03:00",
-     "janela_inicio": "2026-11-19T19:55:00-03:00",
-     "janela_fim": "2026-11-23T07:33:00-03:00",
-     "prancha": 2109.495,
-     "tons_dia": 855.0,
-     "unidade": "t",
-     "previsto": 4219.0,
-     "realizado": 3130.0,
-     "saldo_operador": 1088.76
-    },
-    {
-     "bordo": "BB",
-     "sentido": "Imp",
-     "agencia": "LACHMANN",
-     "operador": "PETROBRAS TRANSPORTE S.A - TRANSPETRO",
-     "mercadoria": "GASOLINAS",
-     "atracacao": "2026-11-19T19:55:00-03:00",
-     "chegada": "2026-11-17T18:30:00-03:00",
-     "janela_inicio": "2026-11-19T19:55:00-03:00",
-     "janela_fim": "2026-11-23T06:37:00-03:00",
-     "prancha": 8922.495,
-     "tons_dia": 13223.0,
-     "unidade": "t",
-     "previsto": 17845.0,
-     "realizado": 13223.0,
-     "saldo_operador": 4621.63
-    }
-   ],
-   "chegada": "2026-11-17T18:30:00-03:00",
-   "atracacao": "2026-11-19T19:55:00-03:00",
-   "eta": null,
-   "etb": null,
-   "janela_inicio": "2026-11-19T19:55:00-03:00",
-   "desatracacao": null,
-   "janela_fim": "2026-11-23T07:33:00-03:00",
-   "mercadoria": "GASOLINAS",
-   "operadores": [
-    "CATTALINI",
-    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
-    "PETROBRAS TRANSPORTE S.A - TRANSPETRO"
-   ],
-   "agencia": "LACHMANN",
-   "sentido": "Imp",
-   "unidade": "t",
-   "previsto": 30000.0,
-   "realizado": 24289.61,
-   "marcos": {
-    "eta_inicial": "2026-11-17T07:00:00-03:00",
-    "eta": "2026-11-17T19:00:00-03:00",
-    "previsto": 30000.0,
-    "unidade": "t",
-    "visto_como": {
-     "esperado": "2026-11-09T11:04:27-03:00",
-     "ao_largo": "2026-11-17T23:04:27-03:00",
-     "programado": "2026-11-19T22:04:28-03:00",
-     "atracado": "2026-11-20T00:04:28-03:00"
-    },
-    "chegada": "2026-11-17T18:30:00-03:00",
-    "atracacao": "2026-11-19T19:55:00-03:00",
-    "ultima_atracacao": "2026-11-19T19:55:00-03:00",
-    "realizado": 24289.61
-   },
-   "primeira_vez": "2026-11-09T11:04:27-03:00",
-   "manobras": [
-    {
-     "quando": "2026-11-21T20:41:00-03:00",
-     "tipo": "desatracacao",
-     "rotulo": "Desatracação",
-     "codigo": "DS",
-     "berco": 141,
-     "bordo": "BB",
-     "local": "P2EXT BB",
-     "situacao": "EM ANDAMENTO",
-     "casou_por": "imo"
-    }
-   ]
-  },
-  {
-   "imo": "1019773",
-   "berco": 141,
-   "calado_chegada": 8.5,
    "programacao": 81209,
-   "loa": 182.9,
-   "calado_saida": 8.5,
+   "imo": "1019773",
    "duv": "0544252026",
-   "embarcacao": "AEGEAN C",
-   "marca_programacao": null,
+   "calado_chegada": 8.5,
+   "loa": 182.9,
    "dwt": 50158.6,
+   "berco": 141,
+   "embarcacao": "AEGEAN C",
+   "calado_saida": 8.5,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -205,16 +91,16 @@
    ]
   },
   {
-   "imo": "1013963",
-   "berco": 141,
-   "calado_chegada": 11.6,
-   "programacao": 81239,
-   "loa": 183.06,
-   "calado_saida": 7.7,
-   "duv": "0551112026",
-   "embarcacao": "STENA CONQUEST",
    "marca_programacao": null,
+   "programacao": 81239,
+   "imo": "1013963",
+   "duv": "0551112026",
+   "calado_chegada": 11.6,
+   "loa": 183.06,
    "dwt": 49948.0,
+   "berco": 141,
+   "embarcacao": "STENA CONQUEST",
+   "calado_saida": 7.7,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -291,16 +177,16 @@
    ]
   },
   {
-   "imo": "9759264",
-   "berco": 142,
-   "calado_chegada": 7.0,
-   "programacao": 81174,
-   "loa": 119.95,
-   "calado_saida": 6.0,
-   "duv": null,
-   "embarcacao": "BUENA CONFIANZA",
    "marca_programacao": null,
+   "programacao": 81174,
+   "imo": "9759264",
+   "duv": null,
+   "calado_chegada": 7.0,
+   "loa": 119.95,
    "dwt": 8764.0,
+   "berco": 142,
+   "embarcacao": "BUENA CONFIANZA",
+   "calado_saida": 6.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -346,16 +232,16 @@
    "manobras": []
   },
   {
-   "imo": "9342384",
-   "berco": 142,
-   "calado_chegada": 7.0,
-   "programacao": 81211,
-   "loa": 115.0,
-   "calado_saida": 7.0,
-   "duv": "0546542026",
-   "embarcacao": "ISABELLA KOSAN",
    "marca_programacao": null,
+   "programacao": 81211,
+   "imo": "9342384",
+   "duv": "0546542026",
+   "calado_chegada": 7.0,
+   "loa": 115.0,
    "dwt": 8586.0,
+   "berco": 142,
+   "embarcacao": "ISABELLA KOSAN",
+   "calado_saida": 7.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -401,16 +287,16 @@
    "manobras": []
   },
   {
-   "imo": "9458157",
-   "berco": 142,
-   "calado_chegada": 8.0,
-   "programacao": 81214,
-   "loa": 155.0,
-   "calado_saida": 6.0,
-   "duv": "0548792026",
-   "embarcacao": "GAZ SYNERGY",
    "marca_programacao": null,
+   "programacao": 81214,
+   "imo": "9458157",
+   "duv": "0548792026",
+   "calado_chegada": 8.0,
+   "loa": 155.0,
    "dwt": 17739.0,
+   "berco": 142,
+   "embarcacao": "GAZ SYNERGY",
+   "calado_saida": 6.0,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -493,7 +379,30 @@
    "desatracacao": "2026-11-21T13:10:00-03:00",
    "espera_h": 322.8,
    "estadia_berco_h": 34.4,
-   "ultima_vez": "2026-11-21T21:04:27-03:00"
+   "ultima_vez": "2026-11-21T22:04:27-03:00"
+  },
+  {
+   "programacao": 81176,
+   "embarcacao": "ELANDRA STAR",
+   "imo": "9635767",
+   "berco": 141,
+   "situacao": "despachado",
+   "mercadoria": "GASOLINAS",
+   "sentido": "Imp",
+   "operadores": [
+    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
+    "CATTALINI",
+    "PETROBRAS TRANSPORTE S.A - TRANSPETRO"
+   ],
+   "agencia": "LACHMANN",
+   "previsto": 30000.0,
+   "unidade": "t",
+   "chegada": "2026-11-17T18:30:00-03:00",
+   "atracacao": "2026-11-19T19:55:00-03:00",
+   "desatracacao": "2026-11-21T20:45:00-03:00",
+   "espera_h": 49.4,
+   "estadia_berco_h": 48.8,
+   "ultima_vez": "2026-11-21T22:04:27-03:00"
   },
   {
    "programacao": 81089,
@@ -1573,6 +1482,16 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-11-21T22:04:27-03:00",
+   "programacao": 81176,
+   "embarcacao": "ELANDRA STAR",
+   "berco": 141,
+   "tipo": "status",
+   "de": "atracado",
+   "para": "despachado",
+   "descricao": "ELANDRA STAR desatracou / despachado"
+  },
   {
    "quando": "2026-11-21T21:04:27-03:00",
    "programacao": 81176,
@@ -3562,16 +3481,6 @@
    "de": "programado",
    "para": "atracado",
    "descricao": "BUENA CONFIANZA atracou"
-  },
-  {
-   "quando": "2026-11-03T15:04:28-03:00",
-   "programacao": 81023,
-   "embarcacao": "BUENA CONFIANZA",
-   "berco": 142,
-   "tipo": "manobra",
-   "de": null,
-   "para": "A CONFIRMAR",
-   "descricao": "Praticagem: atracação no berço 142 prevista para 04/11 às 01:00 (a confirmar)"
   }
  ]
 }
