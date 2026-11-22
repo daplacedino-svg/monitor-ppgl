@@ -1,36 +1,36 @@
 {
- "gerado_em": "2026-11-22T15:04:28-03:00",
+ "gerado_em": "2026-11-22T16:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 1017,
-  "quando": "2026-11-22T15:04:27-03:00",
+  "id": 1018,
+  "quando": "2026-11-22T16:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-22T15:06:00-03:00",
-  "navios_portal": 218,
+  "emissao_portal": "2026-11-22T16:06:00-03:00",
+  "navios_portal": 217,
   "navios_monitorados": 7,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-22T15:04:27-03:00",
- "emissao_portal": "2026-11-22T15:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-22T16:04:27-03:00",
+ "emissao_portal": "2026-11-22T16:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-22T15:00:00-03:00",
+  "atualizacao": "2026-11-22T16:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "calado_chegada": 8.5,
-   "dwt": 50158.6,
-   "embarcacao": "AEGEAN C",
    "loa": 182.9,
-   "imo": "1019773",
-   "duv": "0544252026",
-   "berco": 141,
-   "calado_saida": 8.5,
-   "programacao": 81209,
+   "calado_chegada": 8.5,
    "marca_programacao": null,
+   "imo": "1019773",
+   "berco": 141,
+   "embarcacao": "AEGEAN C",
+   "programacao": 81209,
+   "calado_saida": 8.5,
+   "dwt": 50158.6,
+   "duv": "0544252026",
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -78,28 +78,28 @@
    "primeira_vez": "2026-11-11T15:04:28-03:00",
    "manobras": [
     {
-     "quando": "2026-11-23T13:00:00-03:00",
+     "quando": "2026-11-23T01:00:00-03:00",
      "tipo": "atracacao",
      "rotulo": "Atracação",
      "codigo": "EA",
      "berco": 141,
      "bordo": "BB",
      "local": "P2EXT BB",
-     "situacao": "PREVISTA",
+     "situacao": "A CONFIRMAR",
      "casou_por": "imo"
     }
    ]
   },
   {
-   "dwt": 49948.0,
-   "embarcacao": "STENA CONQUEST",
    "loa": 183.06,
-   "imo": "1013963",
-   "duv": "0551112026",
-   "berco": 141,
-   "programacao": 81239,
    "marca_programacao": null,
+   "imo": "1013963",
    "saldo_total": 36245.0,
+   "berco": 141,
+   "embarcacao": "STENA CONQUEST",
+   "programacao": 81239,
+   "dwt": 49948.0,
+   "duv": "0551112026",
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -156,7 +156,7 @@
    "primeira_vez": "2026-11-16T17:04:27-03:00",
    "manobras": [
     {
-     "quando": "2026-11-23T16:00:00-03:00",
+     "quando": "2026-11-24T01:30:00-03:00",
      "tipo": "desatracacao",
      "rotulo": "Desatracação",
      "codigo": "DS",
@@ -169,16 +169,16 @@
    ]
   },
   {
-   "calado_chegada": 7.0,
-   "dwt": 8764.0,
-   "embarcacao": "BUENA CONFIANZA",
    "loa": 119.95,
-   "imo": "9759264",
-   "duv": null,
-   "berco": 142,
-   "calado_saida": 6.0,
-   "programacao": 81174,
+   "calado_chegada": 7.0,
    "marca_programacao": null,
+   "imo": "9759264",
+   "berco": 142,
+   "embarcacao": "BUENA CONFIANZA",
+   "programacao": 81174,
+   "calado_saida": 6.0,
+   "dwt": 8764.0,
+   "duv": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -224,16 +224,16 @@
    "manobras": []
   },
   {
-   "calado_chegada": 7.0,
-   "dwt": 8586.0,
-   "embarcacao": "ISABELLA KOSAN",
    "loa": 115.0,
-   "imo": "9342384",
-   "duv": "0546542026",
-   "berco": 142,
-   "calado_saida": 7.0,
-   "programacao": 81211,
+   "calado_chegada": 7.0,
    "marca_programacao": null,
+   "imo": "9342384",
+   "berco": 142,
+   "embarcacao": "ISABELLA KOSAN",
+   "programacao": 81211,
+   "calado_saida": 7.0,
+   "dwt": 8586.0,
+   "duv": "0546542026",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -279,15 +279,15 @@
    "manobras": []
   },
   {
-   "dwt": 17739.0,
-   "embarcacao": "GAZ SYNERGY",
    "loa": 155.0,
-   "imo": "9458157",
-   "duv": "0548792026",
-   "berco": 142,
-   "programacao": 81214,
    "marca_programacao": null,
+   "imo": "9458157",
    "saldo_total": 9251.0,
+   "berco": 142,
+   "embarcacao": "GAZ SYNERGY",
+   "programacao": 81214,
+   "dwt": 17739.0,
+   "duv": "0548792026",
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -377,7 +377,7 @@
    "desatracacao": "2026-11-21T13:10:00-03:00",
    "espera_h": 322.8,
    "estadia_berco_h": 34.4,
-   "ultima_vez": "2026-11-22T15:04:27-03:00"
+   "ultima_vez": "2026-11-22T16:04:27-03:00"
   },
   {
    "programacao": 81176,
@@ -400,7 +400,7 @@
    "desatracacao": "2026-11-21T20:45:00-03:00",
    "espera_h": 49.4,
    "estadia_berco_h": 48.8,
-   "ultima_vez": "2026-11-22T15:04:27-03:00"
+   "ultima_vez": "2026-11-22T16:04:27-03:00"
   },
   {
    "programacao": 81089,
@@ -1480,6 +1480,36 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-11-22T16:04:27-03:00",
+   "programacao": 81239,
+   "embarcacao": "STENA CONQUEST",
+   "berco": 141,
+   "tipo": "manobra",
+   "de": "2026-11-23T16:00:00-03:00",
+   "para": "2026-11-24T01:30:00-03:00",
+   "descricao": "Praticagem: desatracação no berço 141 remarcada de 23/11 às 16:00 para 24/11 às 01:30"
+  },
+  {
+   "quando": "2026-11-22T16:04:27-03:00",
+   "programacao": 81209,
+   "embarcacao": "AEGEAN C",
+   "berco": 141,
+   "tipo": "manobra",
+   "de": "PREVISTA",
+   "para": "A CONFIRMAR",
+   "descricao": "Praticagem: atracação no berço 141 de 23/11 às 01:00 agora está a confirmar"
+  },
+  {
+   "quando": "2026-11-22T16:04:27-03:00",
+   "programacao": 81209,
+   "embarcacao": "AEGEAN C",
+   "berco": 141,
+   "tipo": "manobra",
+   "de": "2026-11-23T13:00:00-03:00",
+   "para": "2026-11-23T01:00:00-03:00",
+   "descricao": "Praticagem: atracação no berço 141 remarcada de 23/11 às 13:00 para 23/11 às 01:00"
+  },
   {
    "quando": "2026-11-22T15:04:27-03:00",
    "programacao": 81214,
@@ -3449,36 +3479,6 @@
    "de": "2026-11-05T17:30:00-03:00",
    "para": "2026-11-05T21:00:00-03:00",
    "descricao": "Praticagem: desatracação remarcada de 05/11 às 17:30 para 05/11 às 21:00"
-  },
-  {
-   "quando": "2026-11-05T14:04:27-03:00",
-   "programacao": 81052,
-   "embarcacao": "HORIZON EKAVI",
-   "berco": 141,
-   "tipo": "manobra",
-   "de": "PREVISTA",
-   "para": "A CONFIRMAR",
-   "descricao": "Praticagem: desatracação no berço 141 de 05/11 às 20:00 agora está a confirmar"
-  },
-  {
-   "quando": "2026-11-05T14:04:27-03:00",
-   "programacao": 81052,
-   "embarcacao": "HORIZON EKAVI",
-   "berco": 141,
-   "tipo": "manobra",
-   "de": "2026-11-05T21:00:00-03:00",
-   "para": "2026-11-05T20:00:00-03:00",
-   "descricao": "Praticagem: desatracação no berço 141 remarcada de 05/11 às 21:00 para 05/11 às 20:00"
-  },
-  {
-   "quando": "2026-11-05T14:04:27-03:00",
-   "programacao": 81026,
-   "embarcacao": "AEGEAN C",
-   "berco": 142,
-   "tipo": "manobra",
-   "de": "A CONFIRMAR",
-   "para": "CONFIRMADA",
-   "descricao": "Praticagem: atracação no berço 142 de 05/11 às 14:00 agora está confirmada"
   }
  ]
 }
