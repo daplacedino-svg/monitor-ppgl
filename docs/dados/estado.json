@@ -1,36 +1,36 @@
 {
- "gerado_em": "2026-11-22T06:04:29-03:00",
+ "gerado_em": "2026-11-22T07:04:29-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 1008,
-  "quando": "2026-11-22T06:04:27-03:00",
+  "id": 1009,
+  "quando": "2026-11-22T07:04:28-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-22T06:06:00-03:00",
-  "navios_portal": 221,
+  "emissao_portal": "2026-11-22T07:06:00-03:00",
+  "navios_portal": 220,
   "navios_monitorados": 7,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-22T06:04:27-03:00",
- "emissao_portal": "2026-11-22T06:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-22T07:04:28-03:00",
+ "emissao_portal": "2026-11-22T07:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-22T06:00:00-03:00",
+  "atualizacao": "2026-11-22T07:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "calado_chegada": 8.5,
-   "marca_programacao": null,
-   "calado_saida": 8.5,
    "loa": 182.9,
-   "dwt": 50158.6,
-   "embarcacao": "AEGEAN C",
+   "marca_programacao": null,
    "berco": 141,
-   "imo": "1019773",
-   "duv": "0544252026",
    "programacao": 81209,
+   "calado_chegada": 8.5,
+   "duv": "0544252026",
+   "dwt": 50158.6,
+   "imo": "1019773",
+   "embarcacao": "AEGEAN C",
+   "calado_saida": 8.5,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -91,75 +91,67 @@
    ]
   },
   {
-   "calado_chegada": 11.6,
-   "marca_programacao": null,
-   "calado_saida": 7.7,
    "loa": 183.06,
-   "dwt": 49948.0,
-   "embarcacao": "STENA CONQUEST",
+   "marca_programacao": null,
    "berco": 141,
-   "imo": "1013963",
-   "duv": "0551112026",
    "programacao": 81239,
-   "categoria": "programado",
+   "duv": "0551112026",
+   "saldo_total": 36945.0,
+   "dwt": 49948.0,
+   "imo": "1013963",
+   "embarcacao": "STENA CONQUEST",
+   "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
     {
-     "bordo": "QB",
+     "bordo": "BB",
      "sentido": "Imp",
      "agencia": "L.M.A. SHIPPING",
      "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
      "mercadoria": "OUTRAS GASOLINAS, EXCETO PARA",
+     "atracacao": "2026-11-22T03:38:00-03:00",
      "chegada": "2026-11-21T08:30:00-03:00",
-     "etb": null,
      "janela_inicio": null,
      "janela_fim": null,
      "prancha": null,
+     "tons_dia": 0.0,
+     "unidade": "t",
      "previsto": 36945.0,
-     "unidade": "t"
-    },
-    {
-     "bordo": "QB",
-     "sentido": "Imp",
-     "agencia": "L.M.A. SHIPPING",
-     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
-     "mercadoria": "OLEO DIESEL",
-     "chegada": "2026-11-21T08:30:00-03:00",
-     "etb": null,
-     "janela_inicio": null,
-     "janela_fim": null,
-     "prancha": null,
-     "previsto": 36945.0,
-     "unidade": "t"
+     "realizado": 0.0,
+     "saldo_operador": 36945.0
     }
    ],
    "chegada": "2026-11-21T08:30:00-03:00",
-   "atracacao": null,
+   "atracacao": "2026-11-22T03:38:00-03:00",
    "eta": null,
    "etb": null,
    "janela_inicio": null,
    "desatracacao": null,
    "janela_fim": null,
-   "mercadoria": "OUTRAS GASOLINAS, EXCETO PARA + OLEO DIESEL",
+   "mercadoria": "OUTRAS GASOLINAS, EXCETO PARA",
    "operadores": [
     "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA"
    ],
    "agencia": "L.M.A. SHIPPING",
    "sentido": "Imp",
    "unidade": "t",
-   "previsto": 73890.0,
-   "realizado": null,
+   "previsto": 36945.0,
+   "realizado": 0.0,
    "marcos": {
     "eta_inicial": "2026-11-21T19:00:00-03:00",
     "eta": "2026-11-21T11:30:00-03:00",
-    "previsto": 73890.0,
+    "previsto": 36945.0,
     "unidade": "t",
     "visto_como": {
      "esperado": "2026-11-16T17:04:27-03:00",
      "ao_largo": "2026-11-21T11:04:27-03:00",
-     "programado": "2026-11-21T13:04:27-03:00"
+     "programado": "2026-11-21T13:04:27-03:00",
+     "atracado": "2026-11-22T07:04:28-03:00"
     },
-    "chegada": "2026-11-21T08:30:00-03:00"
+    "chegada": "2026-11-21T08:30:00-03:00",
+    "atracacao": "2026-11-22T03:38:00-03:00",
+    "ultima_atracacao": "2026-11-22T03:38:00-03:00",
+    "realizado": 0.0
    },
    "primeira_vez": "2026-11-16T17:04:27-03:00",
    "manobras": [
@@ -177,16 +169,16 @@
    ]
   },
   {
-   "calado_chegada": 7.0,
-   "marca_programacao": null,
-   "calado_saida": 6.0,
    "loa": 119.95,
-   "dwt": 8764.0,
-   "embarcacao": "BUENA CONFIANZA",
+   "marca_programacao": null,
    "berco": 142,
-   "imo": "9759264",
-   "duv": null,
    "programacao": 81174,
+   "calado_chegada": 7.0,
+   "duv": null,
+   "dwt": 8764.0,
+   "imo": "9759264",
+   "embarcacao": "BUENA CONFIANZA",
+   "calado_saida": 6.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -232,16 +224,16 @@
    "manobras": []
   },
   {
-   "calado_chegada": 7.0,
-   "marca_programacao": null,
-   "calado_saida": 7.0,
    "loa": 115.0,
-   "dwt": 8586.0,
-   "embarcacao": "ISABELLA KOSAN",
+   "marca_programacao": null,
    "berco": 142,
-   "imo": "9342384",
-   "duv": "0546542026",
    "programacao": 81211,
+   "calado_chegada": 7.0,
+   "duv": "0546542026",
+   "dwt": 8586.0,
+   "imo": "9342384",
+   "embarcacao": "ISABELLA KOSAN",
+   "calado_saida": 7.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -287,16 +279,16 @@
    "manobras": []
   },
   {
-   "calado_chegada": 8.0,
-   "marca_programacao": null,
-   "calado_saida": 6.0,
    "loa": 155.0,
-   "dwt": 17739.0,
-   "embarcacao": "GAZ SYNERGY",
+   "marca_programacao": null,
    "berco": 142,
-   "imo": "9458157",
-   "duv": "0548792026",
    "programacao": 81214,
+   "calado_chegada": 8.0,
+   "duv": "0548792026",
+   "dwt": 17739.0,
+   "imo": "9458157",
+   "embarcacao": "GAZ SYNERGY",
+   "calado_saida": 6.0,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -379,7 +371,7 @@
    "desatracacao": "2026-11-21T13:10:00-03:00",
    "espera_h": 322.8,
    "estadia_berco_h": 34.4,
-   "ultima_vez": "2026-11-22T06:04:27-03:00"
+   "ultima_vez": "2026-11-22T07:04:28-03:00"
   },
   {
    "programacao": 81176,
@@ -402,7 +394,7 @@
    "desatracacao": "2026-11-21T20:45:00-03:00",
    "espera_h": 49.4,
    "estadia_berco_h": 48.8,
-   "ultima_vez": "2026-11-22T06:04:27-03:00"
+   "ultima_vez": "2026-11-22T07:04:28-03:00"
   },
   {
    "programacao": 81089,
@@ -1482,6 +1474,16 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-11-22T07:04:28-03:00",
+   "programacao": 81239,
+   "embarcacao": "STENA CONQUEST",
+   "berco": 141,
+   "tipo": "status",
+   "de": "programado",
+   "para": "atracado",
+   "descricao": "STENA CONQUEST atracou"
+  },
   {
    "quando": "2026-11-22T04:04:27-03:00",
    "programacao": 81239,
@@ -3471,16 +3473,6 @@
    "de": "2026-11-05T19:00:00-03:00",
    "para": "2026-11-05T21:00:00-03:00",
    "descricao": "Praticagem: desatracação no berço 141 remarcada de 05/11 às 19:00 para 05/11 às 21:00"
-  },
-  {
-   "quando": "2026-11-05T10:04:27-03:00",
-   "programacao": 81067,
-   "embarcacao": "FPMC 34",
-   "berco": null,
-   "tipo": "manobra",
-   "de": null,
-   "para": "PREVISTA",
-   "descricao": "Praticagem: desatracação prevista para 05/11 às 17:30 (prevista)"
   }
  ]
 }
