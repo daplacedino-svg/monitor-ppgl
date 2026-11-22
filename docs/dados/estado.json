@@ -1,36 +1,36 @@
 {
- "gerado_em": "2026-11-22T08:04:28-03:00",
+ "gerado_em": "2026-11-22T09:04:30-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 1010,
-  "quando": "2026-11-22T08:04:27-03:00",
+  "id": 1011,
+  "quando": "2026-11-22T09:04:29-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-22T08:06:00-03:00",
-  "navios_portal": 219,
+  "emissao_portal": "2026-11-22T09:06:00-03:00",
+  "navios_portal": 218,
   "navios_monitorados": 7,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-22T08:04:27-03:00",
- "emissao_portal": "2026-11-22T08:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-22T09:04:29-03:00",
+ "emissao_portal": "2026-11-22T09:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-22T08:00:00-03:00",
+  "atualizacao": "2026-11-22T09:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
+   "imo": "1019773",
+   "marca_programacao": null,
+   "calado_saida": 8.5,
+   "calado_chegada": 8.5,
+   "duv": "0544252026",
+   "loa": 182.9,
+   "dwt": 50158.6,
+   "embarcacao": "AEGEAN C",
    "berco": 141,
    "programacao": 81209,
-   "duv": "0544252026",
-   "calado_chegada": 8.5,
-   "embarcacao": "AEGEAN C",
-   "loa": 182.9,
-   "calado_saida": 8.5,
-   "dwt": 50158.6,
-   "marca_programacao": null,
-   "imo": "1019773",
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -83,23 +83,23 @@
      "rotulo": "Atracação",
      "codigo": "EA",
      "berco": 141,
-     "bordo": null,
-     "local": "P2EXT",
+     "bordo": "BB",
+     "local": "P2EXT BB",
      "situacao": "PREVISTA",
      "casou_por": "imo"
     }
    ]
   },
   {
+   "imo": "1013963",
+   "marca_programacao": null,
    "saldo_total": 36945.0,
-   "berco": 141,
-   "programacao": 81239,
    "duv": "0551112026",
-   "embarcacao": "STENA CONQUEST",
    "loa": 183.06,
    "dwt": 49948.0,
-   "marca_programacao": null,
-   "imo": "1013963",
+   "embarcacao": "STENA CONQUEST",
+   "berco": 141,
+   "programacao": 81239,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -169,16 +169,16 @@
    ]
   },
   {
+   "imo": "9759264",
+   "marca_programacao": null,
+   "calado_saida": 6.0,
+   "calado_chegada": 7.0,
+   "duv": null,
+   "loa": 119.95,
+   "dwt": 8764.0,
+   "embarcacao": "BUENA CONFIANZA",
    "berco": 142,
    "programacao": 81174,
-   "duv": null,
-   "calado_chegada": 7.0,
-   "embarcacao": "BUENA CONFIANZA",
-   "loa": 119.95,
-   "calado_saida": 6.0,
-   "dwt": 8764.0,
-   "marca_programacao": null,
-   "imo": "9759264",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -224,16 +224,16 @@
    "manobras": []
   },
   {
+   "imo": "9342384",
+   "marca_programacao": null,
+   "calado_saida": 7.0,
+   "calado_chegada": 7.0,
+   "duv": "0546542026",
+   "loa": 115.0,
+   "dwt": 8586.0,
+   "embarcacao": "ISABELLA KOSAN",
    "berco": 142,
    "programacao": 81211,
-   "duv": "0546542026",
-   "calado_chegada": 7.0,
-   "embarcacao": "ISABELLA KOSAN",
-   "loa": 115.0,
-   "calado_saida": 7.0,
-   "dwt": 8586.0,
-   "marca_programacao": null,
-   "imo": "9342384",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -279,16 +279,16 @@
    "manobras": []
   },
   {
+   "imo": "9458157",
+   "marca_programacao": null,
+   "calado_saida": 6.0,
+   "calado_chegada": 8.0,
+   "duv": "0548792026",
+   "loa": 155.0,
+   "dwt": 17739.0,
+   "embarcacao": "GAZ SYNERGY",
    "berco": 142,
    "programacao": 81214,
-   "duv": "0548792026",
-   "calado_chegada": 8.0,
-   "embarcacao": "GAZ SYNERGY",
-   "loa": 155.0,
-   "calado_saida": 6.0,
-   "dwt": 17739.0,
-   "marca_programacao": null,
-   "imo": "9458157",
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -371,7 +371,7 @@
    "desatracacao": "2026-11-21T13:10:00-03:00",
    "espera_h": 322.8,
    "estadia_berco_h": 34.4,
-   "ultima_vez": "2026-11-22T08:04:27-03:00"
+   "ultima_vez": "2026-11-22T09:04:29-03:00"
   },
   {
    "programacao": 81176,
@@ -394,7 +394,7 @@
    "desatracacao": "2026-11-21T20:45:00-03:00",
    "espera_h": 49.4,
    "estadia_berco_h": 48.8,
-   "ultima_vez": "2026-11-22T08:04:27-03:00"
+   "ultima_vez": "2026-11-22T09:04:29-03:00"
   },
   {
    "programacao": 81089,
