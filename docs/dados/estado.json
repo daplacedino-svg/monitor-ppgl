@@ -1,36 +1,36 @@
 {
- "gerado_em": "2026-11-24T07:45:16-03:00",
+ "gerado_em": "2026-11-24T08:04:30-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 1029,
-  "quando": "2026-11-24T07:45:12-03:00",
+  "id": 1030,
+  "quando": "2026-11-24T08:04:29-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-24T07:47:00-03:00",
+  "emissao_portal": "2026-11-24T08:06:00-03:00",
   "navios_portal": 249,
   "navios_monitorados": 10,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-24T07:45:12-03:00",
- "emissao_portal": "2026-11-24T07:47:00-03:00",
+ "ultima_coleta_ok": "2026-11-24T08:04:29-03:00",
+ "emissao_portal": "2026-11-24T08:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-24T07:40:00-03:00",
+  "atualizacao": "2026-11-24T08:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "dwt": 50158.6,
-   "imo": "1019773",
-   "calado_chegada": 8.5,
    "marca_programacao": null,
-   "programacao": 81209,
-   "calado_saida": 8.5,
+   "imo": "1019773",
    "embarcacao": "AEGEAN C",
    "duv": "0544252026",
    "loa": 182.9,
+   "calado_chegada": 8.5,
+   "dwt": 50158.6,
+   "calado_saida": 8.5,
    "berco": 141,
+   "programacao": 81209,
    "categoria": "programado",
    "reatracacao": false,
    "cargas": [
@@ -86,21 +86,32 @@
      "berco": 142,
      "bordo": "BE",
      "local": "P2INT BE",
-     "situacao": "EM ANDAMENTO",
+     "situacao": "FINALIZADA",
+     "casou_por": "imo"
+    },
+    {
+     "quando": "2026-11-26T08:00:00-03:00",
+     "tipo": "desatracacao",
+     "rotulo": "Desatracação",
+     "codigo": "DS",
+     "berco": 142,
+     "bordo": "BE",
+     "local": "P2INT BE",
+     "situacao": "PREVISTA",
      "casou_por": "imo"
     }
    ]
   },
   {
-   "dwt": 49948.0,
-   "imo": "1013963",
-   "saldo_total": 15197.0,
    "marca_programacao": null,
-   "programacao": 81239,
+   "imo": "1013963",
    "embarcacao": "STENA CONQUEST",
    "duv": "0551112026",
    "loa": 183.06,
+   "dwt": 49948.0,
+   "saldo_total": 15197.0,
    "berco": 141,
+   "programacao": 81239,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -157,7 +168,7 @@
    "primeira_vez": "2026-11-16T17:04:27-03:00",
    "manobras": [
     {
-     "quando": "2026-11-24T19:00:00-03:00",
+     "quando": "2026-11-25T05:00:00-03:00",
      "tipo": "desatracacao",
      "rotulo": "Desatracação",
      "codigo": "DS",
@@ -170,16 +181,16 @@
    ]
   },
   {
-   "dwt": 49990.0,
-   "imo": "9794446",
-   "calado_chegada": 9.5,
    "marca_programacao": null,
-   "programacao": 81288,
-   "calado_saida": 10.5,
+   "imo": "9794446",
    "embarcacao": "STI JARDINS",
    "duv": "0560482026",
    "loa": 183.34,
+   "calado_chegada": 9.5,
+   "dwt": 49990.0,
+   "calado_saida": 10.5,
    "berco": 141,
+   "programacao": 81288,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -251,16 +262,16 @@
    "manobras": []
   },
   {
-   "dwt": 8764.0,
-   "imo": "9759264",
-   "calado_chegada": 7.0,
    "marca_programacao": null,
-   "programacao": 81174,
-   "calado_saida": 6.0,
+   "imo": "9759264",
    "embarcacao": "BUENA CONFIANZA",
    "duv": null,
    "loa": 119.95,
+   "calado_chegada": 7.0,
+   "dwt": 8764.0,
+   "calado_saida": 6.0,
    "berco": 142,
+   "programacao": 81174,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -306,16 +317,16 @@
    "manobras": []
   },
   {
-   "dwt": 8586.0,
-   "imo": "9342384",
-   "calado_chegada": 7.0,
    "marca_programacao": null,
-   "programacao": 81211,
-   "calado_saida": 7.0,
+   "imo": "9342384",
    "embarcacao": "ISABELLA KOSAN",
    "duv": "0546542026",
    "loa": 115.0,
+   "calado_chegada": 7.0,
+   "dwt": 8586.0,
+   "calado_saida": 7.0,
    "berco": 142,
+   "programacao": 81211,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -361,14 +372,14 @@
    "manobras": []
   },
   {
-   "dwt": 17739.0,
-   "imo": "9458157",
    "marca_programacao": null,
-   "programacao": 81214,
+   "imo": "9458157",
    "embarcacao": "GAZ SYNERGY",
    "duv": "0548792026",
    "loa": 155.0,
+   "dwt": 17739.0,
    "berco": 142,
+   "programacao": 81214,
    "categoria": "ao_largo",
    "reatracacao": true,
    "cargas": [
@@ -439,16 +450,16 @@
    ]
   },
   {
-   "dwt": 49999.0,
-   "imo": "9865764",
-   "calado_chegada": 8.5,
    "marca_programacao": null,
-   "programacao": 81301,
-   "calado_saida": 9.5,
+   "imo": "9865764",
    "embarcacao": "WITHAM",
    "duv": null,
    "loa": 183.06,
+   "calado_chegada": 8.5,
+   "dwt": 49999.0,
+   "calado_saida": 9.5,
    "berco": 142,
+   "programacao": 81301,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -494,16 +505,16 @@
    "manobras": []
   },
   {
-   "dwt": 49999.0,
-   "imo": "1022718",
-   "calado_chegada": 11.45,
    "marca_programacao": null,
-   "programacao": 81332,
-   "calado_saida": 8.35,
+   "imo": "1022718",
    "embarcacao": "CRISTALLINA",
    "duv": "0562452026",
    "loa": 183.06,
+   "calado_chegada": 11.45,
+   "dwt": 49999.0,
+   "calado_saida": 8.35,
    "berco": 142,
+   "programacao": 81332,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -569,7 +580,7 @@
    "desatracacao": "2026-11-21T13:10:00-03:00",
    "espera_h": 322.8,
    "estadia_berco_h": 34.4,
-   "ultima_vez": "2026-11-24T07:45:12-03:00"
+   "ultima_vez": "2026-11-24T08:04:29-03:00"
   },
   {
    "programacao": 81176,
@@ -592,7 +603,7 @@
    "desatracacao": "2026-11-21T20:45:00-03:00",
    "espera_h": 49.4,
    "estadia_berco_h": 48.8,
-   "ultima_vez": "2026-11-24T07:45:12-03:00"
+   "ultima_vez": "2026-11-24T08:04:29-03:00"
   },
   {
    "programacao": 81089,
@@ -1672,6 +1683,36 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-11-24T08:04:29-03:00",
+   "programacao": 81209,
+   "embarcacao": "AEGEAN C",
+   "berco": 142,
+   "tipo": "manobra",
+   "de": null,
+   "para": "PREVISTA",
+   "descricao": "Praticagem: desatracação no berço 142 prevista para 26/11 às 08:00 (prevista)"
+  },
+  {
+   "quando": "2026-11-24T08:04:29-03:00",
+   "programacao": 81239,
+   "embarcacao": "STENA CONQUEST",
+   "berco": 141,
+   "tipo": "manobra",
+   "de": "2026-11-24T19:00:00-03:00",
+   "para": "2026-11-25T05:00:00-03:00",
+   "descricao": "Praticagem: desatracação no berço 141 remarcada de 24/11 às 19:00 para 25/11 às 05:00"
+  },
+  {
+   "quando": "2026-11-24T08:04:29-03:00",
+   "programacao": 81209,
+   "embarcacao": "AEGEAN C",
+   "berco": 142,
+   "tipo": "manobra",
+   "de": "EM ANDAMENTO",
+   "para": "FINALIZADA",
+   "descricao": "Praticagem: atracação no berço 142 de 24/11 às 05:14 agora está finalizada"
+  },
   {
    "quando": "2026-11-24T07:45:12-03:00",
    "programacao": 81214,
@@ -3641,36 +3682,6 @@
    "de": "EM ANDAMENTO",
    "para": "FINALIZADA",
    "descricao": "Praticagem: desatracação no berço 141 de 05/11 às 23:35 agora está finalizada"
-  },
-  {
-   "quando": "2026-11-06T02:04:28-03:00",
-   "programacao": 81052,
-   "embarcacao": "HORIZON EKAVI",
-   "berco": 141,
-   "tipo": "status",
-   "de": "atracado",
-   "para": "despachado",
-   "descricao": "HORIZON EKAVI desatracou / despachado"
-  },
-  {
-   "quando": "2026-11-06T01:04:28-03:00",
-   "programacao": 81026,
-   "embarcacao": "AEGEAN C",
-   "berco": 142,
-   "tipo": "manobra",
-   "de": "2026-11-06T05:30:00-03:00",
-   "para": "2026-11-06T14:30:00-03:00",
-   "descricao": "Praticagem: desatracação no berço 142 remarcada de 06/11 às 05:30 para 06/11 às 14:30"
-  },
-  {
-   "quando": "2026-11-06T00:04:27-03:00",
-   "programacao": 81052,
-   "embarcacao": "HORIZON EKAVI",
-   "berco": 141,
-   "tipo": "manobra",
-   "de": "CONFIRMADA",
-   "para": "EM ANDAMENTO",
-   "descricao": "Praticagem: desatracação no berço 141 de 05/11 às 23:35 agora está em andamento"
   }
  ]
 }
