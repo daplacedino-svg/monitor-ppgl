@@ -1,35 +1,35 @@
 {
- "gerado_em": "2026-11-25T09:04:28-03:00",
+ "gerado_em": "2026-11-25T10:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 1043,
-  "quando": "2026-11-25T09:04:27-03:00",
+  "id": 1044,
+  "quando": "2026-11-25T10:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-25T09:06:00-03:00",
+  "emissao_portal": "2026-11-25T10:06:00-03:00",
   "navios_portal": 245,
   "navios_monitorados": 9,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-25T09:04:27-03:00",
- "emissao_portal": "2026-11-25T09:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-25T10:04:27-03:00",
+ "emissao_portal": "2026-11-25T10:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-25T09:00:00-03:00",
+  "atualizacao": "2026-11-25T10:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "loa": 183.06,
-   "berco": 141,
    "programacao": 81239,
    "dwt": 49948.0,
-   "duv": "0551112026",
-   "embarcacao": "STENA CONQUEST",
-   "marca_programacao": null,
-   "imo": "1013963",
    "saldo_total": -0.19,
+   "imo": "1013963",
+   "embarcacao": "STENA CONQUEST",
+   "duv": "0551112026",
+   "berco": 141,
+   "loa": 183.06,
+   "marca_programacao": null,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -84,31 +84,19 @@
     "realizado": 36945.19
    },
    "primeira_vez": "2026-11-16T17:04:27-03:00",
-   "manobras": [
-    {
-     "quando": "2026-11-25T07:44:00-03:00",
-     "tipo": "desatracacao",
-     "rotulo": "Desatracação",
-     "codigo": "DF",
-     "berco": 141,
-     "bordo": "BB",
-     "local": "P2EXT BB",
-     "situacao": "EM ANDAMENTO",
-     "casou_por": "imo"
-    }
-   ]
+   "manobras": []
   },
   {
-   "loa": 183.34,
-   "berco": 141,
-   "calado_saida": 10.5,
    "programacao": 81288,
    "dwt": 49990.0,
-   "duv": "0560482026",
-   "embarcacao": "STI JARDINS",
    "calado_chegada": 9.5,
-   "marca_programacao": null,
    "imo": "9794446",
+   "embarcacao": "STI JARDINS",
+   "duv": "0560482026",
+   "berco": 141,
+   "calado_saida": 10.5,
+   "loa": 183.34,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -180,16 +168,16 @@
    "manobras": []
   },
   {
-   "loa": 119.95,
-   "berco": 142,
-   "calado_saida": 6.0,
    "programacao": 81174,
    "dwt": 8764.0,
-   "duv": null,
-   "embarcacao": "BUENA CONFIANZA",
    "calado_chegada": 7.0,
-   "marca_programacao": null,
    "imo": "9759264",
+   "embarcacao": "BUENA CONFIANZA",
+   "duv": null,
+   "berco": 142,
+   "calado_saida": 6.0,
+   "loa": 119.95,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -235,15 +223,15 @@
    "manobras": []
   },
   {
-   "loa": 182.9,
-   "berco": 142,
    "programacao": 81209,
    "dwt": 50158.6,
-   "duv": "0544252026",
-   "embarcacao": "AEGEAN C",
-   "marca_programacao": null,
-   "imo": "1019773",
    "saldo_total": 15200.0,
+   "imo": "1019773",
+   "embarcacao": "AEGEAN C",
+   "duv": "0544252026",
+   "berco": 142,
+   "loa": 182.9,
+   "marca_programacao": null,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -312,16 +300,16 @@
    ]
   },
   {
-   "loa": 115.0,
-   "berco": 142,
-   "calado_saida": 7.0,
    "programacao": 81211,
    "dwt": 8586.0,
-   "duv": "0546542026",
-   "embarcacao": "ISABELLA KOSAN",
    "calado_chegada": 7.0,
-   "marca_programacao": null,
    "imo": "9342384",
+   "embarcacao": "ISABELLA KOSAN",
+   "duv": "0546542026",
+   "berco": 142,
+   "calado_saida": 7.0,
+   "loa": 115.0,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -367,14 +355,14 @@
    "manobras": []
   },
   {
-   "loa": 155.0,
-   "berco": 142,
    "programacao": 81214,
    "dwt": 17739.0,
-   "duv": "0548792026",
-   "embarcacao": "GAZ SYNERGY",
-   "marca_programacao": null,
    "imo": "9458157",
+   "embarcacao": "GAZ SYNERGY",
+   "duv": "0548792026",
+   "berco": 142,
+   "loa": 155.0,
+   "marca_programacao": null,
    "categoria": "ao_largo",
    "reatracacao": true,
    "cargas": [
@@ -445,16 +433,16 @@
    ]
   },
   {
-   "loa": 183.06,
-   "berco": 142,
-   "calado_saida": 9.5,
    "programacao": 81301,
    "dwt": 49999.0,
-   "duv": "0561182026",
-   "embarcacao": "WITHAM",
    "calado_chegada": 8.5,
-   "marca_programacao": null,
    "imo": "9865764",
+   "embarcacao": "WITHAM",
+   "duv": "0561182026",
+   "berco": 142,
+   "calado_saida": 9.5,
+   "loa": 183.06,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -500,16 +488,16 @@
    "manobras": []
   },
   {
-   "loa": 183.06,
-   "berco": 142,
-   "calado_saida": 8.35,
    "programacao": 81332,
    "dwt": 49999.0,
-   "duv": "0562452026",
-   "embarcacao": "CRISTALLINA",
    "calado_chegada": 11.45,
-   "marca_programacao": null,
    "imo": "1022718",
+   "embarcacao": "CRISTALLINA",
+   "duv": "0562452026",
+   "berco": 142,
+   "calado_saida": 8.35,
+   "loa": 183.06,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -555,16 +543,16 @@
    "manobras": []
   },
   {
-   "loa": 183.2,
-   "berco": 142,
-   "calado_saida": 9.0,
    "programacao": 81340,
    "dwt": 44999.0,
-   "duv": null,
-   "embarcacao": "DART",
    "calado_chegada": 8.0,
-   "marca_programacao": null,
    "imo": "9697222",
+   "embarcacao": "DART",
+   "duv": null,
+   "berco": 142,
+   "calado_saida": 9.0,
+   "loa": 183.2,
+   "marca_programacao": null,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
