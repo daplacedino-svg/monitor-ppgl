@@ -1,36 +1,36 @@
 {
- "gerado_em": "2026-11-25T13:04:28-03:00",
+ "gerado_em": "2026-11-25T14:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 1047,
-  "quando": "2026-11-25T13:04:27-03:00",
+  "id": 1048,
+  "quando": "2026-11-25T14:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-25T13:06:00-03:00",
-  "navios_portal": 249,
+  "emissao_portal": "2026-11-25T14:06:00-03:00",
+  "navios_portal": 248,
   "navios_monitorados": 9,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-25T13:04:27-03:00",
- "emissao_portal": "2026-11-25T13:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-25T14:04:27-03:00",
+ "emissao_portal": "2026-11-25T14:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-25T13:00:00-03:00",
+  "atualizacao": "2026-11-25T14:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
+   "embarcacao": "STI JARDINS",
+   "calado_chegada": 9.5,
+   "dwt": 49990.0,
+   "marca_programacao": null,
    "programacao": 81288,
    "calado_saida": 10.5,
-   "duv": "0560482026",
-   "marca_programacao": null,
-   "imo": "9794446",
    "berco": 141,
+   "duv": "0560482026",
    "loa": 183.34,
-   "dwt": 49990.0,
-   "calado_chegada": 9.5,
-   "embarcacao": "STI JARDINS",
+   "imo": "9794446",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -102,16 +102,16 @@
    "manobras": []
   },
   {
+   "embarcacao": "BUENA CONFIANZA",
+   "calado_chegada": 7.0,
+   "dwt": 8764.0,
+   "marca_programacao": null,
    "programacao": 81174,
    "calado_saida": 6.0,
-   "duv": null,
-   "marca_programacao": null,
-   "imo": "9759264",
    "berco": 142,
+   "duv": null,
    "loa": 119.95,
-   "dwt": 8764.0,
-   "calado_chegada": 7.0,
-   "embarcacao": "BUENA CONFIANZA",
+   "imo": "9759264",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -157,15 +157,15 @@
    "manobras": []
   },
   {
-   "programacao": 81209,
-   "duv": "0544252026",
-   "marca_programacao": null,
-   "imo": "1019773",
-   "saldo_total": 15200.0,
-   "berco": 142,
-   "loa": 182.9,
-   "dwt": 50158.6,
    "embarcacao": "AEGEAN C",
+   "dwt": 50158.6,
+   "marca_programacao": null,
+   "programacao": 81209,
+   "berco": 142,
+   "saldo_total": 10300.0,
+   "duv": "0544252026",
+   "loa": 182.9,
+   "imo": "1019773",
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -183,8 +183,8 @@
      "tons_dia": 19800.0,
      "unidade": "t",
      "previsto": 35000.0,
-     "realizado": 19800.0,
-     "saldo_operador": 15200.0
+     "realizado": 24700.0,
+     "saldo_operador": 10300.0
     }
    ],
    "chegada": "2026-11-22T22:54:00-03:00",
@@ -202,7 +202,7 @@
    "sentido": "Imp",
    "unidade": "t",
    "previsto": 35000.0,
-   "realizado": 19800.0,
+   "realizado": 24700.0,
    "marcos": {
     "eta_inicial": "2026-11-19T07:00:00-03:00",
     "eta": "2026-11-21T16:00:00-03:00",
@@ -216,7 +216,7 @@
     "chegada": "2026-11-22T22:54:00-03:00",
     "atracacao": "2026-11-24T08:15:00-03:00",
     "ultima_atracacao": "2026-11-24T08:15:00-03:00",
-    "realizado": 19800.0
+    "realizado": 24700.0
    },
    "primeira_vez": "2026-11-11T15:04:28-03:00",
    "manobras": [
@@ -234,16 +234,16 @@
    ]
   },
   {
+   "embarcacao": "ISABELLA KOSAN",
+   "calado_chegada": 7.0,
+   "dwt": 8586.0,
+   "marca_programacao": null,
    "programacao": 81211,
    "calado_saida": 7.0,
-   "duv": "0546542026",
-   "marca_programacao": null,
-   "imo": "9342384",
    "berco": 142,
+   "duv": "0546542026",
    "loa": 115.0,
-   "dwt": 8586.0,
-   "calado_chegada": 7.0,
-   "embarcacao": "ISABELLA KOSAN",
+   "imo": "9342384",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -289,14 +289,14 @@
    "manobras": []
   },
   {
-   "programacao": 81214,
-   "duv": "0548792026",
-   "marca_programacao": null,
-   "imo": "9458157",
-   "berco": 142,
-   "loa": 155.0,
-   "dwt": 17739.0,
    "embarcacao": "GAZ SYNERGY",
+   "dwt": 17739.0,
+   "marca_programacao": null,
+   "programacao": 81214,
+   "berco": 142,
+   "duv": "0548792026",
+   "loa": 155.0,
+   "imo": "9458157",
    "categoria": "ao_largo",
    "reatracacao": true,
    "cargas": [
@@ -367,16 +367,16 @@
    ]
   },
   {
+   "embarcacao": "WITHAM",
+   "calado_chegada": 8.5,
+   "dwt": 49999.0,
+   "marca_programacao": null,
    "programacao": 81301,
    "calado_saida": 9.5,
-   "duv": "0561182026",
-   "marca_programacao": null,
-   "imo": "9865764",
    "berco": 142,
+   "duv": "0561182026",
    "loa": 183.06,
-   "dwt": 49999.0,
-   "calado_chegada": 8.5,
-   "embarcacao": "WITHAM",
+   "imo": "9865764",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -422,16 +422,16 @@
    "manobras": []
   },
   {
+   "embarcacao": "CRISTALLINA",
+   "calado_chegada": 11.45,
+   "dwt": 49999.0,
+   "marca_programacao": null,
    "programacao": 81332,
    "calado_saida": 8.35,
-   "duv": "0562452026",
-   "marca_programacao": null,
-   "imo": "1022718",
    "berco": 142,
+   "duv": "0562452026",
    "loa": 183.06,
-   "dwt": 49999.0,
-   "calado_chegada": 11.45,
-   "embarcacao": "CRISTALLINA",
+   "imo": "1022718",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -477,16 +477,16 @@
    "manobras": []
   },
   {
+   "embarcacao": "DART",
+   "calado_chegada": 8.0,
+   "dwt": 44999.0,
+   "marca_programacao": null,
    "programacao": 81340,
    "calado_saida": 9.0,
-   "duv": null,
-   "marca_programacao": null,
-   "imo": "9697222",
    "berco": 142,
+   "duv": null,
    "loa": 183.2,
-   "dwt": 44999.0,
-   "calado_chegada": 8.0,
-   "embarcacao": "DART",
+   "imo": "9697222",
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -552,7 +552,7 @@
    "desatracacao": "2026-11-25T07:52:00-03:00",
    "espera_h": 19.1,
    "estadia_berco_h": 76.2,
-   "ultima_vez": "2026-11-25T13:04:27-03:00"
+   "ultima_vez": "2026-11-25T14:04:27-03:00"
   },
   {
    "programacao": 81176,
