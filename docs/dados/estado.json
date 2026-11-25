@@ -1,102 +1,36 @@
 {
- "gerado_em": "2026-11-25T11:04:28-03:00",
+ "gerado_em": "2026-11-25T12:04:28-03:00",
  "bercos": [
   141,
   142
  ],
  "ultima_coleta": {
-  "id": 1045,
-  "quando": "2026-11-25T11:04:27-03:00",
+  "id": 1046,
+  "quando": "2026-11-25T12:04:27-03:00",
   "sucesso": 1,
-  "emissao_portal": "2026-11-25T11:06:00-03:00",
-  "navios_portal": 246,
+  "emissao_portal": "2026-11-25T12:06:00-03:00",
+  "navios_portal": 249,
   "navios_monitorados": 9,
   "erro": null
  },
- "ultima_coleta_ok": "2026-11-25T11:04:27-03:00",
- "emissao_portal": "2026-11-25T11:06:00-03:00",
+ "ultima_coleta_ok": "2026-11-25T12:04:27-03:00",
+ "emissao_portal": "2026-11-25T12:06:00-03:00",
  "praticagem": {
-  "atualizacao": "2026-11-25T11:00:00-03:00",
+  "atualizacao": "2026-11-25T12:00:00-03:00",
   "erro": null
  },
  "navios": [
   {
-   "marca_programacao": null,
-   "loa": 183.06,
-   "imo": "1013963",
-   "dwt": 49948.0,
-   "programacao": 81239,
-   "duv": "0551112026",
-   "saldo_total": -0.19,
-   "embarcacao": "STENA CONQUEST",
-   "berco": 141,
-   "categoria": "atracado",
-   "reatracacao": false,
-   "cargas": [
-    {
-     "bordo": "BB",
-     "sentido": "Imp",
-     "agencia": "L.M.A. SHIPPING",
-     "operador": "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA",
-     "mercadoria": "OUTRAS GASOLINAS, EXCETO PARA",
-     "atracacao": "2026-11-22T03:38:00-03:00",
-     "chegada": "2026-11-21T08:30:00-03:00",
-     "janela_inicio": "2026-11-22T03:38:00-03:00",
-     "janela_fim": "2026-11-24T20:45:00-03:00",
-     "prancha": 15000.0,
-     "tons_dia": 15197.0,
-     "unidade": "t",
-     "previsto": 36945.0,
-     "realizado": 36945.0,
-     "saldo_operador": -0.19
-    }
-   ],
-   "chegada": "2026-11-21T08:30:00-03:00",
-   "atracacao": "2026-11-22T03:38:00-03:00",
-   "eta": null,
-   "etb": null,
-   "janela_inicio": "2026-11-22T03:38:00-03:00",
-   "desatracacao": null,
-   "janela_fim": "2026-11-24T20:45:00-03:00",
-   "mercadoria": "OUTRAS GASOLINAS, EXCETO PARA",
-   "operadores": [
-    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA"
-   ],
-   "agencia": "L.M.A. SHIPPING",
-   "sentido": "Imp",
-   "unidade": "t",
-   "previsto": 36945.0,
-   "realizado": 36945.19,
-   "marcos": {
-    "eta_inicial": "2026-11-21T19:00:00-03:00",
-    "eta": "2026-11-21T11:30:00-03:00",
-    "previsto": 36945.0,
-    "unidade": "t",
-    "visto_como": {
-     "esperado": "2026-11-16T17:04:27-03:00",
-     "ao_largo": "2026-11-21T11:04:27-03:00",
-     "programado": "2026-11-21T13:04:27-03:00",
-     "atracado": "2026-11-22T07:04:28-03:00"
-    },
-    "chegada": "2026-11-21T08:30:00-03:00",
-    "atracacao": "2026-11-22T03:38:00-03:00",
-    "ultima_atracacao": "2026-11-22T03:38:00-03:00",
-    "realizado": 36945.19
-   },
-   "primeira_vez": "2026-11-16T17:04:27-03:00",
-   "manobras": []
-  },
-  {
-   "calado_saida": 10.5,
-   "marca_programacao": null,
-   "loa": 183.34,
    "imo": "9794446",
-   "dwt": 49990.0,
-   "programacao": 81288,
+   "marca_programacao": null,
    "duv": "0560482026",
    "embarcacao": "STI JARDINS",
-   "calado_chegada": 9.5,
+   "programacao": 81288,
    "berco": 141,
+   "loa": 183.34,
+   "calado_saida": 10.5,
+   "calado_chegada": 9.5,
+   "dwt": 49990.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -168,16 +102,16 @@
    "manobras": []
   },
   {
-   "calado_saida": 6.0,
-   "marca_programacao": null,
-   "loa": 119.95,
    "imo": "9759264",
-   "dwt": 8764.0,
-   "programacao": 81174,
+   "marca_programacao": null,
    "duv": null,
    "embarcacao": "BUENA CONFIANZA",
-   "calado_chegada": 7.0,
+   "programacao": 81174,
    "berco": 142,
+   "loa": 119.95,
+   "calado_saida": 6.0,
+   "calado_chegada": 7.0,
+   "dwt": 8764.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -223,15 +157,15 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "loa": 182.9,
    "imo": "1019773",
-   "dwt": 50158.6,
-   "programacao": 81209,
-   "duv": "0544252026",
+   "marca_programacao": null,
    "saldo_total": 15200.0,
+   "duv": "0544252026",
    "embarcacao": "AEGEAN C",
+   "programacao": 81209,
    "berco": 142,
+   "loa": 182.9,
+   "dwt": 50158.6,
    "categoria": "atracado",
    "reatracacao": false,
    "cargas": [
@@ -300,16 +234,16 @@
    ]
   },
   {
-   "calado_saida": 7.0,
-   "marca_programacao": null,
-   "loa": 115.0,
    "imo": "9342384",
-   "dwt": 8586.0,
-   "programacao": 81211,
+   "marca_programacao": null,
    "duv": "0546542026",
    "embarcacao": "ISABELLA KOSAN",
-   "calado_chegada": 7.0,
+   "programacao": 81211,
    "berco": 142,
+   "loa": 115.0,
+   "calado_saida": 7.0,
+   "calado_chegada": 7.0,
+   "dwt": 8586.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -355,14 +289,14 @@
    "manobras": []
   },
   {
-   "marca_programacao": null,
-   "loa": 155.0,
    "imo": "9458157",
-   "dwt": 17739.0,
-   "programacao": 81214,
+   "marca_programacao": null,
    "duv": "0548792026",
    "embarcacao": "GAZ SYNERGY",
+   "programacao": 81214,
    "berco": 142,
+   "loa": 155.0,
+   "dwt": 17739.0,
    "categoria": "ao_largo",
    "reatracacao": true,
    "cargas": [
@@ -433,16 +367,16 @@
    ]
   },
   {
-   "calado_saida": 9.5,
-   "marca_programacao": null,
-   "loa": 183.06,
    "imo": "9865764",
-   "dwt": 49999.0,
-   "programacao": 81301,
+   "marca_programacao": null,
    "duv": "0561182026",
    "embarcacao": "WITHAM",
-   "calado_chegada": 8.5,
+   "programacao": 81301,
    "berco": 142,
+   "loa": 183.06,
+   "calado_saida": 9.5,
+   "calado_chegada": 8.5,
+   "dwt": 49999.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -488,16 +422,16 @@
    "manobras": []
   },
   {
-   "calado_saida": 8.35,
-   "marca_programacao": null,
-   "loa": 183.06,
    "imo": "1022718",
-   "dwt": 49999.0,
-   "programacao": 81332,
+   "marca_programacao": null,
    "duv": "0562452026",
    "embarcacao": "CRISTALLINA",
-   "calado_chegada": 11.45,
+   "programacao": 81332,
    "berco": 142,
+   "loa": 183.06,
+   "calado_saida": 8.35,
+   "calado_chegada": 11.45,
+   "dwt": 49999.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -543,16 +477,16 @@
    "manobras": []
   },
   {
-   "calado_saida": 9.0,
-   "marca_programacao": null,
-   "loa": 183.2,
    "imo": "9697222",
-   "dwt": 44999.0,
-   "programacao": 81340,
+   "marca_programacao": null,
    "duv": null,
    "embarcacao": "DART",
-   "calado_chegada": 8.0,
+   "programacao": 81340,
    "berco": 142,
+   "loa": 183.2,
+   "calado_saida": 9.0,
+   "calado_chegada": 8.0,
+   "dwt": 44999.0,
    "categoria": "esperado",
    "reatracacao": false,
    "cargas": [
@@ -599,6 +533,27 @@
   }
  ],
  "historico": [
+  {
+   "programacao": 81239,
+   "embarcacao": "STENA CONQUEST",
+   "imo": "1013963",
+   "berco": 141,
+   "situacao": "despachado",
+   "mercadoria": "OUTRAS GASOLINAS, EXCETO PARA + OLEO DIESEL",
+   "sentido": "Imp",
+   "operadores": [
+    "CBL - COMPANHIA BRASILEIRA DE LOGÍSTICA"
+   ],
+   "agencia": "L.M.A. SHIPPING",
+   "previsto": 110835.0,
+   "unidade": "t",
+   "chegada": "2026-11-21T08:30:00-03:00",
+   "atracacao": "2026-11-22T03:38:00-03:00",
+   "desatracacao": "2026-11-25T07:52:00-03:00",
+   "espera_h": 19.1,
+   "estadia_berco_h": 76.2,
+   "ultima_vez": "2026-11-25T12:04:27-03:00"
+  },
   {
    "programacao": 81176,
    "embarcacao": "ELANDRA STAR",
@@ -1721,6 +1676,16 @@
   }
  ],
  "eventos": [
+  {
+   "quando": "2026-11-25T12:04:27-03:00",
+   "programacao": 81239,
+   "embarcacao": "STENA CONQUEST",
+   "berco": 141,
+   "tipo": "status",
+   "de": "atracado",
+   "para": "despachado",
+   "descricao": "STENA CONQUEST desatracou / despachado"
+  },
   {
    "quando": "2026-11-25T08:04:28-03:00",
    "programacao": 81239,
@@ -3710,16 +3675,6 @@
    "de": "A CONFIRMAR",
    "para": "CONFIRMADA",
    "descricao": "Praticagem: desatracação no berço 142 de 06/11 às 14:30 agora está confirmada"
-  },
-  {
-   "quando": "2026-11-06T14:04:27-03:00",
-   "programacao": 81053,
-   "embarcacao": "MERSEY",
-   "berco": 142,
-   "tipo": "manobra",
-   "de": "PRÁTICO NA LANCHA",
-   "para": "EM ANDAMENTO",
-   "descricao": "Praticagem: atracação no berço 142 de 06/11 às 13:50 agora está em andamento"
   }
  ]
 }
